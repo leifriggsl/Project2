@@ -1,6 +1,6 @@
 ----------------------------------------------------------------
-Wed Feb 09 09:16:13 PST 2022:
-Booting Derby version The Apache Software Foundation - Apache Derby - 10.12.1.1 - (1704137): instance a816c00e-017e-df7c-4ff7-00000bddf698 
+Wed Feb 09 11:00:20 PST 2022:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.12.1.1 - (1704137): instance a816c00e-017e-dfdb-a34f-00000b7a78d0 
 on database directory C:\Users\leifr\Desktop\Project2\metastore_db with class loader org.apache.spark.sql.hive.client.IsolatedClientLoader$$anon$1@4beaf6bd 
 Loaded from file:/C:/Users/leifr/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/derby/derby/10.12.1.1/derby-10.12.1.1.jar
 java.vendor=AdoptOpenJDK

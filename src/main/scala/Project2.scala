@@ -1,3 +1,5 @@
+package org.apache.spark.sql.execution
+
 import org.apache.spark.sql.SparkSession
 import org.apache.spark.sql.hive.HiveContext
 import org.apache.spark.SparkConf
@@ -8,6 +10,17 @@ import java.sql.DriverManager
 import java.sql.Connection
 import java.util.Scanner
 import scala.collection.mutable.ArrayBuffer
+import org.apache.spark.sql.functions
+import org.apache.spark.sql.functions.{min, max}
+import org.apache.spark.sql.Row
+import org.apache.spark.sql.execution.aggregate.HashAggregateExec
+import org.apache.spark.sql.execution.joins.BroadcastHashJoinExec
+import org.apache.spark.sql.expressions.scalalang.typed
+import org.apache.spark.sql.functions.{avg, broadcast, col, max}
+//import org.apache.spark.sql.test.SharedSQLContext
+import org.apache.spark.sql.types
+
+
 //imported all the libraries
 object Project2 {
     def main(args: Array[String]): Unit = {
@@ -36,6 +49,7 @@ object Project2 {
 //top 10 country with total_tests/population order by country desc
 
 
+
 val spark=SparkSession
 .builder
 .appName("SparkHelloWorld")
@@ -45,13 +59,16 @@ val spark=SparkSession
 //println("Hello Spark!")
 val dataFrame=spark.read.option("header", "true").csv("src/main/resources/covid-data.csv")
 //val dataFrame2=dataFrame.toDF("iso_code","continent","location","date","total_cases","new_cases","total_deaths","new_deaths","new_tests","total_tests","total_vaccinations","people_vaccinated","people_fully_vaccinated","population","population_density","median_age","aged_65_older","aged_70_older","gdp_per_capita","hospital_beds_per_thousand","life_expectancy")
+//dataFrame.groupBy("location").agg(max("total_vaccinations")/max("population")).show(10)
+dataFrame.groupBy("location").agg(max("hospital_beds_per_thousand")).show(10)
+//dataFrame.groupby().max().show(20)
 
 //dataFrame.show()
 //MaxTotalDeaths(sparkCtx:SparkContext)
 //dataFrame.select("location").show(10)
 //dataFrame.select("location","life_expectancy").filter(dataFrame("life_expectancy") > 70).distinct().show(20)
 
-//dataFrame.select(filter("life_expectancy" \'>'\ "70").show
+//dataFrame.select(filter("life_expectancy" \'>'\ 70)).show(20)
 spark.stop()
 //dataFrame.where()
 
