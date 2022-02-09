@@ -2403,3 +2403,1069 @@ val df3=dataFrame2.where("total_deaths" > "20000000")
         ^^^^^^^^^^^^^^^^
 2022.02.09 07:05:34 INFO  compiling project2 (1 scala source)
 2022.02.09 07:05:34 INFO  time: compiled project2 in 0.24s
+2022.02.09 07:24:59 INFO  compiling project2 (1 scala source)
+2022.02.09 07:24:59 INFO  time: compiled project2 in 0.26s
+2022.02.09 07:25:09 INFO  compiling project2 (1 scala source)
+2022.02.09 07:25:09 INFO  time: compiled project2 in 0.24s
+2022.02.09 07:25:44 INFO  compiling project2 (1 scala source)
+2022.02.09 07:25:44 INFO  time: compiled project2 in 0.24s
+2022.02.09 07:25:51 INFO  compiling project2 (1 scala source)
+2022.02.09 07:25:51 INFO  time: compiled project2 in 0.25s
+2022.02.09 07:26:03 INFO  compiling project2 (1 scala source)
+2022.02.09 07:26:03 INFO  time: compiled project2 in 0.25s
+2022.02.09 07:28:52 INFO  compiling project2 (1 scala source)
+2022.02.09 07:28:52 INFO  time: compiled project2 in 0.25s
+2022.02.09 07:29:08 INFO  compiling project2 (1 scala source)
+2022.02.09 07:29:09 WARN  there was one deprecation warning; re-run with -deprecation for details
+2022.02.09 07:29:09 INFO  time: compiled project2 in 1.07s
+2022.02.09 07:29:34 INFO  compiling project2 (1 scala source)
+2022.02.09 07:29:34 WARN  there was one deprecation warning; re-run with -deprecation for details
+2022.02.09 07:29:34 INFO  time: compiled project2 in 0.82s
+2022.02.09 07:29:59 INFO  compiling project2 (1 scala source)
+2022.02.09 07:29:59 WARN  there was one deprecation warning; re-run with -deprecation for details
+2022.02.09 07:29:59 INFO  time: compiled project2 in 0.92s
+2022.02.09 07:30:19 INFO  compiling project2 (1 scala source)
+2022.02.09 07:30:19 INFO  time: compiled project2 in 0.23s
+2022.02.09 07:30:43 INFO  compiling project2 (1 scala source)
+2022.02.09 07:30:43 INFO  time: compiled project2 in 0.24s
+2022.02.09 07:30:51 INFO  compiling project2 (1 scala source)
+2022.02.09 07:30:51 INFO  time: compiled project2 in 0.24s
+2022.02.09 07:31:07 INFO  compiling project2 (1 scala source)
+2022.02.09 07:31:07 INFO  time: compiled project2 in 0.23s
+2022.02.09 07:34:16 INFO  C:\Users\leifr\Desktop\Project2\src\main\scala\Project2.scala:47:16: stale bloop error: not found: value sparkCtx
+MaxTotalDeaths(sparkCtx:SparkContext)
+               ^^^^^^^^
+2022.02.09 07:34:16 INFO  C:\Users\leifr\Desktop\Project2\src\main\scala\Project2.scala:47:16: stale bloop error: not found: value sparkCtx
+MaxTotalDeaths(sparkCtx:SparkContext)
+               ^^^^^^^^
+2022.02.09 07:34:20 INFO  C:\Users\leifr\Desktop\Project2\src\main\scala\Project2.scala:47:16: stale bloop error: not found: value sparkCtx
+MaxTotalDeaths(sparkCtx:SparkContext)
+               ^^^^^^^^
+2022.02.09 07:34:20 INFO  C:\Users\leifr\Desktop\Project2\src\main\scala\Project2.scala:47:16: stale bloop error: not found: value sparkCtx
+MaxTotalDeaths(sparkCtx:SparkContext)
+               ^^^^^^^^
+2022.02.09 07:34:20 INFO  C:\Users\leifr\Desktop\Project2\src\main\scala\Project2.scala:47:16: stale bloop error: not found: value sparkCtx
+MaxTotalDeaths(sparkCtx:SparkContext)
+               ^^^^^^^^
+2022.02.09 07:34:21 INFO  C:\Users\leifr\Desktop\Project2\src\main\scala\Project2.scala:47:16: stale bloop error: not found: value sparkCtx
+MaxTotalDeaths(sparkCtx:SparkContext)
+               ^^^^^^^^
+2022.02.09 07:34:20 INFO  C:\Users\leifr\Desktop\Project2\src\main\scala\Project2.scala:47:16: stale bloop error: not found: value sparkCtx
+MaxTotalDeaths(sparkCtx:SparkContext)
+               ^^^^^^^^
+2022.02.09 07:34:21 INFO  C:\Users\leifr\Desktop\Project2\src\main\scala\Project2.scala:47:16: stale bloop error: not found: value sparkCtx
+MaxTotalDeaths(sparkCtx:SparkContext)
+               ^^^^^^^^
+2022.02.09 07:34:22 INFO  C:\Users\leifr\Desktop\Project2\src\main\scala\Project2.scala:47:16: stale bloop error: not found: value sparkCtx
+MaxTotalDeaths(sparkCtx:SparkContext)
+               ^^^^^^^^
+2022.02.09 07:34:21 INFO  C:\Users\leifr\Desktop\Project2\src\main\scala\Project2.scala:47:16: stale bloop error: not found: value sparkCtx
+MaxTotalDeaths(sparkCtx:SparkContext)
+               ^^^^^^^^
+2022.02.09 07:34:22 INFO  C:\Users\leifr\Desktop\Project2\src\main\scala\Project2.scala:47:16: stale bloop error: not found: value sparkCtx
+MaxTotalDeaths(sparkCtx:SparkContext)
+               ^^^^^^^^
+2022.02.09 07:34:22 INFO  C:\Users\leifr\Desktop\Project2\src\main\scala\Project2.scala:47:16: stale bloop error: not found: value sparkCtx
+MaxTotalDeaths(sparkCtx:SparkContext)
+               ^^^^^^^^
+2022.02.09 07:35:54 INFO  compiling project2 (1 scala source)
+Feb 09, 2022 7:35:54 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+java.util.concurrent.CompletionException: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:661)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646)
+	at java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:686)
+	at java.util.concurrent.CompletableFuture.thenAcceptAsync(CompletableFuture.java:2014)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.thenAccept(FutureConvertersImpl.scala:37)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:279)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$.<clinit>(DebugProvider.scala)
+	at scala.meta.internal.metals.debug.DebugProvider.debugDiscovery(DebugProvider.scala:363)
+	at scala.meta.internal.metals.MetalsLanguageServer.executeCommand(MetalsLanguageServer.scala:1777)
+	at sun.reflect.GeneratedMethodAccessor11.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	... 9 more
+
+2022.02.09 07:35:54 INFO  time: compiled project2 in 0.4s
+2022.02.09 07:36:12 INFO  compiling project2 (1 scala source)
+2022.02.09 07:36:14 WARN  there was one deprecation warning; re-run with -deprecation for details
+2022.02.09 07:36:14 INFO  time: compiled project2 in 1.62s
+2022.02.09 07:36:21 WARN  Error downloading ch.epfl.scala:scala-expression-compiler_2.11.12:2.0.12
+  not found: C:\Users\leifr\.ivy2\local\ch.epfl.scala\scala-expression-compiler_2.11.12\2.0.12\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/ch/epfl/scala/scala-expression-compiler_2.11.12/2.0.12/scala-expression-compiler_2.11.12-2.0.12.pom
+2022.02.09 07:36:21 WARN  Expression evaluation will not work.
+2022.02.09 07:36:21 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\leifr\Desktop\Project2\.metals\dap-server.trace.json or C:\Users\leifr\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.02.09 07:36:21 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\leifr\Desktop\Project2\.metals\dap-client.trace.json or C:\Users\leifr\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.02.09 07:36:21 INFO  Starting debug proxy for [Project2]
+2022.02.09 07:36:25 INFO  Trying to attach to remote debuggee VM 127.0.0.1:52591 .
+2022.02.09 07:36:25 INFO  Attaching to debuggee VM succeeded.
+2022.02.09 07:36:27 ERROR Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+2022.02.09 07:36:27 ERROR 22/02/09 07:36:27 INFO SparkContext: Running Spark version 2.3.2
+2022.02.09 07:36:27 ERROR 22/02/09 07:36:28 INFO SparkContext: Submitted application: Project1Ex
+2022.02.09 07:36:27 ERROR 22/02/09 07:36:28 INFO SecurityManager: Changing view acls to: leifr
+2022.02.09 07:36:27 ERROR 22/02/09 07:36:28 INFO SecurityManager: Changing modify acls to: leifr
+2022.02.09 07:36:27 ERROR 22/02/09 07:36:28 INFO SecurityManager: Changing view acls groups to: 
+2022.02.09 07:36:27 ERROR 22/02/09 07:36:28 INFO SecurityManager: Changing modify acls groups to: 
+2022.02.09 07:36:27 ERROR 22/02/09 07:36:28 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(leifr); groups with view permissions: Set(); users  with modify permissions: Set(leifr); groups with modify permissions: Set()
+2022.02.09 07:36:28 ERROR searching for `#` failed
+scala.meta.internal.mtags.IndexingExceptions$InvalidSymbolException: #
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definitions(OnDemandSymbolIndex.scala:57)
+	at scala.meta.internal.metals.DestinationProvider.definition(DefinitionProvider.scala:313)
+	at scala.meta.internal.metals.DestinationProvider.fromSymbol(DefinitionProvider.scala:351)
+	at scala.meta.internal.metals.DestinationProvider.fromSymbol(DefinitionProvider.scala:371)
+	at scala.meta.internal.metals.DefinitionProvider.fromSymbol(DefinitionProvider.scala:104)
+	at scala.meta.internal.metals.StacktraceAnalyzer.findLocationForSymbol$1(StacktraceAnalyzer.scala:68)
+	at scala.meta.internal.metals.StacktraceAnalyzer.$anonfun$fileLocationFromLine$2(StacktraceAnalyzer.scala:73)
+	at scala.PartialFunction$Unlifted.applyOrElse(PartialFunction.scala:237)
+	at scala.collection.TraversableOnce.collectFirst(TraversableOnce.scala:180)
+	at scala.collection.TraversableOnce.collectFirst$(TraversableOnce.scala:167)
+	at scala.collection.AbstractTraversable.collectFirst(Traversable.scala:108)
+	at scala.meta.internal.metals.StacktraceAnalyzer.$anonfun$fileLocationFromLine$1(StacktraceAnalyzer.scala:73)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.metals.StacktraceAnalyzer.fileLocationFromLine(StacktraceAnalyzer.scala:71)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$handleServerMessage$1(DebugProxy.scala:183)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$handleServerMessage$1$adapted(DebugProxy.scala:160)
+	at scala.meta.internal.metals.debug.ServerAdapter.$anonfun$onReceived$1(ServerAdapter.scala:25)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.$anonfun$listen$1(MessageIdAdapter.scala:57)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at scala.meta.internal.metals.debug.SocketEndpoint.listen(SocketEndpoint.scala:26)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.listen(MessageIdAdapter.scala:47)
+	at scala.meta.internal.metals.debug.ServerAdapter.onReceived(ServerAdapter.scala:18)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$listenToServer$1(DebugProxy.scala:67)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2022.02.09 07:36:28 ERROR 22/02/09 07:36:28 INFO Utils: Successfully started service 'sparkDriver' on port 52626.
+2022.02.09 07:36:28 ERROR 22/02/09 07:36:28 INFO SparkEnv: Registering MapOutputTracker
+2022.02.09 07:36:28 ERROR 22/02/09 07:36:28 INFO SparkEnv: Registering BlockManagerMaster
+2022.02.09 07:36:28 ERROR 22/02/09 07:36:28 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+2022.02.09 07:36:28 ERROR 22/02/09 07:36:28 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+2022.02.09 07:36:28 ERROR 22/02/09 07:36:29 INFO DiskBlockManager: Created local directory at C:\Users\leifr\AppData\Local\Temp\blockmgr-d69b5b3b-abc1-45f3-96f3-59f30cc12b36
+2022.02.09 07:36:28 ERROR 22/02/09 07:36:29 INFO MemoryStore: MemoryStore started with capacity 1425.6 MB
+2022.02.09 07:36:28 ERROR 22/02/09 07:36:29 INFO SparkEnv: Registering OutputCommitCoordinator
+2022.02.09 07:36:28 ERROR 22/02/09 07:36:29 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+2022.02.09 07:36:28 ERROR 22/02/09 07:36:29 INFO SparkUI: Bound SparkUI to 0.0.0.0, and started at http://DESKTOP-J2NRJN3.home:4040
+2022.02.09 07:36:28 ERROR 22/02/09 07:36:29 INFO Executor: Starting executor ID driver on host localhost
+2022.02.09 07:36:28 ERROR 22/02/09 07:36:29 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 52639.
+2022.02.09 07:36:28 ERROR 22/02/09 07:36:29 INFO NettyBlockTransferService: Server created on DESKTOP-J2NRJN3.home:52639
+2022.02.09 07:36:28 ERROR 22/02/09 07:36:29 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+2022.02.09 07:36:28 ERROR 22/02/09 07:36:29 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, DESKTOP-J2NRJN3.home, 52639, None)
+2022.02.09 07:36:29 ERROR searching for `#` failed
+scala.meta.internal.mtags.IndexingExceptions$InvalidSymbolException: #
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definitions(OnDemandSymbolIndex.scala:57)
+	at scala.meta.internal.metals.DestinationProvider.definition(DefinitionProvider.scala:313)
+	at scala.meta.internal.metals.DestinationProvider.fromSymbol(DefinitionProvider.scala:351)
+	at scala.meta.internal.metals.DestinationProvider.fromSymbol(DefinitionProvider.scala:371)
+	at scala.meta.internal.metals.DefinitionProvider.fromSymbol(DefinitionProvider.scala:104)
+	at scala.meta.internal.metals.StacktraceAnalyzer.findLocationForSymbol$1(StacktraceAnalyzer.scala:68)
+	at scala.meta.internal.metals.StacktraceAnalyzer.$anonfun$fileLocationFromLine$2(StacktraceAnalyzer.scala:73)
+	at scala.PartialFunction$Unlifted.applyOrElse(PartialFunction.scala:237)
+	at scala.collection.TraversableOnce.collectFirst(TraversableOnce.scala:180)
+	at scala.collection.TraversableOnce.collectFirst$(TraversableOnce.scala:167)
+	at scala.collection.AbstractTraversable.collectFirst(Traversable.scala:108)
+	at scala.meta.internal.metals.StacktraceAnalyzer.$anonfun$fileLocationFromLine$1(StacktraceAnalyzer.scala:73)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.metals.StacktraceAnalyzer.fileLocationFromLine(StacktraceAnalyzer.scala:71)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$handleServerMessage$1(DebugProxy.scala:183)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$handleServerMessage$1$adapted(DebugProxy.scala:160)
+	at scala.meta.internal.metals.debug.ServerAdapter.$anonfun$onReceived$1(ServerAdapter.scala:25)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.$anonfun$listen$1(MessageIdAdapter.scala:57)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at scala.meta.internal.metals.debug.SocketEndpoint.listen(SocketEndpoint.scala:26)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.listen(MessageIdAdapter.scala:47)
+	at scala.meta.internal.metals.debug.ServerAdapter.onReceived(ServerAdapter.scala:18)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$listenToServer$1(DebugProxy.scala:67)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2022.02.09 07:36:28 ERROR 22/02/09 07:36:29 INFO BlockManagerMasterEndpoint: Registering block manager DESKTOP-J2NRJN3.home:52639 with 1425.6 MB RAM, BlockManagerId(driver, DESKTOP-J2NRJN3.home, 52639, None)
+2022.02.09 07:36:28 ERROR 22/02/09 07:36:29 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, DESKTOP-J2NRJN3.home, 52639, None)
+2022.02.09 07:36:28 ERROR 22/02/09 07:36:29 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, DESKTOP-J2NRJN3.home, 52639, None)
+2022.02.09 07:36:29 ERROR searching for `#` failed
+scala.meta.internal.mtags.IndexingExceptions$InvalidSymbolException: #
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definitions(OnDemandSymbolIndex.scala:57)
+	at scala.meta.internal.metals.DestinationProvider.definition(DefinitionProvider.scala:313)
+	at scala.meta.internal.metals.DestinationProvider.fromSymbol(DefinitionProvider.scala:351)
+	at scala.meta.internal.metals.DestinationProvider.fromSymbol(DefinitionProvider.scala:371)
+	at scala.meta.internal.metals.DefinitionProvider.fromSymbol(DefinitionProvider.scala:104)
+	at scala.meta.internal.metals.StacktraceAnalyzer.findLocationForSymbol$1(StacktraceAnalyzer.scala:68)
+	at scala.meta.internal.metals.StacktraceAnalyzer.$anonfun$fileLocationFromLine$2(StacktraceAnalyzer.scala:73)
+	at scala.PartialFunction$Unlifted.applyOrElse(PartialFunction.scala:237)
+	at scala.collection.TraversableOnce.collectFirst(TraversableOnce.scala:180)
+	at scala.collection.TraversableOnce.collectFirst$(TraversableOnce.scala:167)
+	at scala.collection.AbstractTraversable.collectFirst(Traversable.scala:108)
+	at scala.meta.internal.metals.StacktraceAnalyzer.$anonfun$fileLocationFromLine$1(StacktraceAnalyzer.scala:73)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.metals.StacktraceAnalyzer.fileLocationFromLine(StacktraceAnalyzer.scala:71)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$handleServerMessage$1(DebugProxy.scala:183)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$handleServerMessage$1$adapted(DebugProxy.scala:160)
+	at scala.meta.internal.metals.debug.ServerAdapter.$anonfun$onReceived$1(ServerAdapter.scala:25)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.$anonfun$listen$1(MessageIdAdapter.scala:57)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at scala.meta.internal.metals.debug.SocketEndpoint.listen(SocketEndpoint.scala:26)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.listen(MessageIdAdapter.scala:47)
+	at scala.meta.internal.metals.debug.ServerAdapter.onReceived(ServerAdapter.scala:18)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$listenToServer$1(DebugProxy.scala:67)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2022.02.09 07:36:29 ERROR searching for `#` failed
+scala.meta.internal.mtags.IndexingExceptions$InvalidSymbolException: #
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definitions(OnDemandSymbolIndex.scala:57)
+	at scala.meta.internal.metals.DestinationProvider.definition(DefinitionProvider.scala:313)
+	at scala.meta.internal.metals.DestinationProvider.fromSymbol(DefinitionProvider.scala:351)
+	at scala.meta.internal.metals.DestinationProvider.fromSymbol(DefinitionProvider.scala:371)
+	at scala.meta.internal.metals.DefinitionProvider.fromSymbol(DefinitionProvider.scala:104)
+	at scala.meta.internal.metals.StacktraceAnalyzer.findLocationForSymbol$1(StacktraceAnalyzer.scala:68)
+	at scala.meta.internal.metals.StacktraceAnalyzer.$anonfun$fileLocationFromLine$2(StacktraceAnalyzer.scala:73)
+	at scala.PartialFunction$Unlifted.applyOrElse(PartialFunction.scala:237)
+	at scala.collection.TraversableOnce.collectFirst(TraversableOnce.scala:180)
+	at scala.collection.TraversableOnce.collectFirst$(TraversableOnce.scala:167)
+	at scala.collection.AbstractTraversable.collectFirst(Traversable.scala:108)
+	at scala.meta.internal.metals.StacktraceAnalyzer.$anonfun$fileLocationFromLine$1(StacktraceAnalyzer.scala:73)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.metals.StacktraceAnalyzer.fileLocationFromLine(StacktraceAnalyzer.scala:71)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$handleServerMessage$1(DebugProxy.scala:183)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$handleServerMessage$1$adapted(DebugProxy.scala:160)
+	at scala.meta.internal.metals.debug.ServerAdapter.$anonfun$onReceived$1(ServerAdapter.scala:25)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.$anonfun$listen$1(MessageIdAdapter.scala:57)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at scala.meta.internal.metals.debug.SocketEndpoint.listen(SocketEndpoint.scala:26)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.listen(MessageIdAdapter.scala:47)
+	at scala.meta.internal.metals.debug.ServerAdapter.onReceived(ServerAdapter.scala:18)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$listenToServer$1(DebugProxy.scala:67)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2022.02.09 07:36:41 INFO  Canceling debug proxy for [Project2]
+2022.02.09 07:36:41 INFO  Closing debug server tcp://0.0.0.0:52588
+2022.02.09 07:37:18 WARN  Error downloading ch.epfl.scala:scala-expression-compiler_2.11.12:2.0.12
+  not found: C:\Users\leifr\.ivy2\local\ch.epfl.scala\scala-expression-compiler_2.11.12\2.0.12\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/ch/epfl/scala/scala-expression-compiler_2.11.12/2.0.12/scala-expression-compiler_2.11.12-2.0.12.pom
+2022.02.09 07:37:18 WARN  Expression evaluation will not work.
+2022.02.09 07:37:18 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\leifr\Desktop\Project2\.metals\dap-server.trace.json or C:\Users\leifr\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.02.09 07:37:18 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\leifr\Desktop\Project2\.metals\dap-client.trace.json or C:\Users\leifr\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.02.09 07:37:18 INFO  Starting debug proxy for [Project2]
+2022.02.09 07:37:22 INFO  Trying to attach to remote debuggee VM 127.0.0.1:52652 .
+2022.02.09 07:37:22 INFO  Attaching to debuggee VM succeeded.
+2022.02.09 07:37:24 ERROR Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+2022.02.09 07:37:24 ERROR 22/02/09 07:37:24 INFO SparkContext: Running Spark version 2.3.2
+2022.02.09 07:37:24 ERROR 22/02/09 07:37:24 INFO SparkContext: Submitted application: Project1Ex
+2022.02.09 07:37:24 ERROR 22/02/09 07:37:24 INFO SecurityManager: Changing view acls to: leifr
+2022.02.09 07:37:24 ERROR 22/02/09 07:37:24 INFO SecurityManager: Changing modify acls to: leifr
+2022.02.09 07:37:24 ERROR 22/02/09 07:37:24 INFO SecurityManager: Changing view acls groups to: 
+2022.02.09 07:37:24 ERROR 22/02/09 07:37:24 INFO SecurityManager: Changing modify acls groups to: 
+2022.02.09 07:37:24 ERROR 22/02/09 07:37:24 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(leifr); groups with view permissions: Set(); users  with modify permissions: Set(leifr); groups with modify permissions: Set()
+2022.02.09 07:37:24 ERROR searching for `#` failed
+scala.meta.internal.mtags.IndexingExceptions$InvalidSymbolException: #
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definitions(OnDemandSymbolIndex.scala:57)
+	at scala.meta.internal.metals.DestinationProvider.definition(DefinitionProvider.scala:313)
+	at scala.meta.internal.metals.DestinationProvider.fromSymbol(DefinitionProvider.scala:351)
+	at scala.meta.internal.metals.DestinationProvider.fromSymbol(DefinitionProvider.scala:371)
+	at scala.meta.internal.metals.DefinitionProvider.fromSymbol(DefinitionProvider.scala:104)
+	at scala.meta.internal.metals.StacktraceAnalyzer.findLocationForSymbol$1(StacktraceAnalyzer.scala:68)
+	at scala.meta.internal.metals.StacktraceAnalyzer.$anonfun$fileLocationFromLine$2(StacktraceAnalyzer.scala:73)
+	at scala.PartialFunction$Unlifted.applyOrElse(PartialFunction.scala:237)
+	at scala.collection.TraversableOnce.collectFirst(TraversableOnce.scala:180)
+	at scala.collection.TraversableOnce.collectFirst$(TraversableOnce.scala:167)
+	at scala.collection.AbstractTraversable.collectFirst(Traversable.scala:108)
+	at scala.meta.internal.metals.StacktraceAnalyzer.$anonfun$fileLocationFromLine$1(StacktraceAnalyzer.scala:73)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.metals.StacktraceAnalyzer.fileLocationFromLine(StacktraceAnalyzer.scala:71)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$handleServerMessage$1(DebugProxy.scala:183)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$handleServerMessage$1$adapted(DebugProxy.scala:160)
+	at scala.meta.internal.metals.debug.ServerAdapter.$anonfun$onReceived$1(ServerAdapter.scala:25)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.$anonfun$listen$1(MessageIdAdapter.scala:57)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at scala.meta.internal.metals.debug.SocketEndpoint.listen(SocketEndpoint.scala:26)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.listen(MessageIdAdapter.scala:47)
+	at scala.meta.internal.metals.debug.ServerAdapter.onReceived(ServerAdapter.scala:18)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$listenToServer$1(DebugProxy.scala:67)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2022.02.09 07:37:25 ERROR 22/02/09 07:37:25 INFO Utils: Successfully started service 'sparkDriver' on port 52686.
+2022.02.09 07:37:25 ERROR 22/02/09 07:37:25 INFO SparkEnv: Registering MapOutputTracker
+2022.02.09 07:37:25 ERROR 22/02/09 07:37:25 INFO SparkEnv: Registering BlockManagerMaster
+2022.02.09 07:37:25 ERROR 22/02/09 07:37:25 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+2022.02.09 07:37:25 ERROR 22/02/09 07:37:25 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+2022.02.09 07:37:25 ERROR 22/02/09 07:37:25 INFO DiskBlockManager: Created local directory at C:\Users\leifr\AppData\Local\Temp\blockmgr-7237719d-69a9-4c5b-8450-94d980e5117b
+2022.02.09 07:37:25 ERROR 22/02/09 07:37:25 INFO MemoryStore: MemoryStore started with capacity 1425.6 MB
+2022.02.09 07:37:25 ERROR 22/02/09 07:37:25 INFO SparkEnv: Registering OutputCommitCoordinator
+2022.02.09 07:37:25 ERROR 22/02/09 07:37:25 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+2022.02.09 07:37:25 ERROR 22/02/09 07:37:25 INFO SparkUI: Bound SparkUI to 0.0.0.0, and started at http://DESKTOP-J2NRJN3.home:4040
+2022.02.09 07:37:25 ERROR 22/02/09 07:37:26 INFO Executor: Starting executor ID driver on host localhost
+2022.02.09 07:37:25 ERROR 22/02/09 07:37:26 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 52699.
+2022.02.09 07:37:25 ERROR 22/02/09 07:37:26 INFO NettyBlockTransferService: Server created on DESKTOP-J2NRJN3.home:52699
+2022.02.09 07:37:25 ERROR 22/02/09 07:37:26 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+2022.02.09 07:37:25 ERROR 22/02/09 07:37:26 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, DESKTOP-J2NRJN3.home, 52699, None)
+2022.02.09 07:37:26 ERROR searching for `#` failed
+scala.meta.internal.mtags.IndexingExceptions$InvalidSymbolException: #
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definitions(OnDemandSymbolIndex.scala:57)
+	at scala.meta.internal.metals.DestinationProvider.definition(DefinitionProvider.scala:313)
+	at scala.meta.internal.metals.DestinationProvider.fromSymbol(DefinitionProvider.scala:351)
+	at scala.meta.internal.metals.DestinationProvider.fromSymbol(DefinitionProvider.scala:371)
+	at scala.meta.internal.metals.DefinitionProvider.fromSymbol(DefinitionProvider.scala:104)
+	at scala.meta.internal.metals.StacktraceAnalyzer.findLocationForSymbol$1(StacktraceAnalyzer.scala:68)
+	at scala.meta.internal.metals.StacktraceAnalyzer.$anonfun$fileLocationFromLine$2(StacktraceAnalyzer.scala:73)
+	at scala.PartialFunction$Unlifted.applyOrElse(PartialFunction.scala:237)
+	at scala.collection.TraversableOnce.collectFirst(TraversableOnce.scala:180)
+	at scala.collection.TraversableOnce.collectFirst$(TraversableOnce.scala:167)
+	at scala.collection.AbstractTraversable.collectFirst(Traversable.scala:108)
+	at scala.meta.internal.metals.StacktraceAnalyzer.$anonfun$fileLocationFromLine$1(StacktraceAnalyzer.scala:73)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.metals.StacktraceAnalyzer.fileLocationFromLine(StacktraceAnalyzer.scala:71)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$handleServerMessage$1(DebugProxy.scala:183)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$handleServerMessage$1$adapted(DebugProxy.scala:160)
+	at scala.meta.internal.metals.debug.ServerAdapter.$anonfun$onReceived$1(ServerAdapter.scala:25)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.$anonfun$listen$1(MessageIdAdapter.scala:57)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at scala.meta.internal.metals.debug.SocketEndpoint.listen(SocketEndpoint.scala:26)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.listen(MessageIdAdapter.scala:47)
+	at scala.meta.internal.metals.debug.ServerAdapter.onReceived(ServerAdapter.scala:18)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$listenToServer$1(DebugProxy.scala:67)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2022.02.09 07:37:25 ERROR 22/02/09 07:37:26 INFO BlockManagerMasterEndpoint: Registering block manager DESKTOP-J2NRJN3.home:52699 with 1425.6 MB RAM, BlockManagerId(driver, DESKTOP-J2NRJN3.home, 52699, None)
+2022.02.09 07:37:25 ERROR 22/02/09 07:37:26 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, DESKTOP-J2NRJN3.home, 52699, None)
+2022.02.09 07:37:25 ERROR 22/02/09 07:37:26 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, DESKTOP-J2NRJN3.home, 52699, None)
+2022.02.09 07:37:26 ERROR searching for `#` failed
+scala.meta.internal.mtags.IndexingExceptions$InvalidSymbolException: #
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definitions(OnDemandSymbolIndex.scala:57)
+	at scala.meta.internal.metals.DestinationProvider.definition(DefinitionProvider.scala:313)
+	at scala.meta.internal.metals.DestinationProvider.fromSymbol(DefinitionProvider.scala:351)
+	at scala.meta.internal.metals.DestinationProvider.fromSymbol(DefinitionProvider.scala:371)
+	at scala.meta.internal.metals.DefinitionProvider.fromSymbol(DefinitionProvider.scala:104)
+	at scala.meta.internal.metals.StacktraceAnalyzer.findLocationForSymbol$1(StacktraceAnalyzer.scala:68)
+	at scala.meta.internal.metals.StacktraceAnalyzer.$anonfun$fileLocationFromLine$2(StacktraceAnalyzer.scala:73)
+	at scala.PartialFunction$Unlifted.applyOrElse(PartialFunction.scala:237)
+	at scala.collection.TraversableOnce.collectFirst(TraversableOnce.scala:180)
+	at scala.collection.TraversableOnce.collectFirst$(TraversableOnce.scala:167)
+	at scala.collection.AbstractTraversable.collectFirst(Traversable.scala:108)
+	at scala.meta.internal.metals.StacktraceAnalyzer.$anonfun$fileLocationFromLine$1(StacktraceAnalyzer.scala:73)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.metals.StacktraceAnalyzer.fileLocationFromLine(StacktraceAnalyzer.scala:71)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$handleServerMessage$1(DebugProxy.scala:183)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$handleServerMessage$1$adapted(DebugProxy.scala:160)
+	at scala.meta.internal.metals.debug.ServerAdapter.$anonfun$onReceived$1(ServerAdapter.scala:25)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.$anonfun$listen$1(MessageIdAdapter.scala:57)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at scala.meta.internal.metals.debug.SocketEndpoint.listen(SocketEndpoint.scala:26)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.listen(MessageIdAdapter.scala:47)
+	at scala.meta.internal.metals.debug.ServerAdapter.onReceived(ServerAdapter.scala:18)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$listenToServer$1(DebugProxy.scala:67)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2022.02.09 07:37:26 ERROR searching for `#` failed
+scala.meta.internal.mtags.IndexingExceptions$InvalidSymbolException: #
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definitions(OnDemandSymbolIndex.scala:57)
+	at scala.meta.internal.metals.DestinationProvider.definition(DefinitionProvider.scala:313)
+	at scala.meta.internal.metals.DestinationProvider.fromSymbol(DefinitionProvider.scala:351)
+	at scala.meta.internal.metals.DestinationProvider.fromSymbol(DefinitionProvider.scala:371)
+	at scala.meta.internal.metals.DefinitionProvider.fromSymbol(DefinitionProvider.scala:104)
+	at scala.meta.internal.metals.StacktraceAnalyzer.findLocationForSymbol$1(StacktraceAnalyzer.scala:68)
+	at scala.meta.internal.metals.StacktraceAnalyzer.$anonfun$fileLocationFromLine$2(StacktraceAnalyzer.scala:73)
+	at scala.PartialFunction$Unlifted.applyOrElse(PartialFunction.scala:237)
+	at scala.collection.TraversableOnce.collectFirst(TraversableOnce.scala:180)
+	at scala.collection.TraversableOnce.collectFirst$(TraversableOnce.scala:167)
+	at scala.collection.AbstractTraversable.collectFirst(Traversable.scala:108)
+	at scala.meta.internal.metals.StacktraceAnalyzer.$anonfun$fileLocationFromLine$1(StacktraceAnalyzer.scala:73)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.metals.StacktraceAnalyzer.fileLocationFromLine(StacktraceAnalyzer.scala:71)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$handleServerMessage$1(DebugProxy.scala:183)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$handleServerMessage$1$adapted(DebugProxy.scala:160)
+	at scala.meta.internal.metals.debug.ServerAdapter.$anonfun$onReceived$1(ServerAdapter.scala:25)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.$anonfun$listen$1(MessageIdAdapter.scala:57)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at scala.meta.internal.metals.debug.SocketEndpoint.listen(SocketEndpoint.scala:26)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.listen(MessageIdAdapter.scala:47)
+	at scala.meta.internal.metals.debug.ServerAdapter.onReceived(ServerAdapter.scala:18)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$listenToServer$1(DebugProxy.scala:67)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2022.02.09 07:37:39 INFO  Canceling debug proxy for [Project2]
+2022.02.09 07:37:39 INFO  Closing debug server tcp://0.0.0.0:52649
+2022.02.09 07:38:30 INFO  compiling project2 (1 scala source)
+2022.02.09 07:38:30 INFO  Deduplicating compilation of project2 from bsp client 'Metals 0.11.1' (since 7h 19m 43.617s)
+2022.02.09 07:38:30 INFO  compiling project2 (1 scala source)
+2022.02.09 07:38:31 WARN  there was one deprecation warning; re-run with -deprecation for details
+2022.02.09 07:38:31 WARN  there was one deprecation warning; re-run with -deprecation for details
+2022.02.09 07:38:31 INFO  time: compiled project2 in 1.51s
+2022.02.09 07:38:36 WARN  Error downloading ch.epfl.scala:scala-expression-compiler_2.11.12:2.0.12
+  not found: C:\Users\leifr\.ivy2\local\ch.epfl.scala\scala-expression-compiler_2.11.12\2.0.12\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/ch/epfl/scala/scala-expression-compiler_2.11.12/2.0.12/scala-expression-compiler_2.11.12-2.0.12.pom
+2022.02.09 07:38:36 WARN  Expression evaluation will not work.
+2022.02.09 07:38:36 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\leifr\Desktop\Project2\.metals\dap-server.trace.json or C:\Users\leifr\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.02.09 07:38:36 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\leifr\Desktop\Project2\.metals\dap-client.trace.json or C:\Users\leifr\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.02.09 07:38:36 INFO  Starting debug proxy for [Project2]
+2022.02.09 07:38:40 INFO  Trying to attach to remote debuggee VM 127.0.0.1:52714 .
+2022.02.09 07:38:40 INFO  Attaching to debuggee VM succeeded.
+2022.02.09 07:38:41 ERROR Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+2022.02.09 07:38:41 ERROR 22/02/09 07:38:41 INFO SparkContext: Running Spark version 2.3.2
+2022.02.09 07:38:41 ERROR 22/02/09 07:38:42 INFO SparkContext: Submitted application: Project1Ex
+2022.02.09 07:38:41 ERROR 22/02/09 07:38:42 INFO SecurityManager: Changing view acls to: leifr
+2022.02.09 07:38:41 ERROR 22/02/09 07:38:42 INFO SecurityManager: Changing modify acls to: leifr
+2022.02.09 07:38:41 ERROR 22/02/09 07:38:42 INFO SecurityManager: Changing view acls groups to: 
+2022.02.09 07:38:41 ERROR 22/02/09 07:38:42 INFO SecurityManager: Changing modify acls groups to: 
+2022.02.09 07:38:41 ERROR 22/02/09 07:38:42 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(leifr); groups with view permissions: Set(); users  with modify permissions: Set(leifr); groups with modify permissions: Set()
+2022.02.09 07:38:42 ERROR searching for `#` failed
+scala.meta.internal.mtags.IndexingExceptions$InvalidSymbolException: #
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definitions(OnDemandSymbolIndex.scala:57)
+	at scala.meta.internal.metals.DestinationProvider.definition(DefinitionProvider.scala:313)
+	at scala.meta.internal.metals.DestinationProvider.fromSymbol(DefinitionProvider.scala:351)
+	at scala.meta.internal.metals.DestinationProvider.fromSymbol(DefinitionProvider.scala:371)
+	at scala.meta.internal.metals.DefinitionProvider.fromSymbol(DefinitionProvider.scala:104)
+	at scala.meta.internal.metals.StacktraceAnalyzer.findLocationForSymbol$1(StacktraceAnalyzer.scala:68)
+	at scala.meta.internal.metals.StacktraceAnalyzer.$anonfun$fileLocationFromLine$2(StacktraceAnalyzer.scala:73)
+	at scala.PartialFunction$Unlifted.applyOrElse(PartialFunction.scala:237)
+	at scala.collection.TraversableOnce.collectFirst(TraversableOnce.scala:180)
+	at scala.collection.TraversableOnce.collectFirst$(TraversableOnce.scala:167)
+	at scala.collection.AbstractTraversable.collectFirst(Traversable.scala:108)
+	at scala.meta.internal.metals.StacktraceAnalyzer.$anonfun$fileLocationFromLine$1(StacktraceAnalyzer.scala:73)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.metals.StacktraceAnalyzer.fileLocationFromLine(StacktraceAnalyzer.scala:71)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$handleServerMessage$1(DebugProxy.scala:183)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$handleServerMessage$1$adapted(DebugProxy.scala:160)
+	at scala.meta.internal.metals.debug.ServerAdapter.$anonfun$onReceived$1(ServerAdapter.scala:25)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.$anonfun$listen$1(MessageIdAdapter.scala:57)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at scala.meta.internal.metals.debug.SocketEndpoint.listen(SocketEndpoint.scala:26)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.listen(MessageIdAdapter.scala:47)
+	at scala.meta.internal.metals.debug.ServerAdapter.onReceived(ServerAdapter.scala:18)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$listenToServer$1(DebugProxy.scala:67)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2022.02.09 07:38:43 ERROR 22/02/09 07:38:43 INFO Utils: Successfully started service 'sparkDriver' on port 52748.
+2022.02.09 07:38:43 ERROR 22/02/09 07:38:43 INFO SparkEnv: Registering MapOutputTracker
+2022.02.09 07:38:43 ERROR 22/02/09 07:38:43 INFO SparkEnv: Registering BlockManagerMaster
+2022.02.09 07:38:43 ERROR 22/02/09 07:38:43 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+2022.02.09 07:38:43 ERROR 22/02/09 07:38:43 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+2022.02.09 07:38:43 ERROR 22/02/09 07:38:43 INFO DiskBlockManager: Created local directory at C:\Users\leifr\AppData\Local\Temp\blockmgr-16a066b8-fc9b-4379-9093-f70cb97d3cb8
+2022.02.09 07:38:43 ERROR 22/02/09 07:38:43 INFO MemoryStore: MemoryStore started with capacity 1425.6 MB
+2022.02.09 07:38:43 ERROR 22/02/09 07:38:43 INFO SparkEnv: Registering OutputCommitCoordinator
+2022.02.09 07:38:43 ERROR 22/02/09 07:38:44 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+2022.02.09 07:38:43 ERROR 22/02/09 07:38:44 INFO SparkUI: Bound SparkUI to 0.0.0.0, and started at http://DESKTOP-J2NRJN3.home:4040
+2022.02.09 07:38:43 ERROR 22/02/09 07:38:44 INFO Executor: Starting executor ID driver on host localhost
+2022.02.09 07:38:43 ERROR 22/02/09 07:38:44 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 52761.
+2022.02.09 07:38:43 ERROR 22/02/09 07:38:44 INFO NettyBlockTransferService: Server created on DESKTOP-J2NRJN3.home:52761
+2022.02.09 07:38:43 ERROR 22/02/09 07:38:44 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+2022.02.09 07:38:43 ERROR 22/02/09 07:38:44 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, DESKTOP-J2NRJN3.home, 52761, None)
+2022.02.09 07:38:44 ERROR searching for `#` failed
+scala.meta.internal.mtags.IndexingExceptions$InvalidSymbolException: #
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definitions(OnDemandSymbolIndex.scala:57)
+	at scala.meta.internal.metals.DestinationProvider.definition(DefinitionProvider.scala:313)
+	at scala.meta.internal.metals.DestinationProvider.fromSymbol(DefinitionProvider.scala:351)
+	at scala.meta.internal.metals.DestinationProvider.fromSymbol(DefinitionProvider.scala:371)
+	at scala.meta.internal.metals.DefinitionProvider.fromSymbol(DefinitionProvider.scala:104)
+	at scala.meta.internal.metals.StacktraceAnalyzer.findLocationForSymbol$1(StacktraceAnalyzer.scala:68)
+	at scala.meta.internal.metals.StacktraceAnalyzer.$anonfun$fileLocationFromLine$2(StacktraceAnalyzer.scala:73)
+	at scala.PartialFunction$Unlifted.applyOrElse(PartialFunction.scala:237)
+	at scala.collection.TraversableOnce.collectFirst(TraversableOnce.scala:180)
+	at scala.collection.TraversableOnce.collectFirst$(TraversableOnce.scala:167)
+	at scala.collection.AbstractTraversable.collectFirst(Traversable.scala:108)
+	at scala.meta.internal.metals.StacktraceAnalyzer.$anonfun$fileLocationFromLine$1(StacktraceAnalyzer.scala:73)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.metals.StacktraceAnalyzer.fileLocationFromLine(StacktraceAnalyzer.scala:71)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$handleServerMessage$1(DebugProxy.scala:183)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$handleServerMessage$1$adapted(DebugProxy.scala:160)
+	at scala.meta.internal.metals.debug.ServerAdapter.$anonfun$onReceived$1(ServerAdapter.scala:25)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.$anonfun$listen$1(MessageIdAdapter.scala:57)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at scala.meta.internal.metals.debug.SocketEndpoint.listen(SocketEndpoint.scala:26)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.listen(MessageIdAdapter.scala:47)
+	at scala.meta.internal.metals.debug.ServerAdapter.onReceived(ServerAdapter.scala:18)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$listenToServer$1(DebugProxy.scala:67)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2022.02.09 07:38:43 ERROR 22/02/09 07:38:44 INFO BlockManagerMasterEndpoint: Registering block manager DESKTOP-J2NRJN3.home:52761 with 1425.6 MB RAM, BlockManagerId(driver, DESKTOP-J2NRJN3.home, 52761, None)
+2022.02.09 07:38:43 ERROR 22/02/09 07:38:44 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, DESKTOP-J2NRJN3.home, 52761, None)
+2022.02.09 07:38:43 ERROR 22/02/09 07:38:44 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, DESKTOP-J2NRJN3.home, 52761, None)
+2022.02.09 07:38:44 ERROR searching for `#` failed
+scala.meta.internal.mtags.IndexingExceptions$InvalidSymbolException: #
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definitions(OnDemandSymbolIndex.scala:57)
+	at scala.meta.internal.metals.DestinationProvider.definition(DefinitionProvider.scala:313)
+	at scala.meta.internal.metals.DestinationProvider.fromSymbol(DefinitionProvider.scala:351)
+	at scala.meta.internal.metals.DestinationProvider.fromSymbol(DefinitionProvider.scala:371)
+	at scala.meta.internal.metals.DefinitionProvider.fromSymbol(DefinitionProvider.scala:104)
+	at scala.meta.internal.metals.StacktraceAnalyzer.findLocationForSymbol$1(StacktraceAnalyzer.scala:68)
+	at scala.meta.internal.metals.StacktraceAnalyzer.$anonfun$fileLocationFromLine$2(StacktraceAnalyzer.scala:73)
+	at scala.PartialFunction$Unlifted.applyOrElse(PartialFunction.scala:237)
+	at scala.collection.TraversableOnce.collectFirst(TraversableOnce.scala:180)
+	at scala.collection.TraversableOnce.collectFirst$(TraversableOnce.scala:167)
+	at scala.collection.AbstractTraversable.collectFirst(Traversable.scala:108)
+	at scala.meta.internal.metals.StacktraceAnalyzer.$anonfun$fileLocationFromLine$1(StacktraceAnalyzer.scala:73)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.metals.StacktraceAnalyzer.fileLocationFromLine(StacktraceAnalyzer.scala:71)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$handleServerMessage$1(DebugProxy.scala:183)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$handleServerMessage$1$adapted(DebugProxy.scala:160)
+	at scala.meta.internal.metals.debug.ServerAdapter.$anonfun$onReceived$1(ServerAdapter.scala:25)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.$anonfun$listen$1(MessageIdAdapter.scala:57)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at scala.meta.internal.metals.debug.SocketEndpoint.listen(SocketEndpoint.scala:26)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.listen(MessageIdAdapter.scala:47)
+	at scala.meta.internal.metals.debug.ServerAdapter.onReceived(ServerAdapter.scala:18)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$listenToServer$1(DebugProxy.scala:67)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2022.02.09 07:38:44 ERROR searching for `#` failed
+scala.meta.internal.mtags.IndexingExceptions$InvalidSymbolException: #
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definitions(OnDemandSymbolIndex.scala:57)
+	at scala.meta.internal.metals.DestinationProvider.definition(DefinitionProvider.scala:313)
+	at scala.meta.internal.metals.DestinationProvider.fromSymbol(DefinitionProvider.scala:351)
+	at scala.meta.internal.metals.DestinationProvider.fromSymbol(DefinitionProvider.scala:371)
+	at scala.meta.internal.metals.DefinitionProvider.fromSymbol(DefinitionProvider.scala:104)
+	at scala.meta.internal.metals.StacktraceAnalyzer.findLocationForSymbol$1(StacktraceAnalyzer.scala:68)
+	at scala.meta.internal.metals.StacktraceAnalyzer.$anonfun$fileLocationFromLine$2(StacktraceAnalyzer.scala:73)
+	at scala.PartialFunction$Unlifted.applyOrElse(PartialFunction.scala:237)
+	at scala.collection.TraversableOnce.collectFirst(TraversableOnce.scala:180)
+	at scala.collection.TraversableOnce.collectFirst$(TraversableOnce.scala:167)
+	at scala.collection.AbstractTraversable.collectFirst(Traversable.scala:108)
+	at scala.meta.internal.metals.StacktraceAnalyzer.$anonfun$fileLocationFromLine$1(StacktraceAnalyzer.scala:73)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.metals.StacktraceAnalyzer.fileLocationFromLine(StacktraceAnalyzer.scala:71)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$handleServerMessage$1(DebugProxy.scala:183)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$handleServerMessage$1$adapted(DebugProxy.scala:160)
+	at scala.meta.internal.metals.debug.ServerAdapter.$anonfun$onReceived$1(ServerAdapter.scala:25)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.$anonfun$listen$1(MessageIdAdapter.scala:57)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at scala.meta.internal.metals.debug.SocketEndpoint.listen(SocketEndpoint.scala:26)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.listen(MessageIdAdapter.scala:47)
+	at scala.meta.internal.metals.debug.ServerAdapter.onReceived(ServerAdapter.scala:18)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$listenToServer$1(DebugProxy.scala:67)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2022.02.09 07:38:58 INFO  Canceling debug proxy for [Project2]
+2022.02.09 07:38:58 INFO  Closing debug server tcp://0.0.0.0:52711
+2022.02.09 07:39:00 WARN  Error downloading ch.epfl.scala:scala-expression-compiler_2.11.12:2.0.12
+  not found: C:\Users\leifr\.ivy2\local\ch.epfl.scala\scala-expression-compiler_2.11.12\2.0.12\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/ch/epfl/scala/scala-expression-compiler_2.11.12/2.0.12/scala-expression-compiler_2.11.12-2.0.12.pom
+2022.02.09 07:39:00 WARN  Expression evaluation will not work.
+2022.02.09 07:39:00 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\leifr\Desktop\Project2\.metals\dap-server.trace.json or C:\Users\leifr\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.02.09 07:39:00 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\leifr\Desktop\Project2\.metals\dap-client.trace.json or C:\Users\leifr\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.02.09 07:39:00 INFO  Starting debug proxy for [Project2]
+2022.02.09 07:39:05 INFO  Trying to attach to remote debuggee VM 127.0.0.1:52772 .
+2022.02.09 07:39:05 INFO  Attaching to debuggee VM succeeded.
+2022.02.09 07:39:06 ERROR Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+2022.02.09 07:39:06 ERROR 22/02/09 07:39:06 INFO SparkContext: Running Spark version 2.3.2
+2022.02.09 07:39:06 ERROR 22/02/09 07:39:07 INFO SparkContext: Submitted application: Project1Ex
+2022.02.09 07:39:06 ERROR 22/02/09 07:39:07 INFO SecurityManager: Changing view acls to: leifr
+2022.02.09 07:39:06 ERROR 22/02/09 07:39:07 INFO SecurityManager: Changing modify acls to: leifr
+2022.02.09 07:39:06 ERROR 22/02/09 07:39:07 INFO SecurityManager: Changing view acls groups to: 
+2022.02.09 07:39:06 ERROR 22/02/09 07:39:07 INFO SecurityManager: Changing modify acls groups to: 
+2022.02.09 07:39:06 ERROR 22/02/09 07:39:07 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(leifr); groups with view permissions: Set(); users  with modify permissions: Set(leifr); groups with modify permissions: Set()
+2022.02.09 07:39:07 ERROR searching for `#` failed
+scala.meta.internal.mtags.IndexingExceptions$InvalidSymbolException: #
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definitions(OnDemandSymbolIndex.scala:57)
+	at scala.meta.internal.metals.DestinationProvider.definition(DefinitionProvider.scala:313)
+	at scala.meta.internal.metals.DestinationProvider.fromSymbol(DefinitionProvider.scala:351)
+	at scala.meta.internal.metals.DestinationProvider.fromSymbol(DefinitionProvider.scala:371)
+	at scala.meta.internal.metals.DefinitionProvider.fromSymbol(DefinitionProvider.scala:104)
+	at scala.meta.internal.metals.StacktraceAnalyzer.findLocationForSymbol$1(StacktraceAnalyzer.scala:68)
+	at scala.meta.internal.metals.StacktraceAnalyzer.$anonfun$fileLocationFromLine$2(StacktraceAnalyzer.scala:73)
+	at scala.PartialFunction$Unlifted.applyOrElse(PartialFunction.scala:237)
+	at scala.collection.TraversableOnce.collectFirst(TraversableOnce.scala:180)
+	at scala.collection.TraversableOnce.collectFirst$(TraversableOnce.scala:167)
+	at scala.collection.AbstractTraversable.collectFirst(Traversable.scala:108)
+	at scala.meta.internal.metals.StacktraceAnalyzer.$anonfun$fileLocationFromLine$1(StacktraceAnalyzer.scala:73)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.metals.StacktraceAnalyzer.fileLocationFromLine(StacktraceAnalyzer.scala:71)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$handleServerMessage$1(DebugProxy.scala:183)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$handleServerMessage$1$adapted(DebugProxy.scala:160)
+	at scala.meta.internal.metals.debug.ServerAdapter.$anonfun$onReceived$1(ServerAdapter.scala:25)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.$anonfun$listen$1(MessageIdAdapter.scala:57)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at scala.meta.internal.metals.debug.SocketEndpoint.listen(SocketEndpoint.scala:26)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.listen(MessageIdAdapter.scala:47)
+	at scala.meta.internal.metals.debug.ServerAdapter.onReceived(ServerAdapter.scala:18)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$listenToServer$1(DebugProxy.scala:67)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2022.02.09 07:39:08 ERROR 22/02/09 07:39:08 INFO Utils: Successfully started service 'sparkDriver' on port 52806.
+2022.02.09 07:39:08 ERROR 22/02/09 07:39:08 INFO SparkEnv: Registering MapOutputTracker
+2022.02.09 07:39:08 ERROR 22/02/09 07:39:08 INFO SparkEnv: Registering BlockManagerMaster
+2022.02.09 07:39:08 ERROR 22/02/09 07:39:08 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+2022.02.09 07:39:08 ERROR 22/02/09 07:39:08 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+2022.02.09 07:39:08 ERROR 22/02/09 07:39:08 INFO DiskBlockManager: Created local directory at C:\Users\leifr\AppData\Local\Temp\blockmgr-d20146ad-3af8-4b85-8344-8a1343217a2f
+2022.02.09 07:39:08 ERROR 22/02/09 07:39:08 INFO MemoryStore: MemoryStore started with capacity 1425.6 MB
+2022.02.09 07:39:08 ERROR 22/02/09 07:39:08 INFO SparkEnv: Registering OutputCommitCoordinator
+2022.02.09 07:39:08 ERROR 22/02/09 07:39:08 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+2022.02.09 07:39:08 ERROR 22/02/09 07:39:08 INFO SparkUI: Bound SparkUI to 0.0.0.0, and started at http://DESKTOP-J2NRJN3.home:4040
+2022.02.09 07:39:08 ERROR 22/02/09 07:39:08 INFO Executor: Starting executor ID driver on host localhost
+2022.02.09 07:39:08 ERROR 22/02/09 07:39:08 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 52819.
+2022.02.09 07:39:08 ERROR 22/02/09 07:39:08 INFO NettyBlockTransferService: Server created on DESKTOP-J2NRJN3.home:52819
+2022.02.09 07:39:08 ERROR 22/02/09 07:39:08 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+2022.02.09 07:39:08 ERROR 22/02/09 07:39:08 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, DESKTOP-J2NRJN3.home, 52819, None)
+2022.02.09 07:39:08 ERROR searching for `#` failed
+scala.meta.internal.mtags.IndexingExceptions$InvalidSymbolException: #
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definitions(OnDemandSymbolIndex.scala:57)
+	at scala.meta.internal.metals.DestinationProvider.definition(DefinitionProvider.scala:313)
+	at scala.meta.internal.metals.DestinationProvider.fromSymbol(DefinitionProvider.scala:351)
+	at scala.meta.internal.metals.DestinationProvider.fromSymbol(DefinitionProvider.scala:371)
+	at scala.meta.internal.metals.DefinitionProvider.fromSymbol(DefinitionProvider.scala:104)
+	at scala.meta.internal.metals.StacktraceAnalyzer.findLocationForSymbol$1(StacktraceAnalyzer.scala:68)
+	at scala.meta.internal.metals.StacktraceAnalyzer.$anonfun$fileLocationFromLine$2(StacktraceAnalyzer.scala:73)
+	at scala.PartialFunction$Unlifted.applyOrElse(PartialFunction.scala:237)
+	at scala.collection.TraversableOnce.collectFirst(TraversableOnce.scala:180)
+	at scala.collection.TraversableOnce.collectFirst$(TraversableOnce.scala:167)
+	at scala.collection.AbstractTraversable.collectFirst(Traversable.scala:108)
+	at scala.meta.internal.metals.StacktraceAnalyzer.$anonfun$fileLocationFromLine$1(StacktraceAnalyzer.scala:73)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.metals.StacktraceAnalyzer.fileLocationFromLine(StacktraceAnalyzer.scala:71)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$handleServerMessage$1(DebugProxy.scala:183)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$handleServerMessage$1$adapted(DebugProxy.scala:160)
+	at scala.meta.internal.metals.debug.ServerAdapter.$anonfun$onReceived$1(ServerAdapter.scala:25)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.$anonfun$listen$1(MessageIdAdapter.scala:57)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at scala.meta.internal.metals.debug.SocketEndpoint.listen(SocketEndpoint.scala:26)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.listen(MessageIdAdapter.scala:47)
+	at scala.meta.internal.metals.debug.ServerAdapter.onReceived(ServerAdapter.scala:18)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$listenToServer$1(DebugProxy.scala:67)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2022.02.09 07:39:08 ERROR 22/02/09 07:39:08 INFO BlockManagerMasterEndpoint: Registering block manager DESKTOP-J2NRJN3.home:52819 with 1425.6 MB RAM, BlockManagerId(driver, DESKTOP-J2NRJN3.home, 52819, None)
+2022.02.09 07:39:08 ERROR 22/02/09 07:39:08 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, DESKTOP-J2NRJN3.home, 52819, None)
+2022.02.09 07:39:08 ERROR searching for `#` failed
+scala.meta.internal.mtags.IndexingExceptions$InvalidSymbolException: #
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definitions(OnDemandSymbolIndex.scala:57)
+	at scala.meta.internal.metals.DestinationProvider.definition(DefinitionProvider.scala:313)
+	at scala.meta.internal.metals.DestinationProvider.fromSymbol(DefinitionProvider.scala:351)
+	at scala.meta.internal.metals.DestinationProvider.fromSymbol(DefinitionProvider.scala:371)
+	at scala.meta.internal.metals.DefinitionProvider.fromSymbol(DefinitionProvider.scala:104)
+	at scala.meta.internal.metals.StacktraceAnalyzer.findLocationForSymbol$1(StacktraceAnalyzer.scala:68)
+	at scala.meta.internal.metals.StacktraceAnalyzer.$anonfun$fileLocationFromLine$2(StacktraceAnalyzer.scala:73)
+	at scala.PartialFunction$Unlifted.applyOrElse(PartialFunction.scala:237)
+	at scala.collection.TraversableOnce.collectFirst(TraversableOnce.scala:180)
+	at scala.collection.TraversableOnce.collectFirst$(TraversableOnce.scala:167)
+	at scala.collection.AbstractTraversable.collectFirst(Traversable.scala:108)
+	at scala.meta.internal.metals.StacktraceAnalyzer.$anonfun$fileLocationFromLine$1(StacktraceAnalyzer.scala:73)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.metals.StacktraceAnalyzer.fileLocationFromLine(StacktraceAnalyzer.scala:71)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$handleServerMessage$1(DebugProxy.scala:183)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$handleServerMessage$1$adapted(DebugProxy.scala:160)
+	at scala.meta.internal.metals.debug.ServerAdapter.$anonfun$onReceived$1(ServerAdapter.scala:25)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.$anonfun$listen$1(MessageIdAdapter.scala:57)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at scala.meta.internal.metals.debug.SocketEndpoint.listen(SocketEndpoint.scala:26)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.listen(MessageIdAdapter.scala:47)
+	at scala.meta.internal.metals.debug.ServerAdapter.onReceived(ServerAdapter.scala:18)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$listenToServer$1(DebugProxy.scala:67)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2022.02.09 07:39:08 ERROR 22/02/09 07:39:08 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, DESKTOP-J2NRJN3.home, 52819, None)
+2022.02.09 07:39:08 ERROR searching for `#` failed
+scala.meta.internal.mtags.IndexingExceptions$InvalidSymbolException: #
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definitions(OnDemandSymbolIndex.scala:57)
+	at scala.meta.internal.metals.DestinationProvider.definition(DefinitionProvider.scala:313)
+	at scala.meta.internal.metals.DestinationProvider.fromSymbol(DefinitionProvider.scala:351)
+	at scala.meta.internal.metals.DestinationProvider.fromSymbol(DefinitionProvider.scala:371)
+	at scala.meta.internal.metals.DefinitionProvider.fromSymbol(DefinitionProvider.scala:104)
+	at scala.meta.internal.metals.StacktraceAnalyzer.findLocationForSymbol$1(StacktraceAnalyzer.scala:68)
+	at scala.meta.internal.metals.StacktraceAnalyzer.$anonfun$fileLocationFromLine$2(StacktraceAnalyzer.scala:73)
+	at scala.PartialFunction$Unlifted.applyOrElse(PartialFunction.scala:237)
+	at scala.collection.TraversableOnce.collectFirst(TraversableOnce.scala:180)
+	at scala.collection.TraversableOnce.collectFirst$(TraversableOnce.scala:167)
+	at scala.collection.AbstractTraversable.collectFirst(Traversable.scala:108)
+	at scala.meta.internal.metals.StacktraceAnalyzer.$anonfun$fileLocationFromLine$1(StacktraceAnalyzer.scala:73)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.metals.StacktraceAnalyzer.fileLocationFromLine(StacktraceAnalyzer.scala:71)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$handleServerMessage$1(DebugProxy.scala:183)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$handleServerMessage$1$adapted(DebugProxy.scala:160)
+	at scala.meta.internal.metals.debug.ServerAdapter.$anonfun$onReceived$1(ServerAdapter.scala:25)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.$anonfun$listen$1(MessageIdAdapter.scala:57)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at scala.meta.internal.metals.debug.SocketEndpoint.listen(SocketEndpoint.scala:26)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.listen(MessageIdAdapter.scala:47)
+	at scala.meta.internal.metals.debug.ServerAdapter.onReceived(ServerAdapter.scala:18)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$listenToServer$1(DebugProxy.scala:67)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2022.02.09 07:39:21 INFO  Canceling debug proxy for [Project2]
+2022.02.09 07:39:21 INFO  Closing debug server tcp://0.0.0.0:52769
+2022.02.09 08:23:14 INFO  compiling project2 (1 scala source)
+2022.02.09 08:23:14 INFO  Deduplicating compilation of project2 from bsp client 'Metals 0.11.1' (since 8h 4m 28.389s)
+2022.02.09 08:23:14 INFO  compiling project2 (1 scala source)
+2022.02.09 08:23:25 WARN  there was one deprecation warning; re-run with -deprecation for details
+2022.02.09 08:23:25 WARN  there was one deprecation warning; re-run with -deprecation for details
+2022.02.09 08:23:25 INFO  time: compiled project2 in 11s
+2022.02.09 08:23:28 INFO  Deduplicating compilation of project2 from bsp client 'Metals 0.11.1' (since 8h 4m 41.508s)
+2022.02.09 08:23:28 INFO  Deduplicating compilation of project2 from bsp client 'Metals 0.11.1' (since 8h 4m 41.527s)
+2022.02.09 08:23:30 WARN  Error downloading ch.epfl.scala:scala-expression-compiler_2.11.12:2.0.12
+  not found: C:\Users\leifr\.ivy2\local\ch.epfl.scala\scala-expression-compiler_2.11.12\2.0.12\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/ch/epfl/scala/scala-expression-compiler_2.11.12/2.0.12/scala-expression-compiler_2.11.12-2.0.12.pom
+2022.02.09 08:23:30 WARN  Expression evaluation will not work.
+2022.02.09 08:23:30 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\leifr\Desktop\Project2\.metals\dap-server.trace.json or C:\Users\leifr\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.02.09 08:23:32 WARN  Error downloading ch.epfl.scala:scala-expression-compiler_2.11.12:2.0.12
+  not found: C:\Users\leifr\.ivy2\local\ch.epfl.scala\scala-expression-compiler_2.11.12\2.0.12\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/ch/epfl/scala/scala-expression-compiler_2.11.12/2.0.12/scala-expression-compiler_2.11.12-2.0.12.pom
+2022.02.09 08:23:32 WARN  Expression evaluation will not work.
+2022.02.09 08:23:33 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\leifr\Desktop\Project2\.metals\dap-server.trace.json or C:\Users\leifr\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.02.09 08:23:33 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\leifr\Desktop\Project2\.metals\dap-client.trace.json or C:\Users\leifr\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.02.09 08:23:33 INFO  Starting debug proxy for [Project2]
+2022.02.09 08:23:43 INFO  Trying to attach to remote debuggee VM 127.0.0.1:60881 .
+2022.02.09 08:23:43 INFO  Attaching to debuggee VM succeeded.
+2022.02.09 08:23:45 ERROR Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+2022.02.09 08:23:45 ERROR 22/02/09 08:23:45 INFO SparkContext: Running Spark version 2.3.2
+2022.02.09 08:23:45 ERROR 22/02/09 08:23:46 INFO SparkContext: Submitted application: Project1Ex
+2022.02.09 08:23:45 ERROR 22/02/09 08:23:46 INFO SecurityManager: Changing view acls to: leifr
+2022.02.09 08:23:45 ERROR 22/02/09 08:23:46 INFO SecurityManager: Changing modify acls to: leifr
+2022.02.09 08:23:45 ERROR 22/02/09 08:23:46 INFO SecurityManager: Changing view acls groups to: 
+2022.02.09 08:23:45 ERROR 22/02/09 08:23:46 INFO SecurityManager: Changing modify acls groups to: 
+2022.02.09 08:23:45 ERROR 22/02/09 08:23:46 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(leifr); groups with view permissions: Set(); users  with modify permissions: Set(leifr); groups with modify permissions: Set()
+2022.02.09 08:23:46 ERROR searching for `#` failed
+scala.meta.internal.mtags.IndexingExceptions$InvalidSymbolException: #
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definitions(OnDemandSymbolIndex.scala:57)
+	at scala.meta.internal.metals.DestinationProvider.definition(DefinitionProvider.scala:313)
+	at scala.meta.internal.metals.DestinationProvider.fromSymbol(DefinitionProvider.scala:351)
+	at scala.meta.internal.metals.DestinationProvider.fromSymbol(DefinitionProvider.scala:371)
+	at scala.meta.internal.metals.DefinitionProvider.fromSymbol(DefinitionProvider.scala:104)
+	at scala.meta.internal.metals.StacktraceAnalyzer.findLocationForSymbol$1(StacktraceAnalyzer.scala:68)
+	at scala.meta.internal.metals.StacktraceAnalyzer.$anonfun$fileLocationFromLine$2(StacktraceAnalyzer.scala:73)
+	at scala.PartialFunction$Unlifted.applyOrElse(PartialFunction.scala:237)
+	at scala.collection.TraversableOnce.collectFirst(TraversableOnce.scala:180)
+	at scala.collection.TraversableOnce.collectFirst$(TraversableOnce.scala:167)
+	at scala.collection.AbstractTraversable.collectFirst(Traversable.scala:108)
+	at scala.meta.internal.metals.StacktraceAnalyzer.$anonfun$fileLocationFromLine$1(StacktraceAnalyzer.scala:73)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.metals.StacktraceAnalyzer.fileLocationFromLine(StacktraceAnalyzer.scala:71)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$handleServerMessage$1(DebugProxy.scala:183)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$handleServerMessage$1$adapted(DebugProxy.scala:160)
+	at scala.meta.internal.metals.debug.ServerAdapter.$anonfun$onReceived$1(ServerAdapter.scala:25)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.$anonfun$listen$1(MessageIdAdapter.scala:57)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at scala.meta.internal.metals.debug.SocketEndpoint.listen(SocketEndpoint.scala:26)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.listen(MessageIdAdapter.scala:47)
+	at scala.meta.internal.metals.debug.ServerAdapter.onReceived(ServerAdapter.scala:18)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$listenToServer$1(DebugProxy.scala:67)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2022.02.09 08:23:47 ERROR 22/02/09 08:23:47 INFO Utils: Successfully started service 'sparkDriver' on port 60916.
+2022.02.09 08:23:47 ERROR 22/02/09 08:23:47 INFO SparkEnv: Registering MapOutputTracker
+2022.02.09 08:23:47 ERROR 22/02/09 08:23:47 INFO SparkEnv: Registering BlockManagerMaster
+2022.02.09 08:23:47 ERROR 22/02/09 08:23:47 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+2022.02.09 08:23:47 ERROR 22/02/09 08:23:47 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+2022.02.09 08:23:47 ERROR 22/02/09 08:23:47 INFO DiskBlockManager: Created local directory at C:\Users\leifr\AppData\Local\Temp\blockmgr-6de58571-13d0-4cf0-b1ed-3feb36b027d5
+2022.02.09 08:23:47 ERROR 22/02/09 08:23:47 INFO MemoryStore: MemoryStore started with capacity 1425.6 MB
+2022.02.09 08:23:47 ERROR 22/02/09 08:23:47 INFO SparkEnv: Registering OutputCommitCoordinator
+2022.02.09 08:23:47 ERROR 22/02/09 08:23:47 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+2022.02.09 08:23:47 ERROR 22/02/09 08:23:47 INFO SparkUI: Bound SparkUI to 0.0.0.0, and started at http://DESKTOP-J2NRJN3.home:4040
+2022.02.09 08:23:47 ERROR 22/02/09 08:23:48 INFO Executor: Starting executor ID driver on host localhost
+2022.02.09 08:23:47 ERROR 22/02/09 08:23:48 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 60929.
+2022.02.09 08:23:47 ERROR 22/02/09 08:23:48 INFO NettyBlockTransferService: Server created on DESKTOP-J2NRJN3.home:60929
+2022.02.09 08:23:47 ERROR 22/02/09 08:23:48 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+2022.02.09 08:23:47 ERROR 22/02/09 08:23:48 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, DESKTOP-J2NRJN3.home, 60929, None)
+2022.02.09 08:23:48 ERROR searching for `#` failed
+scala.meta.internal.mtags.IndexingExceptions$InvalidSymbolException: #
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definitions(OnDemandSymbolIndex.scala:57)
+	at scala.meta.internal.metals.DestinationProvider.definition(DefinitionProvider.scala:313)
+	at scala.meta.internal.metals.DestinationProvider.fromSymbol(DefinitionProvider.scala:351)
+	at scala.meta.internal.metals.DestinationProvider.fromSymbol(DefinitionProvider.scala:371)
+	at scala.meta.internal.metals.DefinitionProvider.fromSymbol(DefinitionProvider.scala:104)
+	at scala.meta.internal.metals.StacktraceAnalyzer.findLocationForSymbol$1(StacktraceAnalyzer.scala:68)
+	at scala.meta.internal.metals.StacktraceAnalyzer.$anonfun$fileLocationFromLine$2(StacktraceAnalyzer.scala:73)
+	at scala.PartialFunction$Unlifted.applyOrElse(PartialFunction.scala:237)
+	at scala.collection.TraversableOnce.collectFirst(TraversableOnce.scala:180)
+	at scala.collection.TraversableOnce.collectFirst$(TraversableOnce.scala:167)
+	at scala.collection.AbstractTraversable.collectFirst(Traversable.scala:108)
+	at scala.meta.internal.metals.StacktraceAnalyzer.$anonfun$fileLocationFromLine$1(StacktraceAnalyzer.scala:73)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.metals.StacktraceAnalyzer.fileLocationFromLine(StacktraceAnalyzer.scala:71)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$handleServerMessage$1(DebugProxy.scala:183)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$handleServerMessage$1$adapted(DebugProxy.scala:160)
+	at scala.meta.internal.metals.debug.ServerAdapter.$anonfun$onReceived$1(ServerAdapter.scala:25)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.$anonfun$listen$1(MessageIdAdapter.scala:57)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at scala.meta.internal.metals.debug.SocketEndpoint.listen(SocketEndpoint.scala:26)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.listen(MessageIdAdapter.scala:47)
+	at scala.meta.internal.metals.debug.ServerAdapter.onReceived(ServerAdapter.scala:18)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$listenToServer$1(DebugProxy.scala:67)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2022.02.09 08:23:47 ERROR 22/02/09 08:23:48 INFO BlockManagerMasterEndpoint: Registering block manager DESKTOP-J2NRJN3.home:60929 with 1425.6 MB RAM, BlockManagerId(driver, DESKTOP-J2NRJN3.home, 60929, None)
+2022.02.09 08:23:47 ERROR 22/02/09 08:23:48 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, DESKTOP-J2NRJN3.home, 60929, None)
+2022.02.09 08:23:47 ERROR 22/02/09 08:23:48 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, DESKTOP-J2NRJN3.home, 60929, None)
+2022.02.09 08:23:48 ERROR searching for `#` failed
+scala.meta.internal.mtags.IndexingExceptions$InvalidSymbolException: #
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definitions(OnDemandSymbolIndex.scala:57)
+	at scala.meta.internal.metals.DestinationProvider.definition(DefinitionProvider.scala:313)
+	at scala.meta.internal.metals.DestinationProvider.fromSymbol(DefinitionProvider.scala:351)
+	at scala.meta.internal.metals.DestinationProvider.fromSymbol(DefinitionProvider.scala:371)
+	at scala.meta.internal.metals.DefinitionProvider.fromSymbol(DefinitionProvider.scala:104)
+	at scala.meta.internal.metals.StacktraceAnalyzer.findLocationForSymbol$1(StacktraceAnalyzer.scala:68)
+	at scala.meta.internal.metals.StacktraceAnalyzer.$anonfun$fileLocationFromLine$2(StacktraceAnalyzer.scala:73)
+	at scala.PartialFunction$Unlifted.applyOrElse(PartialFunction.scala:237)
+	at scala.collection.TraversableOnce.collectFirst(TraversableOnce.scala:180)
+	at scala.collection.TraversableOnce.collectFirst$(TraversableOnce.scala:167)
+	at scala.collection.AbstractTraversable.collectFirst(Traversable.scala:108)
+	at scala.meta.internal.metals.StacktraceAnalyzer.$anonfun$fileLocationFromLine$1(StacktraceAnalyzer.scala:73)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.metals.StacktraceAnalyzer.fileLocationFromLine(StacktraceAnalyzer.scala:71)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$handleServerMessage$1(DebugProxy.scala:183)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$handleServerMessage$1$adapted(DebugProxy.scala:160)
+	at scala.meta.internal.metals.debug.ServerAdapter.$anonfun$onReceived$1(ServerAdapter.scala:25)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.$anonfun$listen$1(MessageIdAdapter.scala:57)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at scala.meta.internal.metals.debug.SocketEndpoint.listen(SocketEndpoint.scala:26)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.listen(MessageIdAdapter.scala:47)
+	at scala.meta.internal.metals.debug.ServerAdapter.onReceived(ServerAdapter.scala:18)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$listenToServer$1(DebugProxy.scala:67)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2022.02.09 08:23:48 ERROR searching for `#` failed
+scala.meta.internal.mtags.IndexingExceptions$InvalidSymbolException: #
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definitions(OnDemandSymbolIndex.scala:57)
+	at scala.meta.internal.metals.DestinationProvider.definition(DefinitionProvider.scala:313)
+	at scala.meta.internal.metals.DestinationProvider.fromSymbol(DefinitionProvider.scala:351)
+	at scala.meta.internal.metals.DestinationProvider.fromSymbol(DefinitionProvider.scala:371)
+	at scala.meta.internal.metals.DefinitionProvider.fromSymbol(DefinitionProvider.scala:104)
+	at scala.meta.internal.metals.StacktraceAnalyzer.findLocationForSymbol$1(StacktraceAnalyzer.scala:68)
+	at scala.meta.internal.metals.StacktraceAnalyzer.$anonfun$fileLocationFromLine$2(StacktraceAnalyzer.scala:73)
+	at scala.PartialFunction$Unlifted.applyOrElse(PartialFunction.scala:237)
+	at scala.collection.TraversableOnce.collectFirst(TraversableOnce.scala:180)
+	at scala.collection.TraversableOnce.collectFirst$(TraversableOnce.scala:167)
+	at scala.collection.AbstractTraversable.collectFirst(Traversable.scala:108)
+	at scala.meta.internal.metals.StacktraceAnalyzer.$anonfun$fileLocationFromLine$1(StacktraceAnalyzer.scala:73)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.metals.StacktraceAnalyzer.fileLocationFromLine(StacktraceAnalyzer.scala:71)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$handleServerMessage$1(DebugProxy.scala:183)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$handleServerMessage$1$adapted(DebugProxy.scala:160)
+	at scala.meta.internal.metals.debug.ServerAdapter.$anonfun$onReceived$1(ServerAdapter.scala:25)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.$anonfun$listen$1(MessageIdAdapter.scala:57)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at scala.meta.internal.metals.debug.SocketEndpoint.listen(SocketEndpoint.scala:26)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.listen(MessageIdAdapter.scala:47)
+	at scala.meta.internal.metals.debug.ServerAdapter.onReceived(ServerAdapter.scala:18)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$listenToServer$1(DebugProxy.scala:67)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2022.02.09 08:24:03 INFO  Canceling debug proxy for [Project2]
+2022.02.09 08:24:03 INFO  Closing debug server tcp://0.0.0.0:60877
