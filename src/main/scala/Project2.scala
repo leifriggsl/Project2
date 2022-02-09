@@ -26,7 +26,7 @@ object Project2 {
 
 
 //countries where total_vaccinated/total_population order by desc
-//countries with life expectancy > 70
+//***countries with life expectancy > 70
 //SELECT gdp_per_capita from dataFrame2 where total_deaths/total_population>  order by gdp_per_capita  DESC
 //total deaths where population >20,000,000 desc
 //top 10 countries who have hospital_beds_per_thousand in 2020
@@ -46,11 +46,14 @@ val spark=SparkSession
 val dataFrame=spark.read.option("header", "true").csv("src/main/resources/covid-data.csv")
 //val dataFrame2=dataFrame.toDF("iso_code","continent","location","date","total_cases","new_cases","total_deaths","new_deaths","new_tests","total_tests","total_vaccinations","people_vaccinated","people_fully_vaccinated","population","population_density","median_age","aged_65_older","aged_70_older","gdp_per_capita","hospital_beds_per_thousand","life_expectancy")
 
-dataFrame.show()
+//dataFrame.show()
 //MaxTotalDeaths(sparkCtx:SparkContext)
+//dataFrame.select("location").show(10)
+//dataFrame.select("location","life_expectancy").filter(dataFrame("life_expectancy") > 70).distinct().show(20)
 
+//dataFrame.select(filter("life_expectancy" \'>'\ "70").show
 spark.stop()
-
+//dataFrame.where()
 
 }
 
