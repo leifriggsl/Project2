@@ -60,8 +60,12 @@ val spark=SparkSession
 val dataFrame=spark.read.option("header", "true").csv("src/main/resources/covid-data.csv")
 //val dataFrame2=dataFrame.toDF("iso_code","continent","location","date","total_cases","new_cases","total_deaths","new_deaths","new_tests","total_tests","total_vaccinations","people_vaccinated","people_fully_vaccinated","population","population_density","median_age","aged_65_older","aged_70_older","gdp_per_capita","hospital_beds_per_thousand","life_expectancy")
 //dataFrame.groupBy("location").agg(max("total_vaccinations")/max("population")).show(10)
-dataFrame.groupBy("location").agg(max("hospital_beds_per_thousand")).show(10)
+//dataFrame.groupBy("location").agg(max("hospital_beds_per_thousand")).show(10)
 //dataFrame.groupby().max().show(20)
+//dataFrame.groupBy("aged_65_older").agg(max("people_fully_vaccinated")/max("population")).show(10)
+//dataFrame.groupBy("location", "total_deaths").agg(max("total_tests")/max("population")).show(10)
+var qureClass = new QuerL3()
+
 
 //dataFrame.show()
 //MaxTotalDeaths(sparkCtx:SparkContext)

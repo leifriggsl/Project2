@@ -3469,3 +3469,486 @@ scala.meta.internal.mtags.IndexingExceptions$InvalidSymbolException: #
 
 2022.02.09 08:24:03 INFO  Canceling debug proxy for [Project2]
 2022.02.09 08:24:03 INFO  Closing debug server tcp://0.0.0.0:60877
+2022.02.09 20:26:16 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\pcc\Desktop\Project2\.metals\lsp.trace.json or C:\Users\pcc\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.02.09 20:26:17 INFO  logging to file C:\Users\pcc\Desktop\Project2\.metals\metals.log
+2022.02.09 20:26:17 INFO  Started: Metals version 0.11.1 in workspace 'C:\Users\pcc\Desktop\Project2' for client Visual Studio Code 1.64.1.
+2022.02.09 20:26:17 INFO  Parse release: 1.8.0_321
+2022.02.09 20:26:20 INFO  time: initialize in 2.05s
+2022.02.09 20:26:25 INFO  Attempting to connect to the build server...
+2022.02.09 20:26:56 ERROR Starting the bsp launcher for bloop...
+2022.02.09 20:26:56 ERROR Opening a bsp server connection with 'bsp --protocol tcp --port 21371'...
+2022.02.09 20:26:56 ERROR Waiting for the bsp connection to come up...
+2022.02.09 20:26:56 ERROR Waiting for the bsp connection to come up...
+2022.02.09 20:26:56 ERROR Waiting for the bsp connection to come up...
+2022.02.09 20:26:56 ERROR Waiting for the bsp connection to come up...
+2022.02.09 20:26:56 ERROR Waiting for the bsp connection to come up...
+2022.02.09 20:26:56 ERROR Waiting for the bsp connection to come up...
+2022.02.09 20:26:56 ERROR Waiting for the bsp connection to come up...
+2022.02.09 20:26:56 ERROR Waiting for the bsp connection to come up...
+2022.02.09 20:26:56 ERROR Waiting for the bsp connection to come up...
+2022.02.09 20:26:56 ERROR Waiting for the bsp connection to come up...
+2022.02.09 20:26:56 ERROR Waiting for the bsp connection to come up...
+2022.02.09 20:26:56 ERROR Waiting for the bsp connection to come up...
+2022.02.09 20:26:56 ERROR Waiting for the bsp connection to come up...
+2022.02.09 20:26:56 ERROR Waiting for the bsp connection to come up...
+2022.02.09 20:26:56 ERROR Waiting for the bsp connection to come up...
+2022.02.09 20:26:56 ERROR Waiting for the bsp connection to come up...
+2022.02.09 20:26:56 ERROR Waiting for the bsp connection to come up...
+2022.02.09 20:26:56 ERROR Waiting for the bsp connection to come up...
+2022.02.09 20:26:56 ERROR Waiting for the bsp connection to come up...
+2022.02.09 20:26:56 ERROR Waiting for the bsp connection to come up...
+2022.02.09 20:26:56 ERROR error: The command bsp --protocol tcp --port 21371 returned with an error
+2022.02.09 20:26:56 ERROR > No server running at 127.0.0.1:8212, let's fire one...
+2022.02.09 20:26:56 ERROR > Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.12...
+2022.02.09 20:26:56 ERROR > Starting bloop server at 127.0.0.1:8212...
+2022.02.09 20:26:56 ERROR > Attempting a connection to the server...
+2022.02.09 20:26:56 ERROR > [0m[32m[D][0m Loading workspace settings from bloop.settings.json
+2022.02.09 20:26:56 ERROR > [0m[32m[D][0m Loading 2 projects from 'c:\Users\pcc\Desktop\Project2\.bloop'...
+2022.02.09 20:26:56 ERROR > [0m[32m[D][0m Loading project from 'c:\Users\pcc\Desktop\Project2\.bloop\project2.json'
+2022.02.09 20:26:56 ERROR > [0m[32m[D][0m Loading project from 'c:\Users\pcc\Desktop\Project2\.bloop\project2-test.json'
+2022.02.09 20:26:56 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\leifr\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.11.12\scala-library-2.11.12.jar doesn't exist!
+2022.02.09 20:26:56 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\leifr\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.11.12\scala-library-2.11.12.jar doesn't exist!
+2022.02.09 20:26:56 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\leifr\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.11.12\scala-compiler-2.11.12.jar doesn't exist!
+2022.02.09 20:26:56 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\leifr\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.11.12\scala-compiler-2.11.12.jar doesn't exist!
+2022.02.09 20:26:56 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\leifr\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.11.12\scala-reflect-2.11.12.jar doesn't exist!
+2022.02.09 20:26:56 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\leifr\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.11.12\scala-reflect-2.11.12.jar doesn't exist!
+2022.02.09 20:26:56 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\leifr\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-xml_2.11\1.0.5\scala-xml_2.11-1.0.5.jar doesn't exist!
+2022.02.09 20:26:56 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\leifr\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-xml_2.11\1.0.5\scala-xml_2.11-1.0.5.jar doesn't exist!
+2022.02.09 20:26:56 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\leifr\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-parser-combinators_2.11\1.0.4\scala-parser-combinators_2.11-1.0.4.jar doesn't exist!
+2022.02.09 20:26:56 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\leifr\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-parser-combinators_2.11\1.0.4\scala-parser-combinators_2.11-1.0.4.jar doesn't exist!
+2022.02.09 20:26:56 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\leifr\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\jline\jline\2.14.3\jline-2.14.3.jar doesn't exist!
+2022.02.09 20:26:56 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\leifr\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\jline\jline\2.14.3\jline-2.14.3.jar doesn't exist!
+2022.02.09 20:26:56 ERROR > [0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.11.12.
+2022.02.09 20:26:56 ERROR > [0m[32m[D][0m   => C:\Users\leifr\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\jline\jline\2.14.3\jline-2.14.3.jar
+2022.02.09 20:26:56 ERROR > [0m[32m[D][0m   => C:\Users\leifr\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-parser-combinators_2.11\1.0.4\scala-parser-combinators_2.11-1.0.4.jar
+2022.02.09 20:26:56 ERROR > [0m[32m[D][0m   => C:\Users\leifr\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-xml_2.11\1.0.5\scala-xml_2.11-1.0.5.jar
+2022.02.09 20:26:56 ERROR > [0m[32m[D][0m   => C:\Users\leifr\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.11.12\scala-compiler-2.11.12.jar
+2022.02.09 20:26:56 ERROR > [0m[32m[D][0m   => C:\Users\leifr\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.11.12\scala-library-2.11.12.jar
+2022.02.09 20:26:56 ERROR > [0m[32m[D][0m   => C:\Users\leifr\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.11.12\scala-reflect-2.11.12.jar
+2022.02.09 20:26:56 ERROR > [0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.11.12.
+2022.02.09 20:26:56 ERROR > [0m[32m[D][0m   => C:\Users\leifr\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\jline\jline\2.14.3\jline-2.14.3.jar
+2022.02.09 20:26:56 ERROR > [0m[32m[D][0m   => C:\Users\leifr\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-parser-combinators_2.11\1.0.4\scala-parser-combinators_2.11-1.0.4.jar
+2022.02.09 20:26:56 ERROR > [0m[32m[D][0m   => C:\Users\leifr\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-xml_2.11\1.0.5\scala-xml_2.11-1.0.5.jar
+2022.02.09 20:26:56 ERROR > [0m[32m[D][0m   => C:\Users\leifr\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.11.12\scala-compiler-2.11.12.jar
+2022.02.09 20:26:56 ERROR > [0m[32m[D][0m   => C:\Users\leifr\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.11.12\scala-library-2.11.12.jar
+2022.02.09 20:26:56 ERROR > [0m[32m[D][0m   => C:\Users\leifr\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.11.12\scala-reflect-2.11.12.jar
+2022.02.09 20:26:56 ERROR > bloop.data.Project$ProjectReadException: Failed to load project from c:\Users\pcc\Desktop\Project2\.bloop\project2-test.json
+2022.02.09 20:26:56 ERROR > 	at bloop.data.Project$.fromBytesAndOrigin(Project.scala:280)
+2022.02.09 20:26:56 ERROR > 	at bloop.engine.BuildLoader$.loadProject(BuildLoader.scala:256)
+2022.02.09 20:26:56 ERROR > 	at bloop.engine.BuildLoader$.$anonfun$loadBuildIncrementally$3(BuildLoader.scala:60)
+2022.02.09 20:26:56 ERROR > 	at monix.eval.internal.TaskRunLoop$.monix$eval$internal$TaskRunLoop$$loop$1(TaskRunLoop.scala:187)
+2022.02.09 20:26:56 ERROR > 	at monix.eval.internal.TaskRunLoop$RestartCallback$1.onSuccess(TaskRunLoop.scala:119)
+2022.02.09 20:26:56 ERROR > 	at monix.eval.Task$.$anonfun$forkedUnit$2(Task.scala:1463)
+2022.02.09 20:26:56 ERROR > 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+2022.02.09 20:26:56 ERROR > 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+2022.02.09 20:26:56 ERROR > 	at java.lang.Thread.run(Thread.java:750)
+2022.02.09 20:26:56 ERROR > Caused by: java.nio.file.NoSuchFileException: C:\Users\leifr\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.11.12\scala-library-2.11.12.jar
+2022.02.09 20:26:56 ERROR > 	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:79)
+2022.02.09 20:26:56 ERROR > 	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)
+2022.02.09 20:26:56 ERROR > 	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102)
+2022.02.09 20:26:56 ERROR > 	at sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:53)
+2022.02.09 20:26:56 ERROR > 	at sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:38)
+2022.02.09 20:26:56 ERROR > 	at sun.nio.fs.WindowsFileSystemProvider.readAttributes(WindowsFileSystemProvider.java:193)
+2022.02.09 20:26:56 ERROR > 	at java.nio.file.Files.readAttributes(Files.java:1737)
+2022.02.09 20:26:56 ERROR > 	at bloop.ScalaInstance.$anonfun$hashCode$1(ScalaInstance.scala:82)
+2022.02.09 20:26:56 ERROR > 	at scala.collection.TraversableLike.$anonfun$map$1(TraversableLike.scala:286)
+2022.02.09 20:26:56 ERROR > 	at scala.collection.IndexedSeqOptimized.foreach(IndexedSeqOptimized.scala:36)
+2022.02.09 20:26:56 ERROR > 	at scala.collection.IndexedSeqOptimized.foreach$(IndexedSeqOptimized.scala:33)
+2022.02.09 20:26:56 ERROR > 	at scala.collection.mutable.WrappedArray.foreach(WrappedArray.scala:38)
+2022.02.09 20:26:56 ERROR > 	at scala.collection.TraversableLike.map(TraversableLike.scala:286)
+2022.02.09 20:26:56 ERROR > 	at scala.collection.TraversableLike.map$(TraversableLike.scala:279)
+2022.02.09 20:26:56 ERROR > 	at scala.collection.AbstractTraversable.map(Traversable.scala:108)
+2022.02.09 20:26:56 ERROR > 	at bloop.ScalaInstance.<init>(ScalaInstance.scala:78)
+2022.02.09 20:26:56 ERROR > 	at bloop.ScalaInstance$.newInstance$1(ScalaInstance.scala:152)
+2022.02.09 20:26:56 ERROR > 	at bloop.ScalaInstance$.$anonfun$apply$7(ScalaInstance.scala:157)
+2022.02.09 20:26:56 ERROR > 	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1660)
+2022.02.09 20:26:56 ERROR > 	at bloop.ScalaInstance$.apply(ScalaInstance.scala:157)
+2022.02.09 20:26:56 ERROR > 	at bloop.data.Project$.$anonfun$fromConfig$1(Project.scala:297)
+2022.02.09 20:26:56 ERROR > 	at scala.Option.flatMap(Option.scala:271)
+2022.02.09 20:26:56 ERROR > 	at bloop.data.Project$.fromConfig(Project.scala:292)
+2022.02.09 20:26:56 ERROR > 	at bloop.data.Project$.fromBytesAndOrigin(Project.scala:274)
+2022.02.09 20:26:56 ERROR > [0m[32m[D][0m Elapsed: 509.8786 ms
+2022.02.09 20:26:56 ERROR > 	... 8 more
+2022.02.09 20:26:56 ERROR > [0m[31m[E][0m Failed to load project from c:\Users\pcc\Desktop\Project2\.bloop\project2.json
+2022.02.09 20:26:56 ERROR > [0m[36m[T][0m bloop.data.Project$ProjectReadException: Failed to load project from c:\Users\pcc\Desktop\Project2\.bloop\project2.json
+2022.02.09 20:26:56 ERROR > [0m[36m[T][0m 	bloop.data.Project$.fromBytesAndOrigin(Project.scala:280)
+2022.02.09 20:26:56 ERROR > [0m[36m[T][0m 	bloop.engine.BuildLoader$.loadProject(BuildLoader.scala:256)
+2022.02.09 20:26:56 ERROR > [0m[36m[T][0m 	bloop.engine.BuildLoader$.$anonfun$loadBuildIncrementally$3(BuildLoader.scala:60)
+2022.02.09 20:26:56 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskRunLoop$.monix$eval$internal$TaskRunLoop$$loop$1(TaskRunLoop.scala:187)
+2022.02.09 20:26:56 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskRunLoop$RestartCallback$1.onSuccess(TaskRunLoop.scala:119)
+2022.02.09 20:26:56 ERROR > [0m[36m[T][0m 	monix.eval.Task$.$anonfun$forkedUnit$2(Task.scala:1463)
+2022.02.09 20:26:56 ERROR > [0m[36m[T][0m 	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+2022.02.09 20:26:56 ERROR > [0m[36m[T][0m 	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+2022.02.09 20:26:56 ERROR > [0m[36m[T][0m 	java.lang.Thread.run(Thread.java:750)
+2022.02.09 20:26:56 ERROR > [0m[36m[T][0m Caused by: java.nio.file.NoSuchFileException: C:\Users\leifr\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.11.12\scala-library-2.11.12.jar
+2022.02.09 20:26:56 ERROR > [0m[36m[T][0m 	sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:79)
+2022.02.09 20:26:56 ERROR > [0m[36m[T][0m 	sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)
+2022.02.09 20:26:56 ERROR > [0m[36m[T][0m 	sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102)
+2022.02.09 20:26:56 ERROR > [0m[36m[T][0m 	sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:53)
+2022.02.09 20:26:56 ERROR > [0m[36m[T][0m 	sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:38)
+2022.02.09 20:26:56 ERROR > [0m[36m[T][0m 	sun.nio.fs.WindowsFileSystemProvider.readAttributes(WindowsFileSystemProvider.java:193)
+2022.02.09 20:26:56 ERROR > [0m[36m[T][0m 	java.nio.file.Files.readAttributes(Files.java:1737)
+2022.02.09 20:26:56 ERROR > [0m[36m[T][0m 	bloop.ScalaInstance.$anonfun$hashCode$1(ScalaInstance.scala:82)
+2022.02.09 20:26:56 ERROR > [0m[36m[T][0m 	scala.collection.TraversableLike.$anonfun$map$1(TraversableLike.scala:286)
+2022.02.09 20:26:56 ERROR > [0m[36m[T][0m 	scala.collection.IndexedSeqOptimized.foreach(IndexedSeqOptimized.scala:36)
+2022.02.09 20:26:56 ERROR > [0m[36m[T][0m 	scala.collection.IndexedSeqOptimized.foreach$(IndexedSeqOptimized.scala:33)
+2022.02.09 20:26:56 ERROR > [0m[36m[T][0m 	scala.collection.mutable.WrappedArray.foreach(WrappedArray.scala:38)
+2022.02.09 20:26:56 ERROR > [0m[36m[T][0m 	scala.collection.TraversableLike.map(TraversableLike.scala:286)
+2022.02.09 20:26:56 ERROR > [0m[36m[T][0m 	scala.collection.TraversableLike.map$(TraversableLike.scala:279)
+2022.02.09 20:26:56 ERROR > [0m[36m[T][0m 	scala.collection.AbstractTraversable.map(Traversable.scala:108)
+2022.02.09 20:26:56 ERROR > [0m[36m[T][0m 	bloop.ScalaInstance.<init>(ScalaInstance.scala:78)
+2022.02.09 20:26:56 ERROR > [0m[36m[T][0m 	bloop.ScalaInstance$.newInstance$1(ScalaInstance.scala:152)
+2022.02.09 20:26:56 ERROR > [0m[36m[T][0m 	bloop.ScalaInstance$.$anonfun$apply$7(ScalaInstance.scala:157)
+2022.02.09 20:26:56 ERROR > [0m[36m[T][0m 	java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1660)
+2022.02.09 20:26:56 ERROR > [0m[36m[T][0m 	bloop.ScalaInstance$.apply(ScalaInstance.scala:157)
+2022.02.09 20:26:56 ERROR > [0m[36m[T][0m 	bloop.data.Project$.$anonfun$fromConfig$1(Project.scala:297)
+2022.02.09 20:26:56 ERROR > [0m[36m[T][0m 	scala.Option.flatMap(Option.scala:271)
+2022.02.09 20:26:56 ERROR > [0m[36m[T][0m 	bloop.data.Project$.fromConfig(Project.scala:292)
+2022.02.09 20:26:56 ERROR > [0m[36m[T][0m 	bloop.data.Project$.fromBytesAndOrigin(Project.scala:274)
+2022.02.09 20:26:56 ERROR > [0m[36m[T][0m 	bloop.engine.BuildLoader$.loadProject(BuildLoader.scala:256)
+2022.02.09 20:26:56 ERROR > [0m[36m[T][0m 	bloop.engine.BuildLoader$.$anonfun$loadBuildIncrementally$3(BuildLoader.scala:60)
+2022.02.09 20:26:56 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskRunLoop$.monix$eval$internal$TaskRunLoop$$loop$1(TaskRunLoop.scala:187)
+2022.02.09 20:26:56 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskRunLoop$RestartCallback$1.onSuccess(TaskRunLoop.scala:119)
+2022.02.09 20:26:56 ERROR > [0m[36m[T][0m 	monix.eval.Task$.$anonfun$forkedUnit$2(Task.scala:1463)
+2022.02.09 20:26:56 ERROR > [0m[36m[T][0m 	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+2022.02.09 20:26:56 ERROR > [0m[36m[T][0m 	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+2022.02.09 20:26:56 ERROR > [0m[36m[T][0m 	java.lang.Thread.run(Thread.java:750)
+2022.02.09 20:26:56 ERROR error: The launcher failed to establish a bsp connection, aborting...
+2022.02.09 20:26:56 ERROR Failed to connect with build server, no functionality will work.
+java.lang.RuntimeException: The server did not start, got FailedToOpenBspConnection
+	at bloop.launcher.LauncherMain.failPromise$1(Launcher.scala:95)
+	at bloop.launcher.LauncherMain.runLauncher(Launcher.scala:122)
+	at scala.meta.internal.metals.BloopServers$$anon$2.run(BloopServers.scala:169)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+2022.02.09 20:27:58 WARN  no build target for: C:\Users\pcc\Desktop\Project2\src\main\scala\Project2.scala
+2022.02.09 20:28:02 INFO  no build target found for C:\Users\pcc\Desktop\Project2\src\main\scala\Project2.scala. Using presentation compiler with project's scala-library version: 3.1.0
+2022.02.09 20:28:05 INFO  time: code lens generation in 6.06s
+2022.02.09 20:29:11 WARN  no build target for: C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.09 20:29:15 WARN  no build target for: C:\Users\pcc\Desktop\Project2\src\main\scala\Project2.scala
+2022.02.09 20:29:48 WARN  no build target for: C:\Users\pcc\Desktop\Project2\src\main\scala\Project2.scala
+2022.02.09 20:31:57 WARN  no build target for: C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.09 20:31:57 INFO  shutting down Metals
+2022.02.09 20:31:58 ERROR Unexpected error initializing server
+org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request window/showMessageRequest failed with message: Canceled
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+2022.02.09 20:32:40 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\pcc\Desktop\Project2\.metals\lsp.trace.json or C:\Users\pcc\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.02.09 20:32:42 INFO  logging to file C:\Users\pcc\Desktop\Project2\.metals\metals.log
+2022.02.09 20:32:42 INFO  Started: Metals version 0.11.1 in workspace 'C:\Users\pcc\Desktop\Project2' for client Visual Studio Code 1.64.1.
+2022.02.09 20:32:42 INFO  Parse release: 1.8.0_321
+2022.02.09 20:32:45 INFO  time: initialize in 3.12s
+2022.02.09 20:32:51 INFO  Attempting to connect to the build server...
+2022.02.09 20:32:51 INFO  skipping build import with status 'Requested'
+2022.02.09 20:32:51 ERROR Starting the bsp launcher for bloop...
+2022.02.09 20:32:51 ERROR Opening a bsp server connection with 'bsp --protocol tcp --port 29706'...
+2022.02.09 20:32:51 ERROR Waiting for the bsp connection to come up...
+2022.02.09 20:32:51 ERROR error: The command bsp --protocol tcp --port 29706 returned with an error
+2022.02.09 20:32:51 ERROR > [0m[32m[D][0m Loading workspace settings from bloop.settings.json
+2022.02.09 20:32:51 ERROR > [0m[32m[D][0m Loading 2 projects from 'c:\Users\pcc\Desktop\Project2\.bloop'...
+2022.02.09 20:32:51 ERROR > [0m[32m[D][0m Loading project from 'c:\Users\pcc\Desktop\Project2\.bloop\project2.json'
+2022.02.09 20:32:51 ERROR > [0m[32m[D][0m Loading project from 'c:\Users\pcc\Desktop\Project2\.bloop\project2-test.json'
+2022.02.09 20:32:51 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\leifr\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.11.12\scala-library-2.11.12.jar doesn't exist!
+2022.02.09 20:32:51 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\leifr\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.11.12\scala-compiler-2.11.12.jar doesn't exist!
+2022.02.09 20:32:51 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\leifr\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.11.12\scala-reflect-2.11.12.jar doesn't exist!
+2022.02.09 20:32:51 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\leifr\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-xml_2.11\1.0.5\scala-xml_2.11-1.0.5.jar doesn't exist!
+2022.02.09 20:32:51 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\leifr\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-parser-combinators_2.11\1.0.4\scala-parser-combinators_2.11-1.0.4.jar doesn't exist!
+2022.02.09 20:32:51 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\leifr\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\jline\jline\2.14.3\jline-2.14.3.jar doesn't exist!
+2022.02.09 20:32:51 ERROR > [0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.11.12.
+2022.02.09 20:32:51 ERROR > [0m[32m[D][0m   => C:\Users\leifr\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\jline\jline\2.14.3\jline-2.14.3.jar
+2022.02.09 20:32:51 ERROR > [0m[32m[D][0m   => C:\Users\leifr\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-parser-combinators_2.11\1.0.4\scala-parser-combinators_2.11-1.0.4.jar
+2022.02.09 20:32:51 ERROR > [0m[32m[D][0m   => C:\Users\leifr\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-xml_2.11\1.0.5\scala-xml_2.11-1.0.5.jar
+2022.02.09 20:32:51 ERROR > [0m[32m[D][0m   => C:\Users\leifr\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.11.12\scala-compiler-2.11.12.jar
+2022.02.09 20:32:51 ERROR > [0m[32m[D][0m   => C:\Users\leifr\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.11.12\scala-library-2.11.12.jar
+2022.02.09 20:32:51 ERROR > [0m[32m[D][0m   => C:\Users\leifr\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.11.12\scala-reflect-2.11.12.jar
+2022.02.09 20:32:51 ERROR > [0m[32m[D][0m Elapsed: 32.9054 ms
+2022.02.09 20:32:51 ERROR > [0m[31m[E][0m Failed to load project from c:\Users\pcc\Desktop\Project2\.bloop\project2.json
+2022.02.09 20:32:51 ERROR > [0m[36m[T][0m bloop.data.Project$ProjectReadException: Failed to load project from c:\Users\pcc\Desktop\Project2\.bloop\project2.json
+2022.02.09 20:32:51 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\leifr\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.11.12\scala-library-2.11.12.jar doesn't exist!
+2022.02.09 20:32:51 ERROR > [0m[36m[T][0m 	bloop.data.Project$.fromBytesAndOrigin(Project.scala:280)[0m[33m[W][0m Scala instance jar C:\Users\leifr\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.11.12\scala-compiler-2.11.12.jar doesn't exist!
+2022.02.09 20:32:51 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\leifr\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.11.12\scala-reflect-2.11.12.jar doesn't exist!
+2022.02.09 20:32:51 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\leifr\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-xml_2.11\1.0.5\scala-xml_2.11-1.0.5.jar doesn't exist!
+2022.02.09 20:32:51 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\leifr\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-parser-combinators_2.11\1.0.4\scala-parser-combinators_2.11-1.0.4.jar doesn't exist!
+2022.02.09 20:32:51 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\leifr\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\jline\jline\2.14.3\jline-2.14.3.jar doesn't exist!
+2022.02.09 20:32:51 ERROR > 
+2022.02.09 20:32:51 ERROR > [0m[36m[T][0m 	bloop.engine.BuildLoader$.loadProject(BuildLoader.scala:256)
+2022.02.09 20:32:51 ERROR > [0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.11.12.
+2022.02.09 20:32:51 ERROR > [0m[36m[T][0m 	bloop.engine.BuildLoader$.$anonfun$loadBuildIncrementally$3(BuildLoader.scala:60)
+2022.02.09 20:32:51 ERROR > [0m[32m[D][0m   => C:\Users\leifr\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\jline\jline\2.14.3\jline-2.14.3.jar
+2022.02.09 20:32:51 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskRunLoop$.monix$eval$internal$TaskRunLoop$$loop$1(TaskRunLoop.scala:187)
+2022.02.09 20:32:51 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskRunLoop$RestartCallback$1.onSuccess(TaskRunLoop.scala:119)
+2022.02.09 20:32:51 ERROR > [0m[36m[T][0m 	monix.eval.Task$.$anonfun$forkedUnit$2(Task.scala:1463)
+2022.02.09 20:32:51 ERROR > [0m[36m[T][0m 	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+2022.02.09 20:32:51 ERROR > [0m[36m[T][0m 	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+2022.02.09 20:32:51 ERROR > [0m[36m[T][0m 	java.lang.Thread.run(Thread.java:750)
+2022.02.09 20:32:51 ERROR > [0m[36m[T][0m Caused by: java.nio.file.NoSuchFileException: C:\Users\leifr\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.11.12\scala-library-2.11.12.jar
+2022.02.09 20:32:51 ERROR > [0m[32m[D][0m   => C:\Users\leifr\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-parser-combinators_2.11\1.0.4\scala-parser-combinators_2.11-1.0.4.jar
+2022.02.09 20:32:51 ERROR > [0m[36m[T][0m 	sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:79)
+2022.02.09 20:32:51 ERROR > [0m[36m[T][0m 	sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)
+2022.02.09 20:32:51 ERROR > [0m[32m[D][0m   => C:\Users\leifr\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-xml_2.11\1.0.5\scala-xml_2.11-1.0.5.jar
+2022.02.09 20:32:51 ERROR > [0m[32m[D][0m   => C:\Users\leifr\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.11.12\scala-compiler-2.11.12.jar
+2022.02.09 20:32:51 ERROR > [0m[36m[T][0m 	sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102)
+2022.02.09 20:32:51 ERROR > [0m[32m[D][0m   => C:\Users\leifr\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.11.12\scala-library-2.11.12.jar
+2022.02.09 20:32:51 ERROR > [0m[36m[T][0m 	sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:53)
+2022.02.09 20:32:51 ERROR > [0m[36m[T][0m 	sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:38)
+2022.02.09 20:32:51 ERROR > [0m[32m[D][0m   => C:\Users\leifr\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.11.12\scala-reflect-2.11.12.jar
+2022.02.09 20:32:51 ERROR > [0m[36m[T][0m 	sun.nio.fs.WindowsFileSystemProvider.readAttributes(WindowsFileSystemProvider.java:193)
+2022.02.09 20:32:51 ERROR > [0m[36m[T][0m 	java.nio.file.Files.readAttributes(Files.java:1737)
+2022.02.09 20:32:51 ERROR > [0m[36m[T][0m 	bloop.ScalaInstance.$anonfun$hashCode$1(ScalaInstance.scala:82)
+2022.02.09 20:32:51 ERROR > [0m[36m[T][0m 	scala.collection.TraversableLike.$anonfun$map$1(TraversableLike.scala:286)
+2022.02.09 20:32:51 ERROR > [0m[36m[T][0m 	scala.collection.IndexedSeqOptimized.foreach(IndexedSeqOptimized.scala:36)
+2022.02.09 20:32:51 ERROR > [0m[36m[T][0m 	scala.collection.IndexedSeqOptimized.foreach$(IndexedSeqOptimized.scala:33)
+2022.02.09 20:32:51 ERROR > [0m[36m[T][0m 	scala.collection.mutable.WrappedArray.foreach(WrappedArray.scala:38)
+2022.02.09 20:32:51 ERROR > [0m[36m[T][0m 	scala.collection.TraversableLike.map(TraversableLike.scala:286)
+2022.02.09 20:32:51 ERROR > [0m[36m[T][0m 	scala.collection.TraversableLike.map$(TraversableLike.scala:279)
+2022.02.09 20:32:51 ERROR > [0m[36m[T][0m 	scala.collection.AbstractTraversable.map(Traversable.scala:108)
+2022.02.09 20:32:51 ERROR > [0m[36m[T][0m 	bloop.ScalaInstance.<init>(ScalaInstance.scala:78)
+2022.02.09 20:32:51 ERROR > [0m[36m[T][0m 	bloop.ScalaInstance$.newInstance$1(ScalaInstance.scala:152)
+2022.02.09 20:32:51 ERROR > [0m[36m[T][0m 	bloop.ScalaInstance$.$anonfun$apply$7(ScalaInstance.scala:157)
+2022.02.09 20:32:51 ERROR > [0m[36m[T][0m 	java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1660)
+2022.02.09 20:32:51 ERROR > [0m[36m[T][0m 	bloop.ScalaInstance$.apply(ScalaInstance.scala:157)
+2022.02.09 20:32:51 ERROR > [0m[36m[T][0m 	bloop.data.Project$.$anonfun$fromConfig$1(Project.scala:297)
+2022.02.09 20:32:51 ERROR > [0m[36m[T][0m 	scala.Option.flatMap(Option.scala:271)
+2022.02.09 20:32:51 ERROR > [0m[36m[T][0m 	bloop.data.Project$.fromConfig(Project.scala:292)
+2022.02.09 20:32:51 ERROR > [0m[36m[T][0m 	bloop.data.Project$.fromBytesAndOrigin(Project.scala:274)
+2022.02.09 20:32:51 ERROR > [0m[36m[T][0m 	bloop.engine.BuildLoader$.loadProject(BuildLoader.scala:256)
+2022.02.09 20:32:51 ERROR > [0m[36m[T][0m 	bloop.engine.BuildLoader$.$anonfun$loadBuildIncrementally$3(BuildLoader.scala:60)
+2022.02.09 20:32:51 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskRunLoop$.monix$eval$internal$TaskRunLoop$$loop$1(TaskRunLoop.scala:187)
+2022.02.09 20:32:51 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskRunLoop$RestartCallback$1.onSuccess(TaskRunLoop.scala:119)
+2022.02.09 20:32:51 ERROR > [0m[36m[T][0m 	monix.eval.Task$.$anonfun$forkedUnit$2(Task.scala:1463)
+2022.02.09 20:32:51 ERROR > [0m[36m[T][0m 	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+2022.02.09 20:32:51 ERROR > [0m[36m[T][0m 	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+2022.02.09 20:32:51 ERROR > [0m[36m[T][0m 	java.lang.Thread.run(Thread.java:750)
+2022.02.09 20:32:51 ERROR error: The launcher failed to establish a bsp connection, aborting...
+2022.02.09 20:32:51 ERROR Failed to connect with build server, no functionality will work.
+java.lang.RuntimeException: The server did not start, got FailedToOpenBspConnection
+	at bloop.launcher.LauncherMain.failPromise$1(Launcher.scala:95)
+	at bloop.launcher.LauncherMain.runLauncher(Launcher.scala:122)
+	at scala.meta.internal.metals.BloopServers$$anon$2.run(BloopServers.scala:169)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+2022.02.09 20:32:51 WARN  no build target for: C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.09 20:32:55 INFO  no build target found for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala. Using presentation compiler with project's scala-library version: 3.1.0
+2022.02.09 20:33:00 INFO  time: code lens generation in 8.21s
+2022.02.09 20:34:09 WARN  no build target for: C:\Users\pcc\Desktop\Project2\src\main\scala\Project2.scala
+2022.02.09 20:40:11 WARN  no build target for: C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.09 21:12:23 WARN  no build target for: C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.09 21:15:05 WARN  no build target for: C:\Users\pcc\Desktop\Project2\src\main\scala\Project2.scala
+2022.02.09 21:18:05 WARN  no build target for: C:\Users\pcc\Desktop\Project2\src\main\scala\Project2.scala
+2022.02.09 21:19:14 WARN  no build target for: C:\Users\pcc\Desktop\Project2\src\main\scala\Project2.scala
+2022.02.09 21:20:04 WARN  no build target for: C:\Users\pcc\Desktop\Project2\src\main\scala\Project2.scala
+2022.02.09 21:20:34 WARN  no build target for: C:\Users\pcc\Desktop\Project2\src\main\scala\Project2.scala
+2022.02.09 21:21:23 WARN  no build target for: C:\Users\pcc\Desktop\Project2\src\main\scala\Project2.scala
+2022.02.09 21:22:02 WARN  no build target for: C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.09 21:22:19 WARN  no build target for: C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.09 21:28:16 WARN  no build target for: C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.09 21:28:54 WARN  no build target for: C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.09 21:29:04 WARN  no build target for: C:\Users\pcc\Desktop\Project2\src\main\scala\Project2.scala
+2022.02.09 21:30:40 WARN  no build target for: C:\Users\pcc\Desktop\Project2\src\main\scala\Project2.scala
+2022.02.09 21:32:02 WARN  no build target for: C:\Users\pcc\Desktop\Project2\src\main\scala\Project2.scala
+2022.02.09 21:33:39 WARN  no build target for: C:\Users\pcc\Desktop\Project2\src\main\scala\Project2.scala
+2022.02.09 21:33:51 WARN  no build target for: C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.09 21:35:32 WARN  no build target for: C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.09 21:36:46 WARN  no build target for: C:\Users\pcc\Desktop\Project2\src\main\scala\Project2.scala
+2022.02.09 21:38:04 WARN  no build target for: C:\Users\pcc\Desktop\Project2\src\main\scala\Project2.scala
+2022.02.09 21:38:07 INFO  shutting down Metals
+2022.02.09 22:07:30 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\pcc\Desktop\Project2\.metals\lsp.trace.json or C:\Users\pcc\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.02.09 22:07:31 INFO  logging to file C:\Users\pcc\Desktop\Project2\.metals\metals.log
+2022.02.09 22:07:31 INFO  Started: Metals version 0.11.1 in workspace 'C:\Users\pcc\Desktop\Project2' for client Visual Studio Code 1.64.1.
+2022.02.09 22:07:31 INFO  Parse release: 1.8.0_321
+2022.02.09 22:07:34 INFO  time: initialize in 2.42s
+2022.02.09 22:07:37 INFO  Attempting to connect to the build server...
+2022.02.09 22:07:37 INFO  skipping build import with status 'Requested'
+2022.02.09 22:07:38 ERROR Starting the bsp launcher for bloop...
+2022.02.09 22:07:38 ERROR Opening a bsp server connection with 'bsp --protocol tcp --port 16466'...
+2022.02.09 22:07:38 ERROR Waiting for the bsp connection to come up...
+2022.02.09 22:07:38 ERROR error: The command bsp --protocol tcp --port 16466 returned with an error
+2022.02.09 22:07:38 ERROR > [0m[32m[D][0m Loading workspace settings from bloop.settings.json
+2022.02.09 22:07:38 ERROR > [0m[32m[D][0m Loading 2 projects from 'c:\Users\pcc\Desktop\Project2\.bloop'...
+2022.02.09 22:07:38 ERROR > [0m[32m[D][0m Loading project from 'c:\Users\pcc\Desktop\Project2\.bloop\project2.json'
+2022.02.09 22:07:38 ERROR > [0m[32m[D][0m Loading project from 'c:\Users\pcc\Desktop\Project2\.bloop\project2-test.json'
+2022.02.09 22:07:38 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\leifr\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.11.12\scala-library-2.11.12.jar doesn't exist!
+2022.02.09 22:07:38 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\leifr\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.11.12\scala-compiler-2.11.12.jar doesn't exist!
+2022.02.09 22:07:38 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\leifr\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.11.12\scala-reflect-2.11.12.jar doesn't exist!
+2022.02.09 22:07:38 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\leifr\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-xml_2.11\1.0.5\scala-xml_2.11-1.0.5.jar doesn't exist!
+2022.02.09 22:07:38 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\leifr\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-parser-combinators_2.11\1.0.4\scala-parser-combinators_2.11-1.0.4.jar doesn't exist!
+2022.02.09 22:07:38 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\leifr\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\jline\jline\2.14.3\jline-2.14.3.jar doesn't exist!
+2022.02.09 22:07:38 ERROR > [0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.11.12.
+2022.02.09 22:07:38 ERROR > [0m[32m[D][0m   => C:\Users\leifr\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\jline\jline\2.14.3\jline-2.14.3.jar
+2022.02.09 22:07:38 ERROR > [0m[32m[D][0m   => C:\Users\leifr\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-parser-combinators_2.11\1.0.4\scala-parser-combinators_2.11-1.0.4.jar
+2022.02.09 22:07:38 ERROR > [0m[32m[D][0m   => C:\Users\leifr\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-xml_2.11\1.0.5\scala-xml_2.11-1.0.5.jar
+2022.02.09 22:07:38 ERROR > [0m[32m[D][0m   => C:\Users\leifr\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.11.12\scala-compiler-2.11.12.jar
+2022.02.09 22:07:38 ERROR > [0m[32m[D][0m   => C:\Users\leifr\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.11.12\scala-library-2.11.12.jar
+2022.02.09 22:07:38 ERROR > [0m[32m[D][0m   => C:\Users\leifr\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.11.12\scala-reflect-2.11.12.jar
+2022.02.09 22:07:38 ERROR > [0m[32m[D][0m Elapsed: 35.5652 ms
+2022.02.09 22:07:38 ERROR > [0m[31m[E][0m Failed to load project from c:\Users\pcc\Desktop\Project2\.bloop\project2.json
+2022.02.09 22:07:38 ERROR > [0m[36m[T][0m bloop.data.Project$ProjectReadException: Failed to load project from c:\Users\pcc\Desktop\Project2\.bloop\project2.json
+2022.02.09 22:07:38 ERROR > [0m[36m[T][0m 	bloop.data.Project$.fromBytesAndOrigin(Project.scala:280)
+2022.02.09 22:07:38 ERROR > [0m[36m[T][0m 	bloop.engine.BuildLoader$.loadProject(BuildLoader.scala:256)
+2022.02.09 22:07:38 ERROR > [0m[36m[T][0m 	bloop.engine.BuildLoader$.$anonfun$loadBuildIncrementally$3(BuildLoader.scala:60)
+2022.02.09 22:07:38 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskRunLoop$.monix$eval$internal$TaskRunLoop$$loop$1(TaskRunLoop.scala:187)
+2022.02.09 22:07:38 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskRunLoop$RestartCallback$1.onSuccess(TaskRunLoop.scala:119)
+2022.02.09 22:07:38 ERROR > [0m[36m[T][0m 	monix.eval.Task$.$anonfun$forkedUnit$2(Task.scala:1463)
+2022.02.09 22:07:38 ERROR > [0m[36m[T][0m 	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+2022.02.09 22:07:38 ERROR > [0m[36m[T][0m 	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+2022.02.09 22:07:38 ERROR > [0m[36m[T][0m 	java.lang.Thread.run(Thread.java:750)
+2022.02.09 22:07:38 ERROR > [0m[36m[T][0m Caused by: java.nio.file.NoSuchFileException: C:\Users\leifr\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.11.12\scala-library-2.11.12.jar
+2022.02.09 22:07:38 ERROR > [0m[36m[T][0m 	sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:79)
+2022.02.09 22:07:38 ERROR > [0m[36m[T][0m 	sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)
+2022.02.09 22:07:38 ERROR > [0m[36m[T][0m 	sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102)
+2022.02.09 22:07:38 ERROR > [0m[36m[T][0m 	sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:53)
+2022.02.09 22:07:38 ERROR > [0m[36m[T][0m 	sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:38)[0m[33m[W][0m Scala instance jar C:\Users\leifr\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.11.12\scala-library-2.11.12.jar doesn't exist!
+2022.02.09 22:07:38 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\leifr\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.11.12\scala-compiler-2.11.12.jar doesn't exist!
+2022.02.09 22:07:38 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\leifr\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.11.12\scala-reflect-2.11.12.jar doesn't exist!
+2022.02.09 22:07:38 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\leifr\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-xml_2.11\1.0.5\scala-xml_2.11-1.0.5.jar doesn't exist!
+2022.02.09 22:07:38 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\leifr\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-parser-combinators_2.11\1.0.4\scala-parser-combinators_2.11-1.0.4.jar doesn't exist!
+2022.02.09 22:07:38 ERROR > [0m[33m[W][0m Scala instance jar C:\Users\leifr\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\jline\jline\2.14.3\jline-2.14.3.jar doesn't exist!
+2022.02.09 22:07:38 ERROR > 
+2022.02.09 22:07:38 ERROR > [0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.11.12.
+2022.02.09 22:07:38 ERROR > [0m[32m[D][0m   => C:\Users\leifr\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\jline\jline\2.14.3\jline-2.14.3.jar
+2022.02.09 22:07:38 ERROR > [0m[36m[T][0m 	sun.nio.fs.WindowsFileSystemProvider.readAttributes(WindowsFileSystemProvider.java:193)
+2022.02.09 22:07:38 ERROR > [0m[36m[T][0m 	java.nio.file.Files.readAttributes(Files.java:1737)
+2022.02.09 22:07:38 ERROR > [0m[36m[T][0m 	bloop.ScalaInstance.$anonfun$hashCode$1(ScalaInstance.scala:82)
+2022.02.09 22:07:38 ERROR > [0m[36m[T][0m 	scala.collection.TraversableLike.$anonfun$map$1(TraversableLike.scala:286)
+2022.02.09 22:07:38 ERROR > [0m[36m[T][0m 	scala.collection.IndexedSeqOptimized.foreach(IndexedSeqOptimized.scala:36)
+2022.02.09 22:07:38 ERROR > [0m[36m[T][0m 	scala.collection.IndexedSeqOptimized.foreach$(IndexedSeqOptimized.scala:33)
+2022.02.09 22:07:38 ERROR > [0m[36m[T][0m 	scala.collection.mutable.WrappedArray.foreach(WrappedArray.scala:38)
+2022.02.09 22:07:38 ERROR > [0m[36m[T][0m 	scala.collection.TraversableLike.map(TraversableLike.scala:286)
+2022.02.09 22:07:38 ERROR > [0m[32m[D][0m   => C:\Users\leifr\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-parser-combinators_2.11\1.0.4\scala-parser-combinators_2.11-1.0.4.jar
+2022.02.09 22:07:38 ERROR > [0m[36m[T][0m 	scala.collection.TraversableLike.map$(TraversableLike.scala:279)
+2022.02.09 22:07:38 ERROR > [0m[32m[D][0m   => C:\Users\leifr\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-xml_2.11\1.0.5\scala-xml_2.11-1.0.5.jar
+2022.02.09 22:07:38 ERROR > [0m[36m[T][0m 	scala.collection.AbstractTraversable.map(Traversable.scala:108)
+2022.02.09 22:07:38 ERROR > [0m[32m[D][0m   => C:\Users\leifr\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.11.12\scala-compiler-2.11.12.jar
+2022.02.09 22:07:38 ERROR > [0m[32m[D][0m   => C:\Users\leifr\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.11.12\scala-library-2.11.12.jar
+2022.02.09 22:07:38 ERROR > [0m[32m[D][0m   => C:\Users\leifr\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.11.12\scala-reflect-2.11.12.jar
+2022.02.09 22:07:38 ERROR > [0m[36m[T][0m 	bloop.ScalaInstance.<init>(ScalaInstance.scala:78)
+2022.02.09 22:07:38 ERROR > [0m[36m[T][0m 	bloop.ScalaInstance$.newInstance$1(ScalaInstance.scala:152)
+2022.02.09 22:07:38 ERROR > [0m[36m[T][0m 	bloop.ScalaInstance$.$anonfun$apply$7(ScalaInstance.scala:157)
+2022.02.09 22:07:38 ERROR > bloop.data.Project$ProjectReadException: Failed to load project from c:\Users\pcc\Desktop\Project2\.bloop\project2-test.json
+2022.02.09 22:07:38 ERROR > [0m[36m[T][0m 	java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1660)
+2022.02.09 22:07:38 ERROR > 	at bloop.data.Project$.fromBytesAndOrigin(Project.scala:280)
+2022.02.09 22:07:38 ERROR > 	at bloop.engine.BuildLoader$.loadProject(BuildLoader.scala:256)
+2022.02.09 22:07:38 ERROR > 	at bloop.engine.BuildLoader$.$anonfun$loadBuildIncrementally$3(BuildLoader.scala:60)
+2022.02.09 22:07:38 ERROR > 	at monix.eval.internal.TaskRunLoop$.monix$eval$internal$TaskRunLoop$$loop$1(TaskRunLoop.scala:187)
+2022.02.09 22:07:38 ERROR > 	at monix.eval.internal.TaskRunLoop$RestartCallback$1.onSuccess(TaskRunLoop.scala:119)
+2022.02.09 22:07:38 ERROR > 	at monix.eval.Task$.$anonfun$forkedUnit$2(Task.scala:1463)
+2022.02.09 22:07:38 ERROR > 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+2022.02.09 22:07:38 ERROR > 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+2022.02.09 22:07:38 ERROR > 	at java.lang.Thread.run(Thread.java:750)
+2022.02.09 22:07:38 ERROR > Caused by: java.nio.file.NoSuchFileException: C:\Users\leifr\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.11.12\scala-library-2.11.12.jar
+2022.02.09 22:07:38 ERROR > 	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:79)
+2022.02.09 22:07:38 ERROR > 	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)
+2022.02.09 22:07:38 ERROR > 	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102)
+2022.02.09 22:07:38 ERROR > 	at sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:53)
+2022.02.09 22:07:38 ERROR > 	at sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:38)
+2022.02.09 22:07:38 ERROR > 	at sun.nio.fs.WindowsFileSystemProvider.readAttributes(WindowsFileSystemProvider.java:193)
+2022.02.09 22:07:38 ERROR > 	at java.nio.file.Files.readAttributes(Files.java:1737)
+2022.02.09 22:07:38 ERROR > 	at bloop.ScalaInstance.$anonfun$hashCode$1(ScalaInstance.scala:82)
+2022.02.09 22:07:38 ERROR > 	at scala.collection.TraversableLike.$anonfun$map$1(TraversableLike.scala:286)
+2022.02.09 22:07:38 ERROR > 	at scala.collection.IndexedSeqOptimized.foreach(IndexedSeqOptimized.scala:36)
+2022.02.09 22:07:38 ERROR > 	at scala.collection.IndexedSeqOptimized.foreach$(IndexedSeqOptimized.scala:33)
+2022.02.09 22:07:38 ERROR > 	at scala.collection.mutable.WrappedArray.foreach(WrappedArray.scala:38)
+2022.02.09 22:07:38 ERROR > 	at scala.collection.TraversableLike.map(TraversableLike.scala:286)
+2022.02.09 22:07:38 ERROR > 	at scala.collection.TraversableLike.map$(TraversableLike.scala:279)
+2022.02.09 22:07:38 ERROR > 	at scala.collection.AbstractTraversable.map(Traversable.scala:108)
+2022.02.09 22:07:38 ERROR > 	at bloop.ScalaInstance.<init>(ScalaInstance.scala:78)
+2022.02.09 22:07:38 ERROR > [0m[36m[T][0m 	bloop.ScalaInstance$.apply(ScalaInstance.scala:157)
+2022.02.09 22:07:38 ERROR > 	at bloop.ScalaInstance$.newInstance$1(ScalaInstance.scala:152)
+2022.02.09 22:07:38 ERROR > 	at bloop.ScalaInstance$.$anonfun$apply$7(ScalaInstance.scala:157)
+2022.02.09 22:07:38 ERROR > 	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1660)
+2022.02.09 22:07:38 ERROR > [0m[36m[T][0m 	bloop.data.Project$.$anonfun$fromConfig$1(Project.scala:297)
+2022.02.09 22:07:38 ERROR > 	at bloop.ScalaInstance$.apply(ScalaInstance.scala:157)
+2022.02.09 22:07:38 ERROR > [0m[36m[T][0m 	scala.Option.flatMap(Option.scala:271)
+2022.02.09 22:07:38 ERROR > [0m[36m[T][0m 	bloop.data.Project$.fromConfig(Project.scala:292)
+2022.02.09 22:07:38 ERROR > 	at bloop.data.Project$.$anonfun$fromConfig$1(Project.scala:297)
+2022.02.09 22:07:38 ERROR > 	at scala.Option.flatMap(Option.scala:271)
+2022.02.09 22:07:38 ERROR > 	at bloop.data.Project$.fromConfig(Project.scala:292)
+2022.02.09 22:07:38 ERROR > 	at bloop.data.Project$.fromBytesAndOrigin(Project.scala:274)
+2022.02.09 22:07:38 ERROR > 	... 8 more
+2022.02.09 22:07:38 ERROR > [0m[36m[T][0m 	bloop.data.Project$.fromBytesAndOrigin(Project.scala:274)
+2022.02.09 22:07:38 ERROR > [0m[36m[T][0m 	bloop.engine.BuildLoader$.loadProject(BuildLoader.scala:256)
+2022.02.09 22:07:38 ERROR > [0m[36m[T][0m 	bloop.engine.BuildLoader$.$anonfun$loadBuildIncrementally$3(BuildLoader.scala:60)
+2022.02.09 22:07:38 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskRunLoop$.monix$eval$internal$TaskRunLoop$$loop$1(TaskRunLoop.scala:187)
+2022.02.09 22:07:38 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskRunLoop$RestartCallback$1.onSuccess(TaskRunLoop.scala:119)
+2022.02.09 22:07:38 ERROR > [0m[36m[T][0m 	monix.eval.Task$.$anonfun$forkedUnit$2(Task.scala:1463)
+2022.02.09 22:07:38 ERROR > [0m[36m[T][0m 	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+2022.02.09 22:07:38 ERROR > [0m[36m[T][0m 	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+2022.02.09 22:07:38 ERROR > [0m[36m[T][0m 	java.lang.Thread.run(Thread.java:750)
+2022.02.09 22:07:38 ERROR error: The launcher failed to establish a bsp connection, aborting...
+2022.02.09 22:07:38 ERROR Failed to connect with build server, no functionality will work.
+java.lang.RuntimeException: The server did not start, got FailedToOpenBspConnection
+	at bloop.launcher.LauncherMain.failPromise$1(Launcher.scala:95)
+	at bloop.launcher.LauncherMain.runLauncher(Launcher.scala:122)
+	at scala.meta.internal.metals.BloopServers$$anon$2.run(BloopServers.scala:169)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+2022.02.09 22:07:38 WARN  no build target for: C:\Users\pcc\Desktop\Project2\src\main\scala\Project2.scala
+2022.02.09 22:07:38 WARN  no build target for: C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.09 22:07:42 INFO  no build target found for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala. Using presentation compiler with project's scala-library version: 3.1.0
+Feb 09, 2022 10:07:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+Feb 09, 2022 10:07:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6
+Feb 09, 2022 10:07:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8
+Feb 09, 2022 10:07:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3
+Feb 09, 2022 10:07:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9
+2022.02.09 22:07:43 WARN  no build target for: C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.09 22:07:46 INFO  time: code lens generation in 2.67s
+2022.02.09 22:07:46 INFO  time: code lens generation in 3.55s
+2022.02.09 22:07:46 INFO  time: code lens generation in 7.94s
+Feb 09, 2022 10:07:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 21
+2022.02.09 22:07:46 INFO  running 'C:\Program Files\Java\jdk1.8.0_321\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\pcc\AppData\Local\Temp\metals1916156580706732792\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2022.02.09 22:07:47 ERROR Picked up _JAVA_OPTIONS: -Djava.net.preferIPv4Stack=true
+2022.02.09 22:07:49 INFO  [info] welcome to sbt 1.6.1 (Oracle Corporation Java 1.8.0_321)
+2022.02.09 22:07:51 INFO  [info] loading settings for project project2-build-build from metals.sbt ...
+2022.02.09 22:07:53 INFO  [info] loading project definition from C:\Users\pcc\Desktop\Project2\project\project
+2022.02.09 22:07:54 INFO  [info] loading settings for project project2-build from metals.sbt ...
+2022.02.09 22:07:54 INFO  [info] loading project definition from C:\Users\pcc\Desktop\Project2\project
+2022.02.09 22:07:54 INFO  [warn] sbt-bloop-1.4.12-sources.jar no longer exists at C:\Users\leifr\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\ch\epfl\scala\sbt-bloop_2.12_1.0\1.4.12\sbt-bloop-1.4.12-sources.jar
+2022.02.09 22:08:01 INFO  [success] Generated .bloop\project2-build.json
+2022.02.09 22:08:01 INFO  [success] Total time: 6 s, completed Feb 9, 2022 10:08:01 PM
+2022.02.09 22:08:01 INFO  [info] loading settings for project project2 from build.sbt ...
+2022.02.09 22:08:02 INFO  [info] set current project to Project2 (in build file:/C:/Users/pcc/Desktop/Project2/)
+2022.02.09 22:08:04 INFO  [warn] scala-library-2.11.12-sources.jar no longer exists at C:\Users\leifr\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.11.12\scala-library-2.11.12-sources.jar
+2022.02.09 22:08:16 INFO  [success] Generated .bloop\project2.json
+2022.02.09 22:08:16 INFO  [success] Generated .bloop\project2-test.json
+2022.02.09 22:08:16 INFO  [success] Total time: 14 s, completed Feb 9, 2022 10:08:16 PM
+2022.02.09 22:08:16 INFO  time: ran 'sbt bloopInstall' in 29s
+2022.02.09 22:08:16 INFO  Attempting to connect to the build server...
+2022.02.09 22:08:17 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\pcc\Desktop\Project2\.metals\bsp.trace.json or C:\Users\pcc\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.02.09 22:08:17 INFO  Attempting to connect to the build server...
+2022.02.09 22:08:17 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\pcc\Desktop\Project2\project\.metals\bsp.trace.json or C:\Users\pcc\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.02.09 22:08:17 INFO  time: Connected to build server in 0.41s
+2022.02.09 22:08:17 INFO  Connected to Build server: Bloop v1.4.12
+2022.02.09 22:08:17 INFO  time: Imported build in 0.35s
+2022.02.09 22:08:54 INFO  time: indexed workspace in 37s
+2022.02.09 22:08:56 INFO  compiling project2 (3 scala sources)
+2022.02.09 22:09:03 INFO  time: compiled project2 in 6.6s
+2022.02.09 22:09:14 INFO  compiling project2 (3 scala sources)
+2022.02.09 22:09:21 WARN  there was one deprecation warning; re-run with -deprecation for details
+2022.02.09 22:09:22 INFO  time: compiled project2 in 8.61s

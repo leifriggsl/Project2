@@ -1,0 +1,25 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging C:\Users\pcc\Desktop\Project2\target\scala-2.11\project2_2.11-0.1.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	BadUserInputException$$anonfun$$lessinit$greater$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\pcc\Desktop\Project2\target\scala-2.11\classes\BadUserInputException$$anonfun$$lessinit$greater$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	BadUserInputException.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\pcc\Desktop\Project2\target\scala-2.11\classes\BadUserInputException.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	covid-data.csv[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\pcc\Desktop\Project2\target\scala-2.11\classes\covid-data.csv[0m
+[0m[[0m[0mdebug[0m] [0m[0m	org[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\pcc\Desktop\Project2\target\scala-2.11\classes\org[0m
+[0m[[0m[0mdebug[0m] [0m[0m	org\apache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\pcc\Desktop\Project2\target\scala-2.11\classes\org\apache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	org\apache\spark[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\pcc\Desktop\Project2\target\scala-2.11\classes\org\apache\spark[0m
+[0m[[0m[0mdebug[0m] [0m[0m	org\apache\spark\sql[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\pcc\Desktop\Project2\target\scala-2.11\classes\org\apache\spark\sql[0m
+[0m[[0m[0mdebug[0m] [0m[0m	org\apache\spark\sql\execution[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\pcc\Desktop\Project2\target\scala-2.11\classes\org\apache\spark\sql\execution[0m
+[0m[[0m[0mdebug[0m] [0m[0m	org\apache\spark\sql\execution\Project2$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\pcc\Desktop\Project2\target\scala-2.11\classes\org\apache\spark\sql\execution\Project2$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	org\apache\spark\sql\execution\Project2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\pcc\Desktop\Project2\target\scala-2.11\classes\org\apache\spark\sql\execution\Project2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	org\apache\spark\sql\execution\QuerL3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\pcc\Desktop\Project2\target\scala-2.11\classes\org\apache\spark\sql\execution\QuerL3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m
