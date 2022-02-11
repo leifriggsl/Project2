@@ -30,7 +30,7 @@
 [0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.DataFrameReader.load(DataFrameReader.scala:227)[0m
 [0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.DataFrameReader.csv(DataFrameReader.scala:596)[0m
 [0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.DataFrameReader.csv(DataFrameReader.scala:473)[0m
-[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.Project2$.main(Project2.scala:60)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.Project2$.main(Project2.scala:61)[0m
 [0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.Project2.main(Project2.scala)[0m
 [0m[[0m[31merror[0m] [0m[0m	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)[0m
 [0m[[0m[31merror[0m] [0m[0m	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)[0m
@@ -96,7 +96,7 @@
 [0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.DataFrameReader.load(DataFrameReader.scala:227)[0m
 [0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.DataFrameReader.csv(DataFrameReader.scala:596)[0m
 [0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.DataFrameReader.csv(DataFrameReader.scala:473)[0m
-[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.Project2$.main(Project2.scala:60)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.Project2$.main(Project2.scala:61)[0m
 [0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.Project2.main(Project2.scala)[0m
 [0m[[0m[31merror[0m] [0m[0m	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)[0m
 [0m[[0m[31merror[0m] [0m[0m	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)[0m
@@ -168,7 +168,7 @@
 [0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.DataFrameReader.load(DataFrameReader.scala:227)[0m
 [0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.DataFrameReader.csv(DataFrameReader.scala:596)[0m
 [0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.DataFrameReader.csv(DataFrameReader.scala:473)[0m
-[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.Project2$.main(Project2.scala:60)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.Project2$.main(Project2.scala:61)[0m
 [0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.Project2.main(Project2.scala)[0m
 [0m[[0m[31merror[0m] [0m[0m	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)[0m
 [0m[[0m[31merror[0m] [0m[0m	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)[0m
@@ -244,7 +244,7 @@
 [0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.DataFrameReader.load(DataFrameReader.scala:227)[0m
 [0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.DataFrameReader.csv(DataFrameReader.scala:596)[0m
 [0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.DataFrameReader.csv(DataFrameReader.scala:473)[0m
-[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.Project2$.main(Project2.scala:60)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.Project2$.main(Project2.scala:61)[0m
 [0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.Project2.main(Project2.scala)[0m
 [0m[[0m[31merror[0m] [0m[0m	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)[0m
 [0m[[0m[31merror[0m] [0m[0m	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)[0m
@@ -264,7 +264,7 @@
 [0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)[0m
 [0m[[0m[31merror[0m] [0m[0m	at java.lang.Thread.run(Thread.java:750)[0m
 [0m[[0m[31merror[0m] [0m[0mCaused by: javax.jdo.JDOFatalDataStoreException: Unable to open a test connection to the given database. JDBC url = jdbc:derby:;databaseName=metastore_db;create=true, username = APP. Terminating connection pool (set lazyInit to true if you expect to start your database after your app). Original Exception: ------[0m
-[0m[[0m[31merror[0m] [0m[0mjava.sql.SQLException: Failed to start database 'metastore_db' with class loader org.apache.spark.sql.hive.client.IsolatedClientLoader$$anon$1@3f3698af, see the next exception for details.[0m
+[0m[[0m[31merror[0m] [0m[0mjava.sql.SQLException: Failed to start database 'metastore_db' with class loader org.apache.spark.sql.hive.client.IsolatedClientLoader$$anon$1@662e88d9, see the next exception for details.[0m
 [0m[[0m[31merror[0m] [0m[0m	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)[0m
 [0m[[0m[31merror[0m] [0m[0m	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)[0m
 [0m[[0m[31merror[0m] [0m[0m	at org.apache.derby.impl.jdbc.Util.seeNextException(Unknown Source)[0m
@@ -378,7 +378,7 @@
 [0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.DataFrameReader.load(DataFrameReader.scala:227)[0m
 [0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.DataFrameReader.csv(DataFrameReader.scala:596)[0m
 [0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.DataFrameReader.csv(DataFrameReader.scala:473)[0m
-[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.Project2$.main(Project2.scala:60)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.Project2$.main(Project2.scala:61)[0m
 [0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.Project2.main(Project2.scala)[0m
 [0m[[0m[31merror[0m] [0m[0m	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)[0m
 [0m[[0m[31merror[0m] [0m[0m	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)[0m
@@ -397,7 +397,7 @@
 [0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)[0m
 [0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)[0m
 [0m[[0m[31merror[0m] [0m[0m	at java.lang.Thread.run(Thread.java:750)[0m
-[0m[[0m[31merror[0m] [0m[0mCaused by: ERROR XJ040: Failed to start database 'metastore_db' with class loader org.apache.spark.sql.hive.client.IsolatedClientLoader$$anon$1@3f3698af, see the next exception for details.[0m
+[0m[[0m[31merror[0m] [0m[0mCaused by: ERROR XJ040: Failed to start database 'metastore_db' with class loader org.apache.spark.sql.hive.client.IsolatedClientLoader$$anon$1@662e88d9, see the next exception for details.[0m
 [0m[[0m[31merror[0m] [0m[0m	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)[0m
 [0m[[0m[31merror[0m] [0m[0m	at org.apache.derby.impl.jdbc.SQLExceptionFactory.wrapArgsForTransportAcrossDRDA(Unknown Source)[0m
 [0m[[0m[31merror[0m] [0m[0m	... 132 more[0m
@@ -453,7 +453,7 @@
 [0m[[0m[31merror[0m] [0m[0m[0m
 [0m[[0m[31merror[0m] [0m[0mNestedThrowables:[0m
 [0m[[0m[31merror[0m] [0m[0mjava.sql.SQLException: Unable to open a test connection to the given database. JDBC url = jdbc:derby:;databaseName=metastore_db;create=true, username = APP. Terminating connection pool (set lazyInit to true if you expect to start your database after your app). Original Exception: ------[0m
-[0m[[0m[31merror[0m] [0m[0mjava.sql.SQLException: Failed to start database 'metastore_db' with class loader org.apache.spark.sql.hive.client.IsolatedClientLoader$$anon$1@3f3698af, see the next exception for details.[0m
+[0m[[0m[31merror[0m] [0m[0mjava.sql.SQLException: Failed to start database 'metastore_db' with class loader org.apache.spark.sql.hive.client.IsolatedClientLoader$$anon$1@662e88d9, see the next exception for details.[0m
 [0m[[0m[31merror[0m] [0m[0m	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)[0m
 [0m[[0m[31merror[0m] [0m[0m	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)[0m
 [0m[[0m[31merror[0m] [0m[0m	at org.apache.derby.impl.jdbc.Util.seeNextException(Unknown Source)[0m
@@ -567,7 +567,7 @@
 [0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.DataFrameReader.load(DataFrameReader.scala:227)[0m
 [0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.DataFrameReader.csv(DataFrameReader.scala:596)[0m
 [0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.DataFrameReader.csv(DataFrameReader.scala:473)[0m
-[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.Project2$.main(Project2.scala:60)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.Project2$.main(Project2.scala:61)[0m
 [0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.Project2.main(Project2.scala)[0m
 [0m[[0m[31merror[0m] [0m[0m	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)[0m
 [0m[[0m[31merror[0m] [0m[0m	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)[0m
@@ -586,7 +586,7 @@
 [0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)[0m
 [0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)[0m
 [0m[[0m[31merror[0m] [0m[0m	at java.lang.Thread.run(Thread.java:750)[0m
-[0m[[0m[31merror[0m] [0m[0mCaused by: ERROR XJ040: Failed to start database 'metastore_db' with class loader org.apache.spark.sql.hive.client.IsolatedClientLoader$$anon$1@3f3698af, see the next exception for details.[0m
+[0m[[0m[31merror[0m] [0m[0mCaused by: ERROR XJ040: Failed to start database 'metastore_db' with class loader org.apache.spark.sql.hive.client.IsolatedClientLoader$$anon$1@662e88d9, see the next exception for details.[0m
 [0m[[0m[31merror[0m] [0m[0m	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)[0m
 [0m[[0m[31merror[0m] [0m[0m	at org.apache.derby.impl.jdbc.SQLExceptionFactory.wrapArgsForTransportAcrossDRDA(Unknown Source)[0m
 [0m[[0m[31merror[0m] [0m[0m	... 132 more[0m
@@ -727,7 +727,7 @@
 [0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.DataFrameReader.load(DataFrameReader.scala:227)[0m
 [0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.DataFrameReader.csv(DataFrameReader.scala:596)[0m
 [0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.DataFrameReader.csv(DataFrameReader.scala:473)[0m
-[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.Project2$.main(Project2.scala:60)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.Project2$.main(Project2.scala:61)[0m
 [0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.Project2.main(Project2.scala)[0m
 [0m[[0m[31merror[0m] [0m[0m	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)[0m
 [0m[[0m[31merror[0m] [0m[0m	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)[0m
@@ -747,7 +747,7 @@
 [0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)[0m
 [0m[[0m[31merror[0m] [0m[0m	at java.lang.Thread.run(Thread.java:750)[0m
 [0m[[0m[31merror[0m] [0m[0mCaused by: java.sql.SQLException: Unable to open a test connection to the given database. JDBC url = jdbc:derby:;databaseName=metastore_db;create=true, username = APP. Terminating connection pool (set lazyInit to true if you expect to start your database after your app). Original Exception: ------[0m
-[0m[[0m[31merror[0m] [0m[0mjava.sql.SQLException: Failed to start database 'metastore_db' with class loader org.apache.spark.sql.hive.client.IsolatedClientLoader$$anon$1@3f3698af, see the next exception for details.[0m
+[0m[[0m[31merror[0m] [0m[0mjava.sql.SQLException: Failed to start database 'metastore_db' with class loader org.apache.spark.sql.hive.client.IsolatedClientLoader$$anon$1@662e88d9, see the next exception for details.[0m
 [0m[[0m[31merror[0m] [0m[0m	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)[0m
 [0m[[0m[31merror[0m] [0m[0m	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)[0m
 [0m[[0m[31merror[0m] [0m[0m	at org.apache.derby.impl.jdbc.Util.seeNextException(Unknown Source)[0m
@@ -861,7 +861,7 @@
 [0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.DataFrameReader.load(DataFrameReader.scala:227)[0m
 [0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.DataFrameReader.csv(DataFrameReader.scala:596)[0m
 [0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.DataFrameReader.csv(DataFrameReader.scala:473)[0m
-[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.Project2$.main(Project2.scala:60)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.Project2$.main(Project2.scala:61)[0m
 [0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.Project2.main(Project2.scala)[0m
 [0m[[0m[31merror[0m] [0m[0m	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)[0m
 [0m[[0m[31merror[0m] [0m[0m	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)[0m
@@ -880,7 +880,7 @@
 [0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)[0m
 [0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)[0m
 [0m[[0m[31merror[0m] [0m[0m	at java.lang.Thread.run(Thread.java:750)[0m
-[0m[[0m[31merror[0m] [0m[0mCaused by: ERROR XJ040: Failed to start database 'metastore_db' with class loader org.apache.spark.sql.hive.client.IsolatedClientLoader$$anon$1@3f3698af, see the next exception for details.[0m
+[0m[[0m[31merror[0m] [0m[0mCaused by: ERROR XJ040: Failed to start database 'metastore_db' with class loader org.apache.spark.sql.hive.client.IsolatedClientLoader$$anon$1@662e88d9, see the next exception for details.[0m
 [0m[[0m[31merror[0m] [0m[0m	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)[0m
 [0m[[0m[31merror[0m] [0m[0m	at org.apache.derby.impl.jdbc.SQLExceptionFactory.wrapArgsForTransportAcrossDRDA(Unknown Source)[0m
 [0m[[0m[31merror[0m] [0m[0m	... 132 more[0m
@@ -1037,7 +1037,7 @@
 [0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.DataFrameReader.load(DataFrameReader.scala:227)[0m
 [0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.DataFrameReader.csv(DataFrameReader.scala:596)[0m
 [0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.DataFrameReader.csv(DataFrameReader.scala:473)[0m
-[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.Project2$.main(Project2.scala:60)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.Project2$.main(Project2.scala:61)[0m
 [0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.Project2.main(Project2.scala)[0m
 [0m[[0m[31merror[0m] [0m[0m	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)[0m
 [0m[[0m[31merror[0m] [0m[0m	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)[0m
@@ -1056,7 +1056,7 @@
 [0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)[0m
 [0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)[0m
 [0m[[0m[31merror[0m] [0m[0m	at java.lang.Thread.run(Thread.java:750)[0m
-[0m[[0m[31merror[0m] [0m[0mCaused by: java.sql.SQLException: Failed to start database 'metastore_db' with class loader org.apache.spark.sql.hive.client.IsolatedClientLoader$$anon$1@3f3698af, see the next exception for details.[0m
+[0m[[0m[31merror[0m] [0m[0mCaused by: java.sql.SQLException: Failed to start database 'metastore_db' with class loader org.apache.spark.sql.hive.client.IsolatedClientLoader$$anon$1@662e88d9, see the next exception for details.[0m
 [0m[[0m[31merror[0m] [0m[0m	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)[0m
 [0m[[0m[31merror[0m] [0m[0m	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)[0m
 [0m[[0m[31merror[0m] [0m[0m	at org.apache.derby.impl.jdbc.Util.seeNextException(Unknown Source)[0m
@@ -1170,7 +1170,7 @@
 [0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.DataFrameReader.load(DataFrameReader.scala:227)[0m
 [0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.DataFrameReader.csv(DataFrameReader.scala:596)[0m
 [0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.DataFrameReader.csv(DataFrameReader.scala:473)[0m
-[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.Project2$.main(Project2.scala:60)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.Project2$.main(Project2.scala:61)[0m
 [0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.Project2.main(Project2.scala)[0m
 [0m[[0m[31merror[0m] [0m[0m	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)[0m
 [0m[[0m[31merror[0m] [0m[0m	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)[0m
@@ -1189,7 +1189,7 @@
 [0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)[0m
 [0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)[0m
 [0m[[0m[31merror[0m] [0m[0m	at java.lang.Thread.run(Thread.java:750)[0m
-[0m[[0m[31merror[0m] [0m[0mCaused by: ERROR XJ040: Failed to start database 'metastore_db' with class loader org.apache.spark.sql.hive.client.IsolatedClientLoader$$anon$1@3f3698af, see the next exception for details.[0m
+[0m[[0m[31merror[0m] [0m[0mCaused by: ERROR XJ040: Failed to start database 'metastore_db' with class loader org.apache.spark.sql.hive.client.IsolatedClientLoader$$anon$1@662e88d9, see the next exception for details.[0m
 [0m[[0m[31merror[0m] [0m[0m	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)[0m
 [0m[[0m[31merror[0m] [0m[0m	at org.apache.derby.impl.jdbc.SQLExceptionFactory.wrapArgsForTransportAcrossDRDA(Unknown Source)[0m
 [0m[[0m[31merror[0m] [0m[0m	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)[0m
@@ -1305,7 +1305,7 @@
 [0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.DataFrameReader.load(DataFrameReader.scala:227)[0m
 [0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.DataFrameReader.csv(DataFrameReader.scala:596)[0m
 [0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.DataFrameReader.csv(DataFrameReader.scala:473)[0m
-[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.Project2$.main(Project2.scala:60)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.Project2$.main(Project2.scala:61)[0m
 [0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.Project2.main(Project2.scala)[0m
 [0m[[0m[31merror[0m] [0m[0m	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)[0m
 [0m[[0m[31merror[0m] [0m[0m	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)[0m
@@ -1481,7 +1481,7 @@
 [0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.DataFrameReader.load(DataFrameReader.scala:227)[0m
 [0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.DataFrameReader.csv(DataFrameReader.scala:596)[0m
 [0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.DataFrameReader.csv(DataFrameReader.scala:473)[0m
-[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.Project2$.main(Project2.scala:60)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.Project2$.main(Project2.scala:61)[0m
 [0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.Project2.main(Project2.scala)[0m
 [0m[[0m[31merror[0m] [0m[0m	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)[0m
 [0m[[0m[31merror[0m] [0m[0m	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)[0m

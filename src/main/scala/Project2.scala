@@ -17,6 +17,7 @@ import org.apache.spark.sql.execution.aggregate.HashAggregateExec
 import org.apache.spark.sql.execution.joins.BroadcastHashJoinExec
 import org.apache.spark.sql.expressions.scalalang.typed
 import org.apache.spark.sql.functions.{avg, broadcast, col, max}
+import org.apache.spark.sql.functions.desc
 //import org.apache.spark.sql.test.SharedSQLContext
 import org.apache.spark.sql.types
 
@@ -64,8 +65,10 @@ val dataFrame=spark.read.option("header", "true").csv("src/main/resources/covid-
 //dataFrame.groupby().max().show(20)
 //dataFrame.groupBy("aged_65_older").agg(max("people_fully_vaccinated")/max("population")).show(10)
 //dataFrame.groupBy("location", "total_deaths").agg(max("total_tests")/max("population")).show(10)
-var qureClass = new QuerL3()
-
+var qureClass = new QuerL3(dataFrame)
+qureClass.totTestCou()
+qureClass.peoFuVac()
+qureClass.gdpDePo()
 
 //dataFrame.show()
 //MaxTotalDeaths(sparkCtx:SparkContext)

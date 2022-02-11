@@ -19,36 +19,38 @@ import org.apache.spark.sql.expressions.scalalang.typed
 import org.apache.spark.sql.functions.{avg, broadcast, col, max}
 //import org.apache.spark.sql.test.SharedSQLContext
 import org.apache.spark.sql.types
+import org.apache.spark.sql.functions.desc
+import org.apache.spark.sql.DataFrame
 
-class QuerL3 {
-    peoFuVac()
-    totTestCou()
+
+
+class QuerL3(df:DataFrame) {
+ 
     def peoFuVac(): Unit={
-    val spark=SparkSession
-    .builder
-    .appName("SparkHelloWorld")
-    .config("spark.master", "local")
-    .config("spark.eventLog.enabled", "false")
-    .getOrCreate()
+        println("==================== Top 10 locations have much people fully vaccinated and people aged older than 65 ==============")
+  
 
-    val dataFrame=spark.read.option("header", "true").csv("src/main/resources/covid-data.csv")
-    dataFrame.groupBy("aged_65_older").agg(max("people_fully_vaccinated")/max("population")).show(10)
+    //val dataFrame=spark.read.option("header", "true").csv("src/main/resources/covid-data.csv")
+        df.groupBy("location", "aged_65_older").agg(max("people_fully_vaccinated")/max("population")).show(10)
 
-    spark.stop()
+    
 }
-    //top 10 country with total_tests/population order by country desc
+ 
+  //top 10 country with total_tests/population order by country desc
     def totTestCou(): Unit={
-        val spark=SparkSession
-        .builder
-        .appName("SparkHelloWorld")
-        .config("spark.master", "local")
-        .config("spark.eventLog.enabled", "false")
-        .getOrCreate()
+        println("==================== Top 10 country with max tests and less deaths ================")
+       
 
-        val dataFrame=spark.read.option("header", "true").csv("src/main/resources/covid-data.csv")
-        dataFrame.groupBy("location", "total_deaths").agg(max("total_tests")/max("population")).show(10)
+        //val dataFrame=spark.read.option("header", "true").csv("src/main/resources/covid-data.csv")
+        df.groupBy("location","total_deaths").agg(max("total_tests")/max("population")).orderBy(desc("total_deaths")).show(10)
 
-        spark.stop()
+        
+    }
+    //SELECT gdp_per_capita from dataFrame2 where total_deaths/total_population>  order by gdp_per_capita  DESC
+    def gdpDePo(): Unit={
+        println("==================== Top 5 country with max deaths and max population density ================")
+        //df.groupBy("location").agg(max("total_deaths") / max("total_population")).orderBy(desc("gdp_per_capita")).show(20)
+        df.groupBy("location","population_density").agg(max("total_deaths")/max("population")).orderBy(desc("population_density")).show(5)
     }
   
 }

@@ -3952,3 +3952,368 @@ WARNING: Unmatched cancel notification for request id 21
 2022.02.09 22:09:14 INFO  compiling project2 (3 scala sources)
 2022.02.09 22:09:21 WARN  there was one deprecation warning; re-run with -deprecation for details
 2022.02.09 22:09:22 INFO  time: compiled project2 in 8.61s
+2022.02.10 09:39:57 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\pcc\Desktop\Project2\.metals\lsp.trace.json or C:\Users\pcc\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.02.10 09:40:01 INFO  logging to file C:\Users\pcc\Desktop\Project2\.metals\metals.log
+2022.02.10 09:40:01 INFO  Started: Metals version 0.11.1 in workspace 'C:\Users\pcc\Desktop\Project2' for client Visual Studio Code 1.64.1.
+2022.02.10 09:40:01 INFO  Parse release: 1.8.0_321
+2022.02.10 09:40:06 INFO  time: initialize in 5.69s
+2022.02.10 09:40:17 INFO  Attempting to connect to the build server...
+2022.02.10 09:40:17 INFO  skipping build import with status 'Installed'
+2022.02.10 09:40:59 INFO  no build target found for C:\Users\pcc\Desktop\Project2\src\main\scala\Project2.scala. Using presentation compiler with project's scala-library version: 3.1.0
+2022.02.10 09:41:01 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\pcc\Desktop\Project2\.metals\bsp.trace.json or C:\Users\pcc\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.02.10 09:41:01 INFO  Attempting to connect to the build server...
+2022.02.10 09:41:01 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\pcc\Desktop\Project2\project\.metals\bsp.trace.json or C:\Users\pcc\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.02.10 09:41:01 INFO  time: Connected to build server in 45s
+2022.02.10 09:41:01 INFO  Connected to Build server: Bloop v1.4.12
+2022.02.10 09:41:15 INFO  time: Imported build in 13s
+2022.02.10 09:41:20 INFO  time: code lens generation in 1m2s
+2022.02.10 09:41:24 INFO  no build target found for C:\Users\pcc\Desktop\Project2\src\main\scala\Project2.scala. Using presentation compiler with project's scala-library version: 3.1.0
+2022.02.10 09:41:27 INFO  time: code lens generation in 26s
+2022.02.10 09:41:27 INFO  time: code lens generation in 26s
+2022.02.10 09:42:10 INFO  time: indexed workspace in 55s
+2022.02.10 09:42:14 INFO  compiling project2 (1 scala source)
+2022.02.10 09:42:46 INFO  time: compiled project2 in 32s
+2022.02.10 09:47:10 INFO  compiling project2 (1 scala source)
+2022.02.10 09:47:11 INFO  time: compiled project2 in 1.36s
+Feb 10, 2022 9:47:53 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 180
+2022.02.10 09:49:59 INFO  C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala:49:9: stale bloop error: value orderby is not a member of org.apache.spark.sql.DataFrame
+        dataFrame.groupBy("location", "total_deaths").agg(max("total_tests")/max("population")).orderby(desc("total_deaths")).show(10)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.02.10 09:49:59 INFO  C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala:49:105: stale bloop error: not found: value desc
+        dataFrame.groupBy("location", "total_deaths").agg(max("total_tests")/max("population")).orderby(desc("total_deaths")).show(10)
+                                                                                                        ^^^^
+2022.02.10 09:49:59 INFO  C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala:49:9: stale bloop error: value orderby is not a member of org.apache.spark.sql.DataFrame
+        dataFrame.groupBy("location", "total_deaths").agg(max("total_tests")/max("population")).orderby(desc("total_deaths")).show(10)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.02.10 09:49:59 INFO  C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala:49:105: stale bloop error: not found: value desc
+        dataFrame.groupBy("location", "total_deaths").agg(max("total_tests")/max("population")).orderby(desc("total_deaths")).show(10)
+                                                                                                        ^^^^
+2022.02.10 09:50:34 INFO  compiling project2 (1 scala source)
+2022.02.10 09:50:36 INFO  time: compiled project2 in 1.54s
+2022.02.10 09:51:16 INFO  compiling project2 (1 scala source)
+2022.02.10 09:51:17 INFO  time: compiled project2 in 1s
+2022.02.10 09:52:01 INFO  compiling project2 (1 scala source)
+2022.02.10 09:52:01 INFO  time: compiled project2 in 0.96s
+2022.02.10 09:52:50 INFO  compiling project2 (1 scala source)
+2022.02.10 09:52:55 INFO  time: compiled project2 in 5.17s
+Feb 10, 2022 9:55:37 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 498
+Feb 10, 2022 9:57:31 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 506
+2022.02.10 09:58:38 INFO  compiling project2 (1 scala source)
+2022.02.10 09:58:41 INFO  time: compiled project2 in 3.11s
+2022.02.10 09:59:06 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 09:59:06 INFO  compiling project2 (1 scala source)
+2022.02.10 09:59:08 INFO  time: compiled project2 in 2.18s
+2022.02.10 09:59:22 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 09:59:22 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 10:08:48 INFO  compiling project2 (1 scala source)
+2022.02.10 10:08:48 INFO  time: compiled project2 in 0.94s
+2022.02.10 10:09:12 INFO  compiling project2 (1 scala source)
+2022.02.10 10:09:12 INFO  time: compiled project2 in 0.69s
+2022.02.10 10:09:37 INFO  compiling project2 (1 scala source)
+2022.02.10 10:09:40 INFO  time: compiled project2 in 3.34s
+2022.02.10 10:09:40 INFO  compiling project2 (1 scala source)
+2022.02.10 10:09:44 INFO  time: compiled project2 in 3.14s
+2022.02.10 10:09:46 INFO  compiling project2 (3 scala sources)
+2022.02.10 10:10:07 WARN  there was one deprecation warning; re-run with -deprecation for details
+2022.02.10 10:10:07 INFO  time: compiled project2 in 20s
+2022.02.10 10:10:32 INFO  compiling project2 (1 scala source)
+2022.02.10 10:10:32 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 10:10:32 INFO  time: compiled project2 in 0.67s
+2022.02.10 10:10:40 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 10:10:45 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 10:10:49 INFO  compiling project2 (1 scala source)
+2022.02.10 10:10:49 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 10:10:51 INFO  time: compiled project2 in 2.55s
+2022.02.10 10:12:06 INFO  compiling project2 (1 scala source)
+2022.02.10 10:12:07 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\Project2.scala
+2022.02.10 10:12:09 WARN  there was one deprecation warning; re-run with -deprecation for details
+2022.02.10 10:12:09 INFO  time: compiled project2 in 2.67s
+2022.02.10 10:15:12 INFO  time: code lens generation in 2.39s
+2022.02.10 10:15:12 INFO  compiling project2 (1 scala source)
+2022.02.10 10:15:28 WARN  there was one deprecation warning; re-run with -deprecation for details
+2022.02.10 10:15:28 INFO  time: compiled project2 in 15s
+2022.02.10 10:18:25 INFO  compiling project2 (1 scala source)
+2022.02.10 10:18:27 INFO  time: compiled project2 in 1.98s
+2022.02.10 16:06:54 INFO  shutting down Metals
+2022.02.10 16:06:54 INFO  Shut down connection with build server.
+2022.02.10 16:06:54 INFO  Shut down connection with build server.
+2022.02.10 20:15:55 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\pcc\Desktop\Project2\.metals\lsp.trace.json or C:\Users\pcc\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.02.10 20:15:56 INFO  logging to file C:\Users\pcc\Desktop\Project2\.metals\metals.log
+2022.02.10 20:15:56 INFO  Started: Metals version 0.11.1 in workspace 'C:\Users\pcc\Desktop\Project2' for client Visual Studio Code 1.64.2.
+2022.02.10 20:15:56 INFO  Parse release: 1.8.0_321
+2022.02.10 20:15:59 INFO  time: initialize in 2.84s
+2022.02.10 20:16:02 INFO  Attempting to connect to the build server...
+2022.02.10 20:16:02 INFO  skipping build import with status 'Installed'
+2022.02.10 20:16:02 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\pcc\Desktop\Project2\.metals\bsp.trace.json or C:\Users\pcc\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.02.10 20:16:03 INFO  Attempting to connect to the build server...
+2022.02.10 20:16:03 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\pcc\Desktop\Project2\project\.metals\bsp.trace.json or C:\Users\pcc\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.02.10 20:16:03 INFO  time: Connected to build server in 1.87s
+2022.02.10 20:16:03 INFO  Connected to Build server: Bloop v1.4.12
+2022.02.10 20:16:07 INFO  no build target found for C:\Users\pcc\Desktop\Project2\src\main\scala\Project2.scala. Using presentation compiler with project's scala-library version: 3.1.0
+2022.02.10 20:16:08 INFO  time: code lens generation in 5.05s
+2022.02.10 20:16:08 INFO  time: Imported build in 0.53s
+2022.02.10 20:16:24 INFO  time: indexed workspace in 15s
+2022.02.10 20:26:05 INFO  compiling project2 (1 scala source)
+2022.02.10 20:26:05 INFO  time: compiled project2 in 0.85s
+Feb 10, 2022 8:26:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 98
+2022.02.10 20:26:15 INFO  compiling project2 (1 scala source)
+2022.02.10 20:26:18 INFO  time: compiled project2 in 2.61s
+2022.02.10 20:31:36 INFO  compiling project2 (1 scala source)
+2022.02.10 20:31:36 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 20:31:37 INFO  time: compiled project2 in 1.21s
+2022.02.10 20:31:43 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 20:31:44 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 20:31:54 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 20:31:55 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 20:31:57 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 20:31:59 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 20:32:00 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 20:32:02 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 20:32:03 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 20:32:03 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 20:32:04 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 20:32:08 INFO  compiling project2 (1 scala source)
+2022.02.10 20:32:08 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 20:32:08 INFO  time: compiled project2 in 0.48s
+2022.02.10 20:32:19 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 20:32:20 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 20:32:22 INFO  compiling project2 (1 scala source)
+2022.02.10 20:32:22 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 20:32:24 INFO  time: compiled project2 in 1.52s
+2022.02.10 20:34:17 INFO  compiling project2 (1 scala source)
+2022.02.10 20:34:17 INFO  time: compiled project2 in 0.39s
+Feb 10, 2022 8:34:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 396
+2022.02.10 20:36:04 INFO  compiling project2 (1 scala source)
+2022.02.10 20:36:05 INFO  time: compiled project2 in 1.32s
+2022.02.10 20:38:43 INFO  compiling project2 (1 scala source)
+2022.02.10 20:38:54 WARN  there was one deprecation warning; re-run with -deprecation for details
+2022.02.10 20:38:54 INFO  time: compiled project2 in 11s
+2022.02.10 20:47:31 INFO  compiling project2 (1 scala source)
+2022.02.10 20:47:31 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 20:47:31 INFO  time: compiled project2 in 0.4s
+2022.02.10 20:47:40 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 20:47:40 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 20:47:43 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 20:47:45 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 20:47:47 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 20:47:51 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 20:47:51 INFO  compiling project2 (1 scala source)
+2022.02.10 20:47:51 INFO  time: compiled project2 in 0.5s
+2022.02.10 20:47:57 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 20:47:58 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 20:48:07 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 20:48:07 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 20:48:08 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 20:48:10 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 20:48:14 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 20:48:19 INFO  compiling project2 (1 scala source)
+2022.02.10 20:48:19 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 20:48:20 INFO  time: compiled project2 in 1.89s
+2022.02.10 20:50:20 INFO  time: code lens generation in 4.05s
+2022.02.10 20:50:29 INFO  compiling project2 (1 scala source)
+2022.02.10 20:50:44 INFO  time: compiled project2 in 15s
+2022.02.10 20:53:01 INFO  time: code lens generation in 2.05s
+2022.02.10 20:53:02 INFO  compiling project2 (1 scala source)
+2022.02.10 20:53:06 INFO  time: compiled project2 in 4.28s
+2022.02.10 20:54:50 INFO  compiling project2 (1 scala source)
+2022.02.10 20:54:54 INFO  time: compiled project2 in 3.58s
+Feb 10, 2022 8:55:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 868
+Feb 10, 2022 8:55:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 869
+Feb 10, 2022 8:55:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 873
+2022.02.10 21:06:14 INFO  compiling project2 (1 scala source)
+2022.02.10 21:06:14 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 21:06:14 INFO  time: compiled project2 in 0.45s
+2022.02.10 21:06:20 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 21:06:20 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 21:06:22 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 21:06:30 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 21:06:34 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 21:06:34 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 21:06:35 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 21:06:38 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 21:06:42 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 21:06:44 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 21:06:45 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 21:06:47 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 21:06:49 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 21:06:49 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 21:06:51 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 21:06:51 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 21:06:53 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 21:06:54 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 21:06:57 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 21:07:02 INFO  compiling project2 (1 scala source)
+2022.02.10 21:07:02 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 21:07:02 INFO  time: compiled project2 in 0.45s
+2022.02.10 21:07:06 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 21:07:07 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 21:07:09 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 21:07:11 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 21:07:11 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 21:07:12 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 21:07:13 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 21:07:13 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 21:07:17 INFO  compiling project2 (1 scala source)
+2022.02.10 21:07:17 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 21:07:17 INFO  time: compiled project2 in 0.39s
+2022.02.10 21:07:21 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 21:07:53 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 21:07:53 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 21:07:54 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 21:07:57 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 21:07:57 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 21:07:58 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 21:07:58 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 21:07:58 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 21:07:58 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 21:08:01 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 21:08:01 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 21:08:01 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+Feb 10, 2022 9:08:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1374
+2022.02.10 21:08:02 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 21:08:01 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 21:08:03 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 21:08:05 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 21:08:05 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 21:08:05 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 21:08:05 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 21:08:05 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 21:08:06 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 21:08:06 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 21:08:07 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 21:08:07 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 21:08:09 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 21:08:11 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 21:08:11 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 21:08:12 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 21:08:12 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 21:08:13 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 21:08:12 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 21:08:13 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 21:08:14 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 21:08:14 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 21:08:14 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 21:08:14 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 21:08:15 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 21:08:15 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 21:08:15 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 21:08:15 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 21:08:17 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 21:08:17 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 21:08:17 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 21:08:17 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 21:08:23 INFO  compiling project2 (1 scala source)
+2022.02.10 21:08:23 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 21:08:24 INFO  time: compiled project2 in 1.32s
+Feb 10, 2022 9:08:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1453
+2022.02.10 21:08:43 INFO  compiling project2 (1 scala source)
+2022.02.10 21:08:45 INFO  time: compiled project2 in 1.86s
+2022.02.10 21:09:10 INFO  compiling project2 (1 scala source)
+2022.02.10 21:09:12 WARN  there was one deprecation warning; re-run with -deprecation for details
+2022.02.10 21:09:12 INFO  time: compiled project2 in 1.36s
+2022.02.10 21:10:21 INFO  compiling project2 (1 scala source)
+2022.02.10 21:10:23 INFO  time: compiled project2 in 2.53s
+2022.02.10 21:13:11 INFO  compiling project2 (1 scala source)
+2022.02.10 21:13:11 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 21:13:12 INFO  time: compiled project2 in 1.47s
+2022.02.10 21:14:43 INFO  compiling project2 (1 scala source)
+2022.02.10 21:14:44 INFO  time: compiled project2 in 1.24s
+2022.02.10 21:16:41 INFO  compiling project2 (1 scala source)
+2022.02.10 21:16:41 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 21:16:42 INFO  time: compiled project2 in 1.24s
+2022.02.10 21:18:44 INFO  compiling project2 (1 scala source)
+2022.02.10 21:18:45 INFO  time: compiled project2 in 1.36s
+2022.02.10 21:20:11 INFO  compiling project2 (1 scala source)
+2022.02.10 21:20:11 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 21:20:12 INFO  time: compiled project2 in 1.24s
+Feb 10, 2022 9:23:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1779
+2022.02.10 21:25:31 INFO  compiling project2 (1 scala source)
+2022.02.10 21:25:33 INFO  time: compiled project2 in 1.4s
+2022.02.10 21:30:20 INFO  compiling project2 (1 scala source)
+2022.02.10 21:30:21 WARN  Could not load snapshot text for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.10 21:30:22 INFO  time: compiled project2 in 1.33s
+2022.02.10 21:30:34 INFO  compiling project2 (1 scala source)
+2022.02.10 21:30:36 INFO  time: compiled project2 in 1.31s
+2022.02.10 21:32:28 INFO  shutting down Metals
+2022.02.10 21:32:28 INFO  Shut down connection with build server.
+2022.02.10 21:32:28 INFO  Shut down connection with build server.
+2022.02.11 09:36:48 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\pcc\Desktop\Project2\.metals\lsp.trace.json or C:\Users\pcc\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.02.11 09:36:51 INFO  logging to file C:\Users\pcc\Desktop\Project2\.metals\metals.log
+2022.02.11 09:36:51 INFO  Started: Metals version 0.11.1 in workspace 'C:\Users\pcc\Desktop\Project2' for client Visual Studio Code 1.64.2.
+2022.02.11 09:36:51 INFO  Parse release: 1.8.0_321
+2022.02.11 09:36:55 INFO  time: initialize in 3.99s
+2022.02.11 09:36:58 INFO  Attempting to connect to the build server...
+2022.02.11 09:36:59 INFO  skipping build import with status 'Installed'
+2022.02.11 09:37:45 ERROR Starting the bsp launcher for bloop...
+2022.02.11 09:37:45 ERROR Opening a bsp server connection with 'bsp --protocol tcp --port 34188'...
+2022.02.11 09:37:45 ERROR Waiting for the bsp connection to come up...
+2022.02.11 09:37:45 ERROR Waiting for the bsp connection to come up...
+2022.02.11 09:37:45 ERROR Waiting for the bsp connection to come up...
+2022.02.11 09:37:45 ERROR Waiting for the bsp connection to come up...
+2022.02.11 09:37:45 ERROR Waiting for the bsp connection to come up...
+2022.02.11 09:37:45 ERROR Waiting for the bsp connection to come up...
+2022.02.11 09:37:45 ERROR Waiting for the bsp connection to come up...
+2022.02.11 09:37:45 ERROR Waiting for the bsp connection to come up...
+2022.02.11 09:37:45 ERROR Waiting for the bsp connection to come up...
+2022.02.11 09:37:45 ERROR Waiting for the bsp connection to come up...
+2022.02.11 09:37:45 ERROR Waiting for the bsp connection to come up...
+2022.02.11 09:37:45 ERROR Waiting for the bsp connection to come up...
+2022.02.11 09:37:45 ERROR Waiting for the bsp connection to come up...
+2022.02.11 09:37:45 ERROR Waiting for the bsp connection to come up...
+2022.02.11 09:37:45 ERROR Waiting for the bsp connection to come up...
+2022.02.11 09:37:45 ERROR Waiting for the bsp connection to come up...
+2022.02.11 09:37:45 ERROR Waiting for the bsp connection to come up...
+2022.02.11 09:37:45 ERROR Waiting for the bsp connection to come up...
+2022.02.11 09:37:45 ERROR Waiting for the bsp connection to come up...
+2022.02.11 09:37:45 ERROR Waiting for the bsp connection to come up...
+2022.02.11 09:37:45 ERROR Waiting for the bsp connection to come up...
+2022.02.11 09:37:45 ERROR Waiting for the bsp connection to come up...
+2022.02.11 09:37:45 ERROR Waiting for the bsp connection to come up...
+2022.02.11 09:37:45 ERROR Waiting for the bsp connection to come up...
+2022.02.11 09:37:45 ERROR Waiting for the bsp connection to come up...
+2022.02.11 09:37:45 ERROR Waiting for the bsp connection to come up...
+2022.02.11 09:37:45 ERROR Waiting for the bsp connection to come up...
+2022.02.11 09:37:45 ERROR Waiting for the bsp connection to come up...
+2022.02.11 09:37:45 ERROR Waiting for the bsp connection to come up...
+2022.02.11 09:37:45 ERROR Waiting for the bsp connection to come up...
+2022.02.11 09:37:45 ERROR Waiting for the bsp connection to come up...
+2022.02.11 09:37:45 ERROR error: Giving up on waiting for a connection, printing embedded bloop logs:
+2022.02.11 09:37:45 ERROR > No server running at 127.0.0.1:8212, let's fire one...
+2022.02.11 09:37:45 ERROR > Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.12...
+2022.02.11 09:37:45 ERROR > Starting bloop server at 127.0.0.1:8212...
+2022.02.11 09:37:45 ERROR > Attempting a connection to the server...
+2022.02.11 09:37:45 ERROR error: The launcher failed to establish a bsp connection, aborting...
+2022.02.11 09:37:45 ERROR Failed to connect with build server, no functionality will work.
+java.lang.RuntimeException: The server did not start, got FailedToOpenBspConnection
+	at bloop.launcher.LauncherMain.failPromise$1(Launcher.scala:95)
+	at bloop.launcher.LauncherMain.runLauncher(Launcher.scala:122)
+	at scala.meta.internal.metals.BloopServers$$anon$2.run(BloopServers.scala:169)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+2022.02.11 09:37:45 WARN  no build target for: C:\Users\pcc\Desktop\Project2\src\main\scala\Project2.scala
+2022.02.11 09:37:45 WARN  no build target for: C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.11 09:38:00 INFO  no build target found for C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala. Using presentation compiler with project's scala-library version: 3.1.0
+2022.02.11 09:38:38 INFO  time: code lens generation in 1m38s
+2022.02.11 09:39:59 WARN  no build target for: C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.11 09:41:32 WARN  no build target for: C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+Feb 11, 2022 9:41:38 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 76
+Feb 11, 2022 9:41:39 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 77
+2022.02.11 09:41:45 WARN  no build target for: C:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala
+2022.02.11 10:37:40 INFO  shutting down Metals
