@@ -35,20 +35,10 @@ class leif(df:DataFrame){
  var chooseYear=""
 
 
- //1)See countries with the highest proportion of vaccinated people
-//***2)See locations with life expectancy higher than 70 years old
-//3)See locations with high death rate proportional to population density
-//4)See the amount of total Deaths where population is greater than 20,000,000
-//5) Compare contries with the highest rate of hospital beds per 1000 people to lowest rate of hospital beds per 1000 people (you can choose which year)-Leif
-//6) Choose a location to query all data for that location. 
-//7)See amount of new cases in the United States between March 2nd, 2021 and March 9th, 2021-Leif
-//8)See the amount of people aged over 65 for countries with the highest proportion of vaccinated people
-//9) See countries with the highest proportion of tested people
-//10) The maximum total cases for each African country in 2021-Leif
 
 
  tenDayUnitedStates()
-// hospitalBedsYear()
+ hospitalBedsYear()
  maxAfricanCases()
        
 
@@ -59,7 +49,7 @@ class leif(df:DataFrame){
 
 
 
-  def tenDayUnitedStates(): Unit = {
+  def tenDayUnitedStates(): Unit = {  
     val dataFrame=spark.read.option("header", "true").csv("src/main/resources/covid-data.csv")
     var dataFrame3=dataFrame
 
@@ -83,14 +73,14 @@ class leif(df:DataFrame){
     var dataFrame4=dataFrame3.withColumn("date_edited", modDate($"date"))
     dataFrame4.select(col("date_edited"), to_date(col("date_edited"), "MM-dd-yy").as("date_edited"))
     dataFrame4.createOrReplaceTempView("new_Dates")
-    println("The new cases rate in the United States between 03-01-20 and 03-09-20 is as follows.")  
+    println("The new cases rate in the United States between 03-01-20 and 03-12-20 is as follows.")  
     println("")
-    var dataFrame5=spark.sql("SELECT location, Max(new_cases), date_edited FROM new_Dates WHERE date_edited >= '03-01-20' AND date_edited <= '03-09-20' AND location='United States' AND date_edited LIKE '%21' GROUP BY date_edited, location ")
+    var dataFrame5=spark.sql("SELECT location, Max(new_cases), date_edited FROM new_Dates WHERE date_edited >= '03-01-20' AND date_edited <= '03-30-20' AND location='United States' AND date_edited LIKE '%20' GROUP BY date_edited, location ")
     dataFrame5.show()
     var dataFrame6=dataFrame5
-    // dataFrame6.repartition(1).write.format("com.databricks.spark.csv").mode("overwrite").csv("output/dataFrame6")
+    //  dataFrame6.repartition(1).write.format("com.databricks.spark.csv").mode("overwrite").csv("output/dataFrame6")
     //spark.sql("SELECT * FROM MarchDates WHERE date_edited LIKE '%20' ").show
- 
+    //dataFrame6.write.formatted()
  }
 
 
@@ -137,7 +127,7 @@ class leif(df:DataFrame){
       
         }
         else{println("This is not a valid year.")}
-        println("Please select a year 20 for 2020, 21 for 20201, or 22 for 2020 to see which countries had the most hospital beds, and also which countries had the least hospital beds.  Please enter 'q' to quit")
+        println("Please select a year 20 for 2020, 21 for 2021, or 22 for 2020 to see which countries had the most hospital beds, and also which countries had the least hospital beds.  Please enter 'q' to quit")
         chooseYear=scanner.nextLine()
         chooseYear2=chooseYear
     }
@@ -157,5 +147,3 @@ class leif(df:DataFrame){
       }
 
 
-
-}
