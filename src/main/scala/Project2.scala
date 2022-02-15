@@ -65,10 +65,11 @@ val dataFrame=spark.read.option("header", "true").csv("src/main/resources/covid-
 //dataFrame.groupby().max().show(20)
 //dataFrame.groupBy("aged_65_older").agg(max("people_fully_vaccinated")/max("population")).show(10)
 //dataFrame.groupBy("location", "total_deaths").agg(max("total_tests")/max("population")).show(10)
-var qureClass = new QuerL3(dataFrame)
+var qureClass = new QuerL3(dataFrame, spark)
 qureClass.totTestCou()
 qureClass.peoFuVac()
 qureClass.gdpDePo()
+//qureClass.toCaTdeaths()
 
 //dataFrame.show()
 //MaxTotalDeaths(sparkCtx:SparkContext)

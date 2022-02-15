@@ -1,0 +1,14 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, Some(df9759a2-fe45-4715-b4c9-f8104081bb17), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 3 Scala sources to C:\Users\pcc\Desktop\Project2\target\scala-2.11\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\pcc\Desktop\Project2\src\main\scala\Project2.scala:72:1: not found: value query[0m
+[0m[[0m[31merror[0m] [0m[0mquery.toCaTdeaths()[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\pcc\Desktop\Project2\src\main\scala\QuerL3.scala:61:9: not found: value spark[0m
+[0m[[0m[31merror[0m] [0m[0m        spark.sql("SELECT location, (MAX(total_cases) - MAX(total_deaths)) efficent_handling FROM new_case WHERE continent="+ conCase + "GROUP BY location ORDER BY efficent_handling DESC LIMIT 10")[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 35 s, completed Feb 13, 2022 10:26:50 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
