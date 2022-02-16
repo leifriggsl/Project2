@@ -10158,3 +10158,283 @@ INFO: compiler crashed due to an error in the Scala compiler, retrying with new 
 2022.02.16 09:34:32 INFO  time: compiled project2 in 1.57s
 2022.02.16 09:34:45 INFO  compiling project2 (1 scala source)
 2022.02.16 09:34:47 INFO  time: compiled project2 in 1.6s
+2022.02.16 10:13:57 INFO  compiling project2 (1 scala source)
+2022.02.16 10:14:02 INFO  time: compiled project2 in 5.01s
+2022.02.16 10:14:47 INFO  compiling project2 (1 scala source)
+2022.02.16 10:14:47 WARN  Could not load snapshot text for C:\Users\HP\OneDrive\Desktop\project_2\Project2\src\main\scala\hardik.scala
+2022.02.16 10:14:47 WARN  Could not load snapshot text for C:\Users\HP\OneDrive\Desktop\project_2\Project2\src\main\scala\hardik.scala
+2022.02.16 10:14:50 INFO  time: compiled project2 in 2.57s
+2022.02.16 10:16:10 INFO  compiling project2 (1 scala source)
+2022.02.16 10:16:12 INFO  time: compiled project2 in 2.06s
+2022.02.16 10:16:25 INFO  compiling project2 (1 scala source)
+2022.02.16 10:16:27 INFO  time: compiled project2 in 2.26s
+2022.02.16 10:19:28 INFO  shutting down Metals
+2022.02.16 10:19:28 INFO  Shut down connection with build server.
+2022.02.16 10:19:28 INFO  Shut down connection with build server.
+2022.02.16 10:28:05 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\HP\OneDrive\Desktop\project_2\Project2\.metals\lsp.trace.json or C:\Users\HP\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.02.16 10:28:06 INFO  logging to file C:\Users\HP\OneDrive\Desktop\project_2\Project2\.metals\metals.log
+2022.02.16 10:28:06 INFO  Started: Metals version 0.11.1 in workspace 'C:\Users\HP\OneDrive\Desktop\project_2\Project2' for client Visual Studio Code 1.64.2.
+2022.02.16 10:28:06 INFO  Parse release: 1.8.0_202
+2022.02.16 10:28:08 INFO  time: initialize in 2.35s
+2022.02.16 10:28:09 INFO  Attempting to connect to the build server...
+2022.02.16 10:28:10 INFO  skipping build import with status 'Installed'
+2022.02.16 10:28:10 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\HP\OneDrive\Desktop\project_2\Project2\.metals\bsp.trace.json or C:\Users\HP\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.02.16 10:28:10 INFO  Attempting to connect to the build server...
+2022.02.16 10:28:10 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\HP\OneDrive\Desktop\project_2\Project2\project\.metals\bsp.trace.json or C:\Users\HP\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.02.16 10:28:10 INFO  time: Connected to build server in 0.98s
+2022.02.16 10:28:10 INFO  Connected to Build server: Bloop v1.4.12
+2022.02.16 10:28:14 INFO  no build target found for C:\Users\HP\OneDrive\Desktop\project_2\Project2\src\main\scala\Project2.scala. Using presentation compiler with project's scala-library version: 3.1.0
+2022.02.16 10:28:14 INFO  time: code lens generation in 5.4s
+2022.02.16 10:28:15 INFO  time: Imported build in 0.19s
+2022.02.16 10:28:23 INFO  time: indexed workspace in 8.7s
+2022.02.16 10:32:40 INFO  shutting down Metals
+2022.02.16 10:44:02 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\HP\OneDrive\Desktop\project_2\Project2\.metals\lsp.trace.json or C:\Users\HP\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.02.16 10:44:03 INFO  logging to file C:\Users\HP\OneDrive\Desktop\project_2\Project2\.metals\metals.log
+2022.02.16 10:44:03 INFO  Started: Metals version 0.11.1 in workspace 'C:\Users\HP\OneDrive\Desktop\project_2\Project2' for client Visual Studio Code 1.64.2.
+2022.02.16 10:44:03 INFO  Parse release: 1.8.0_202
+2022.02.16 10:44:06 INFO  time: initialize in 2.72s
+2022.02.16 10:44:07 INFO  Attempting to connect to the build server...
+2022.02.16 10:44:07 INFO  skipping build import with status 'Installed'
+2022.02.16 10:44:08 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\HP\OneDrive\Desktop\project_2\Project2\.metals\bsp.trace.json or C:\Users\HP\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.02.16 10:44:08 INFO  Attempting to connect to the build server...
+2022.02.16 10:44:08 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\HP\OneDrive\Desktop\project_2\Project2\project\.metals\bsp.trace.json or C:\Users\HP\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.02.16 10:44:08 INFO  time: Connected to build server in 0.97s
+2022.02.16 10:44:08 INFO  Connected to Build server: Bloop v1.4.12
+2022.02.16 10:44:08 INFO  time: Imported build in 0.29s
+2022.02.16 10:44:20 INFO  time: indexed workspace in 11s
+2022.02.16 10:46:58 INFO  shutting down Metals
+2022.02.16 10:46:58 INFO  Shut down connection with build server.
+2022.02.16 10:46:58 INFO  Shut down connection with build server.
+2022.02.16 10:46:58 ERROR Unexpected error initializing server
+scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: CompileResult.  Boxed InterruptedException
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.$anonfun$applyOrElse$4(BuildServerConnection.scala:282)
+	at scala.Option.getOrElse(Option.scala:189)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:280)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:268)
+	at scala.concurrent.Future.$anonfun$recoverWith$1(Future.scala:417)
+	at scala.concurrent.impl.Promise.$anonfun$transformWith$1(Promise.scala:41)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2022.02.16 14:07:56 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\HP\OneDrive\Desktop\project_2\Project2\.metals\lsp.trace.json or C:\Users\HP\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.02.16 14:07:57 INFO  logging to file C:\Users\HP\OneDrive\Desktop\project_2\Project2\.metals\metals.log
+2022.02.16 14:07:57 INFO  Started: Metals version 0.11.1 in workspace 'C:\Users\HP\OneDrive\Desktop\project_2\Project2' for client Visual Studio Code 1.64.2.
+2022.02.16 14:07:57 INFO  Parse release: 1.8.0_202
+2022.02.16 14:08:04 INFO  time: initialize in 6.53s
+2022.02.16 14:08:06 INFO  Attempting to connect to the build server...
+2022.02.16 14:08:06 INFO  skipping build import with status 'Installed'
+2022.02.16 14:08:18 INFO  no build target found for C:\Users\HP\OneDrive\Desktop\project_2\Project2\src\main\scala\hardik.scala. Using presentation compiler with project's scala-library version: 3.1.0
+2022.02.16 14:08:26 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\HP\OneDrive\Desktop\project_2\Project2\.metals\bsp.trace.json or C:\Users\HP\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.02.16 14:08:26 INFO  time: code lens generation in 18s
+2022.02.16 14:08:26 INFO  Attempting to connect to the build server...
+2022.02.16 14:08:26 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\HP\OneDrive\Desktop\project_2\Project2\project\.metals\bsp.trace.json or C:\Users\HP\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.02.16 14:08:27 INFO  time: Connected to build server in 21s
+2022.02.16 14:08:27 INFO  Connected to Build server: Bloop v1.4.12
+2022.02.16 14:08:28 INFO  time: Imported build in 0.94s
+2022.02.16 14:08:39 INFO  time: indexed workspace in 11s
+2022.02.16 14:12:22 INFO  compiling project2 (1 scala source)
+2022.02.16 14:12:34 INFO  time: compiled project2 in 11s
+2022.02.16 14:12:40 INFO  compiling project2 (1 scala source)
+2022.02.16 14:12:44 INFO  time: compiled project2 in 3.9s
+2022.02.16 14:16:49 INFO  compiling project2 (1 scala source)
+2022.02.16 14:16:51 WARN  Could not load snapshot text for C:\Users\HP\OneDrive\Desktop\project_2\Project2\src\main\scala\hardik.scala
+2022.02.16 14:16:53 INFO  time: compiled project2 in 3.91s
+2022.02.16 14:34:09 INFO  compiling project2 (1 scala source)
+2022.02.16 14:34:10 WARN  there was one deprecation warning; re-run with -deprecation for details
+2022.02.16 14:34:10 INFO  time: compiled project2 in 1.28s
+Feb 16, 2022 2:34:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 218
+2022.02.16 14:35:28 INFO  compiling project2 (1 scala source)
+2022.02.16 14:35:29 WARN  there was one deprecation warning; re-run with -deprecation for details
+2022.02.16 14:35:29 INFO  time: compiled project2 in 1.55s
+2022.02.16 14:36:23 INFO  compiling project2 (1 scala source)
+2022.02.16 14:36:25 WARN  there was one deprecation warning; re-run with -deprecation for details
+2022.02.16 14:36:25 INFO  time: compiled project2 in 1.06s
+2022.02.16 14:40:15 INFO  compiling project2 (1 scala source)
+2022.02.16 14:40:17 INFO  time: compiled project2 in 2.18s
+2022.02.16 14:44:41 INFO  compiling project2 (1 scala source)
+2022.02.16 14:44:42 INFO  time: compiled project2 in 1.13s
+2022.02.16 14:47:59 INFO  compiling project2 (1 scala source)
+2022.02.16 14:48:03 INFO  time: compiled project2 in 4.47s
+2022.02.16 14:48:10 WARN  Could not load snapshot text for C:\Users\HP\OneDrive\Desktop\project_2\Project2\src\main\scala\display.scala
+2022.02.16 14:48:10 WARN  Could not load snapshot text for C:\Users\HP\OneDrive\Desktop\project_2\Project2\src\main\scala\display.scala
+2022.02.16 14:48:10 INFO  compiling project2 (1 scala source)
+2022.02.16 14:48:10 WARN  Could not load snapshot text for C:\Users\HP\OneDrive\Desktop\project_2\Project2\src\main\scala\display.scala
+2022.02.16 14:48:10 WARN  Could not load snapshot text for C:\Users\HP\OneDrive\Desktop\project_2\Project2\src\main\scala\display.scala
+2022.02.16 14:48:10 WARN  Could not load snapshot text for C:\Users\HP\OneDrive\Desktop\project_2\Project2\src\main\scala\display.scala
+2022.02.16 14:48:10 WARN  Could not load snapshot text for C:\Users\HP\OneDrive\Desktop\project_2\Project2\src\main\scala\display.scala
+2022.02.16 14:48:12 INFO  time: compiled project2 in 1.13s
+2022.02.16 14:48:40 INFO  compiling project2 (1 scala source)
+2022.02.16 14:48:41 INFO  time: compiled project2 in 1.17s
+2022.02.16 14:51:25 INFO  compiling project2 (1 scala source)
+2022.02.16 14:51:26 INFO  time: compiled project2 in 1.06s
+2022.02.16 14:51:36 INFO  compiling project2 (1 scala source)
+2022.02.16 14:51:37 INFO  time: compiled project2 in 1.14s
+Exception in thread "pool-5-thread-1" java.lang.Error: java.lang.InterruptedException
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1155)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess$$anonfun$onCompilerJobQueue$1.apply$mcV$sp(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	... 2 more
+2022.02.16 14:51:42 INFO  compiling project2 (1 scala source)
+2022.02.16 14:51:43 INFO  time: compiled project2 in 1.4s
+2022.02.16 14:52:57 INFO  compiling project2 (1 scala source)
+2022.02.16 14:52:58 WARN  Could not load snapshot text for C:\Users\HP\OneDrive\Desktop\project_2\Project2\src\main\scala\display.scala
+2022.02.16 14:52:58 WARN  Could not load snapshot text for C:\Users\HP\OneDrive\Desktop\project_2\Project2\src\main\scala\display.scala
+2022.02.16 14:52:58 WARN  Could not load snapshot text for C:\Users\HP\OneDrive\Desktop\project_2\Project2\src\main\scala\display.scala
+2022.02.16 14:52:58 WARN  Could not load snapshot text for C:\Users\HP\OneDrive\Desktop\project_2\Project2\src\main\scala\display.scala
+2022.02.16 14:52:58 WARN  Could not load snapshot text for C:\Users\HP\OneDrive\Desktop\project_2\Project2\src\main\scala\display.scala
+2022.02.16 14:52:58 WARN  Could not load snapshot text for C:\Users\HP\OneDrive\Desktop\project_2\Project2\src\main\scala\display.scala
+2022.02.16 14:52:58 WARN  Could not load snapshot text for C:\Users\HP\OneDrive\Desktop\project_2\Project2\src\main\scala\display.scala
+2022.02.16 14:52:58 WARN  Could not load snapshot text for C:\Users\HP\OneDrive\Desktop\project_2\Project2\src\main\scala\display.scala
+2022.02.16 14:52:59 INFO  time: compiled project2 in 1.35s
+2022.02.16 14:54:12 INFO  compiling project2 (1 scala source)
+2022.02.16 14:54:16 INFO  time: compiled project2 in 4.04s
+2022.02.16 15:02:11 INFO  compiling project2 (1 scala source)
+2022.02.16 15:02:13 INFO  time: compiled project2 in 2.19s
+2022.02.16 15:03:55 INFO  compiling project2 (1 scala source)
+2022.02.16 15:03:55 WARN  Could not load snapshot text for C:\Users\HP\OneDrive\Desktop\project_2\Project2\src\main\scala\hardik.scala
+2022.02.16 15:03:55 WARN  Could not load snapshot text for C:\Users\HP\OneDrive\Desktop\project_2\Project2\src\main\scala\hardik.scala
+2022.02.16 15:03:55 WARN  Could not load snapshot text for C:\Users\HP\OneDrive\Desktop\project_2\Project2\src\main\scala\hardik.scala
+2022.02.16 15:03:55 WARN  Could not load snapshot text for C:\Users\HP\OneDrive\Desktop\project_2\Project2\src\main\scala\hardik.scala
+2022.02.16 15:03:59 INFO  time: compiled project2 in 4.62s
+2022.02.16 15:04:35 INFO  compiling project2 (1 scala source)
+2022.02.16 15:04:37 INFO  time: compiled project2 in 2.09s
+2022.02.16 15:05:41 INFO  compiling project2 (1 scala source)
+2022.02.16 15:05:43 INFO  time: compiled project2 in 1.47s
+2022.02.16 15:08:43 INFO  compiling project2 (1 scala source)
+2022.02.16 15:08:47 INFO  time: compiled project2 in 3.97s
+2022.02.16 15:10:14 INFO  compiling project2 (1 scala source)
+2022.02.16 15:10:14 WARN  Could not load snapshot text for C:\Users\HP\OneDrive\Desktop\project_2\Project2\src\main\scala\hardik.scala
+2022.02.16 15:10:14 WARN  Could not load snapshot text for C:\Users\HP\OneDrive\Desktop\project_2\Project2\src\main\scala\hardik.scala
+2022.02.16 15:10:14 WARN  Could not load snapshot text for C:\Users\HP\OneDrive\Desktop\project_2\Project2\src\main\scala\hardik.scala
+2022.02.16 15:10:14 WARN  Could not load snapshot text for C:\Users\HP\OneDrive\Desktop\project_2\Project2\src\main\scala\hardik.scala
+2022.02.16 15:10:15 INFO  time: compiled project2 in 1.54s
+2022.02.16 15:10:19 INFO  compiling project2 (1 scala source)
+Feb 16, 2022 3:10:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3032
+Feb 16, 2022 3:10:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3034
+Exception in thread "pool-5-thread-2" java.lang.Error: java.lang.InterruptedException
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1155)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess$$anonfun$onCompilerJobQueue$1.apply$mcV$sp(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	... 2 more
+2022.02.16 15:10:22 INFO  time: compiled project2 in 2.85s
+Feb 16, 2022 3:14:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3052
+2022.02.16 15:14:18 INFO  compiling project2 (1 scala source)
+2022.02.16 15:14:18 INFO  time: compiled project2 in 0.98s
+2022.02.16 15:16:39 INFO  compiling project2 (1 scala source)
+2022.02.16 15:16:39 INFO  time: compiled project2 in 0.66s
+2022.02.16 15:17:27 INFO  compiling project2 (1 scala source)
+2022.02.16 15:17:28 INFO  time: compiled project2 in 1.48s
+2022.02.16 15:17:31 INFO  compiling project2 (1 scala source)
+2022.02.16 15:17:33 INFO  time: compiled project2 in 2.17s
+2022.02.16 15:17:35 WARN  Could not load snapshot text for C:\Users\HP\OneDrive\Desktop\project_2\Project2\src\main\scala\anass.scala
+2022.02.16 15:17:35 WARN  Could not load snapshot text for C:\Users\HP\OneDrive\Desktop\project_2\Project2\src\main\scala\anass.scala
+2022.02.16 15:17:35 INFO  compiling project2 (1 scala source)
+2022.02.16 15:17:39 INFO  time: compiled project2 in 3.28s
+2022.02.16 15:19:05 INFO  Deduplicating compilation of project2 from bsp client 'Metals 0.11.1' (since 1h 10m 38.587s)
+2022.02.16 15:19:09 INFO  compiling project2 (1 scala source)
+2022.02.16 15:19:09 INFO  Deduplicating compilation of project2 from bsp client 'Metals 0.11.1' (since 1h 10m 41.941s)
+2022.02.16 15:19:09 INFO  compiling project2 (1 scala source)
+2022.02.16 15:19:10 INFO  time: compiled project2 in 1.15s
+2022.02.16 15:19:15 INFO  compiling project2 (1 scala source)
+2022.02.16 15:19:16 INFO  time: compiled project2 in 1.06s
+Feb 16, 2022 3:19:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3387
+2022.02.16 15:20:20 INFO  compiling project2 (1 scala source)
+2022.02.16 15:20:20 INFO  time: compiled project2 in 0.36s
+2022.02.16 15:20:22 INFO  compiling project2 (1 scala source)
+2022.02.16 15:20:24 INFO  time: compiled project2 in 1.84s
+2022.02.16 15:24:21 INFO  compiling project2 (1 scala source)
+2022.02.16 15:24:23 INFO  time: compiled project2 in 1.5s
+2022.02.16 15:24:53 INFO  compiling project2 (1 scala source)
+2022.02.16 15:24:54 INFO  time: compiled project2 in 1.34s
+2022.02.16 15:31:07 INFO  compiling project2 (1 scala source)
+2022.02.16 15:31:09 INFO  time: compiled project2 in 1.32s
+2022.02.16 15:31:40 INFO  compiling project2 (1 scala source)
+2022.02.16 15:31:41 INFO  time: compiled project2 in 1.3s
+2022.02.16 15:32:48 INFO  compiling project2 (1 scala source)
+2022.02.16 15:32:48 INFO  Deduplicating compilation of project2 from bsp client 'Metals 0.11.1' (since 1h 24m 21.989s)
+2022.02.16 15:32:48 INFO  compiling project2 (1 scala source)
+2022.02.16 15:32:51 INFO  time: compiled project2 in 2.09s
+Feb 16, 2022 3:32:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4072
+Feb 16, 2022 3:32:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4073
+2022.02.16 15:33:30 WARN  Could not load snapshot text for C:\Users\HP\OneDrive\Desktop\project_2\Project2\src\main\scala\hardik.scala
+2022.02.16 15:33:30 WARN  Could not load snapshot text for C:\Users\HP\OneDrive\Desktop\project_2\Project2\src\main\scala\hardik.scala
+2022.02.16 15:33:30 INFO  compiling project2 (1 scala source)
+2022.02.16 15:33:30 WARN  Could not load snapshot text for C:\Users\HP\OneDrive\Desktop\project_2\Project2\src\main\scala\hardik.scala
+2022.02.16 15:33:30 WARN  Could not load snapshot text for C:\Users\HP\OneDrive\Desktop\project_2\Project2\src\main\scala\hardik.scala
+2022.02.16 15:33:31 INFO  time: compiled project2 in 1.53s
+Feb 16, 2022 3:35:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4276
+Feb 16, 2022 3:35:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4278
+2022.02.16 15:35:35 INFO  compiling project2 (1 scala source)
+2022.02.16 15:35:37 INFO  time: compiled project2 in 1.78s
+2022.02.16 15:35:56 INFO  compiling project2 (1 scala source)
+2022.02.16 15:35:58 INFO  time: compiled project2 in 1.81s
+2022.02.16 15:40:20 INFO  compiling project2 (1 scala source)
+2022.02.16 15:40:22 INFO  time: compiled project2 in 1.49s
+2022.02.16 15:40:47 INFO  compiling project2 (1 scala source)
+2022.02.16 15:40:49 INFO  time: compiled project2 in 1.29s
+2022.02.16 15:57:46 INFO  compiling project2 (1 scala source)
+2022.02.16 15:57:49 INFO  time: compiled project2 in 2.42s
+2022.02.16 15:59:21 INFO  compiling project2 (1 scala source)
+2022.02.16 15:59:23 INFO  time: compiled project2 in 1.6s
+2022.02.16 16:00:50 INFO  compiling project2 (1 scala source)
+2022.02.16 16:00:53 INFO  time: compiled project2 in 3.3s
+2022.02.16 16:02:05 INFO  compiling project2 (1 scala source)
+2022.02.16 16:02:06 INFO  time: compiled project2 in 1.55s
+Feb 16, 2022 4:02:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5073
+2022.02.16 16:02:57 INFO  compiling project2 (1 scala source)
+2022.02.16 16:02:59 INFO  time: compiled project2 in 1.62s
+2022.02.16 16:03:51 INFO  compiling project2 (1 scala source)
+2022.02.16 16:03:53 INFO  time: compiled project2 in 2.23s
+2022.02.16 16:05:21 INFO  compiling project2 (1 scala source)
+Feb 16, 2022 4:05:22 PM scala.meta.internal.pc.CompilerAccess scala$meta$internal$pc$CompilerAccess$$retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Feb 16, 2022 4:05:22 PM scala.meta.internal.pc.CompilerAccess scala$meta$internal$pc$CompilerAccess$$handleError
+SEVERE: no context found for source-file:///C:/Users/HP/OneDrive/Desktop/project_2/Project2/src/main/scala/leif.scala,line-1,offset=7
+scala.reflect.internal.FatalError: no context found for source-file:///C:/Users/HP/OneDrive/Desktop/project_2/Project2/src/main/scala/leif.scala,line-1,offset=7
+	at scala.tools.nsc.interactive.CompilerControl$class.doLocateContext(CompilerControl.scala:91)
+	at scala.tools.nsc.interactive.Global.doLocateContext(Global.scala:105)
+	at scala.meta.internal.pc.PcDefinitionProvider.definitionTypedTreeAt(PcDefinitionProvider.scala:105)
+	at scala.meta.internal.pc.PcDefinitionProvider.definition(PcDefinitionProvider.scala:25)
+
+2022.02.16 16:05:23 INFO  time: compiled project2 in 1.53s
+Feb 16, 2022 4:05:23 PM scala.meta.internal.pc.CompilerAccess scala$meta$internal$pc$CompilerAccess$$retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Feb 16, 2022 4:05:23 PM scala.meta.internal.pc.CompilerAccess scala$meta$internal$pc$CompilerAccess$$handleError
+SEVERE: no context found for source-file:///C:/Users/HP/OneDrive/Desktop/project_2/Project2/src/main/scala/leif.scala,line-1,offset=7
+scala.reflect.internal.FatalError: no context found for source-file:///C:/Users/HP/OneDrive/Desktop/project_2/Project2/src/main/scala/leif.scala,line-1,offset=7
+	at scala.tools.nsc.interactive.CompilerControl$class.doLocateContext(CompilerControl.scala:91)
+	at scala.tools.nsc.interactive.Global.doLocateContext(Global.scala:105)
+	at scala.meta.internal.pc.PcDefinitionProvider.definitionTypedTreeAt(PcDefinitionProvider.scala:105)
+	at scala.meta.internal.pc.PcDefinitionProvider.definition(PcDefinitionProvider.scala:25)
+
+2022.02.16 16:05:30 INFO  compiling project2 (1 scala source)
+2022.02.16 16:05:32 INFO  time: compiled project2 in 2.05s
+2022.02.16 16:08:49 INFO  compiling project2 (1 scala source)
+2022.02.16 16:08:51 INFO  time: compiled project2 in 1.72s
+Feb 16, 2022 4:08:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5292
+2022.02.16 16:09:51 INFO  shutting down Metals
+2022.02.16 16:09:51 INFO  Shut down connection with build server.
+2022.02.16 16:09:51 INFO  Shut down connection with build server.

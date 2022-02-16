@@ -1,4 +1,4 @@
-
+//main barch
 import org.apache.spark.sql.DataFrame
 import org.apache.spark.sql.SparkSession
 import org.apache.spark.sql.hive.HiveContext
@@ -9,16 +9,6 @@ import org.apache.spark.sql.SQLContext
 import java.sql.DriverManager
 import java.sql.Connection
 import java.util.Scanner
-import scala.collection.mutable.ArrayBuffer
-import org.apache.spark.sql.functions
-import org.apache.spark.sql.functions.{min, max}
-import org.apache.spark.sql.Row
-import org.apache.spark.sql.execution.aggregate.HashAggregateExec
-import org.apache.spark.sql.execution.joins.BroadcastHashJoinExec
-import org.apache.spark.sql.expressions.scalalang.typed
-import org.apache.spark.sql.functions.{avg, broadcast, col, max}
-//import org.apache.spark.sql.test.SharedSQLContext
-import org.apache.spark.sql.types
 
 
 //imported all the libraries
@@ -37,49 +27,22 @@ object Project2 {
         val hiveCtx = new HiveContext(sc)
         import hiveCtx.implicits._
 
+        // This block of code is all necessary for sparkSession
+        
+        val spark=SparkSession
+        .builder
+        .appName("SparkHelloWorld")
+        .config("spark.master", "local")
+        .config("spark.eventLog.enabled", "false")
+        .getOrCreate()
 
-//countries where total_vaccinated/total_population order by desc//hardik--
-//***countries with life expectancy > 70/hardik---
-//SELECT popole descity from dataFrame2 where total_deaths/total_population>  order by gdp_per_capita  DESC//anass
-//total deaths where population >20,000,000 desc//hardik--
-//top 10 countries who have hospital_beds_per_thousand in 2020
-//input variable for location, then query all records for that location.  Otherwise, "This is not a given location"//hardik--
-//enter duration, see graph for new cases during that duration
-//top 10 aged_65_older where people_fully_vaccinated/population//anass
-//top 10 country with total_tests/population order by country desc//anass
+        //reading a csv file 
+        val dataFrame=spark.read.option("header", "true").csv("src/main/resources/covid-data.csv")
 
+        //go to display class
+        var di=new display(dataFrame)
+        // calling a method in display class
+        di.option()
 
-
-val spark=SparkSession
-.builder
-.appName("SparkHelloWorld")
-.config("spark.master", "local")
-.config("spark.eventLog.enabled", "false")
-.getOrCreate()
-//println("Hello Spark!")
-val dataFrame=spark.read.option("header", "true").csv("src/main/resources/covid-data.csv")
-//val dataFrame2=dataFrame.toDF("iso_code","continent","location","date","total_cases","new_cases","total_deaths","new_deaths","new_tests","total_tests","total_vaccinations","people_vaccinated","people_fully_vaccinated","population","population_density","median_age","aged_65_older","aged_70_older","gdp_per_capita","hospital_beds_per_thousand","life_expectancy")
-//dataFrame.groupBy("location").agg(max("total_vaccinations")/max("population")).show(10)
-//dataFrame.groupBy("location").agg(max("hospital_beds_per_thousand")).show(10)
-//dataFrame.groupby().max().show(20)
-
-//dataFrame.show()
-//MaxTotalDeaths(dataFrame)
-var di=new display(dataFrame)
-di.option()
-
-
-//dataFrame.select("location").show(10)
-//dataFrame.select("location","life_expectancy").filter(dataFrame("life_expectancy") > 70).distinct().show(20)
-
-//dataFrame.select(filter("life_expectancy" \'>'\ 70)).show(20)
-spark.stop()
-//dataFrame.where()
-
-
-
-}
-
-
-
+    }
 }
