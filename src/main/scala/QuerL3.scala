@@ -37,15 +37,31 @@ class QuerL3(df:DataFrame, spark:SparkSession) {
     
 }
  
-  //top 10 country with total_tests/population order by country desc
+  //top 10 country with total_tests/population order by total deaths desc
     def totTestCou(): Unit={
         println("==================== Top 10 country with max tests and less deaths ================")
+        import spark.implicits._
+        
+
+
        
 
         //val dataFrame=spark.read.option("header", "true").csv("src/main/resources/covid-data.csv")
-        //df.groupBy("location","total_deaths").agg(max("total_tests")/max("population")).orderBy(desc("total_deaths")).show(10)
+        
+        //val df_new =df.withColumn("total_death_count",$"total_deaths".cast("Int"))
+        //var df45 = df_new.select(col("location"),col("total_death_count"),col("total_tests"),col("population")).distinct()
+        //var dataFrame = df_new.groupBy("location", "total_death_count").agg((max("total_tests")/max("population")).as("all_cases")).filter(col("all_cases").isNotNull)
+        
+
+        //var dataFrame1 = dataFrame.orderBy(desc("total_death_count")).show(10)
         df.createOrReplaceTempView("new_case")
-        spark.sql("SELECT location, total_deaths, max(total_tests)/max(population) test_per_pop FROM new_case GROUP BY location, total_deaths ORDER BY total_deaths DESC LIMIT 10").show(10)
+        var query = "Select Location, Population, MAX(total_cases) as HighestInfectionCount,MAX(cast(Total_deaths as int)) as TotalDeathCount,  Max((total_tests/  " +  "population))*100 as PercentPopulationInfected From new_case Group by Location, Population order by " + " TotalDeathCount desc"
+   
+        spark.sql(query).show(20)
+
+
+        //df.createOrReplaceTempView("new_case")
+        //spark.sql("SELECT location, total_deaths, max(total_tests)/max(population) test_per_pop FROM new_case GROUP BY location, total_deaths ORDER BY total_deaths DESC LIMIT 10").show(10)
         //spark.sql("SELECT location, total_deaths, max(total_tests)/max(population) test_per_pop FROM new_case WHERE total_deaths!='Null' AND test_per_pop!='Null' GROUP BY location, total_deaths ORDER BY total_deaths ASC LIMIT 10").show(10)
         
     }
