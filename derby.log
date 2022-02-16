@@ -1,11 +1,11 @@
 ----------------------------------------------------------------
-Wed Feb 09 11:00:20 PST 2022:
-Booting Derby version The Apache Software Foundation - Apache Derby - 10.12.1.1 - (1704137): instance a816c00e-017e-dfdb-a34f-00000b7a78d0 
-on database directory C:\Users\leifr\Desktop\Project2\metastore_db with class loader org.apache.spark.sql.hive.client.IsolatedClientLoader$$anon$1@4beaf6bd 
-Loaded from file:/C:/Users/leifr/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/derby/derby/10.12.1.1/derby-10.12.1.1.jar
-java.vendor=AdoptOpenJDK
-java.runtime.version=1.8.0_292-b10
-user.dir=C:\Users\leifr\Desktop\Project2
+Wed Feb 16 09:36:11 MST 2022:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.12.1.1 - (1704137): instance a816c00e-017f-0364-2f66-000033108f20 
+on database directory C:\Users\HP\OneDrive\Desktop\project_2\Project2\metastore_db with class loader org.apache.spark.sql.hive.client.IsolatedClientLoader$$anon$1@1c1a513c 
+Loaded from file:/C:/Users/HP/OneDrive/Desktop/project_2/Project2/target/bg-jobs/sbt_cee3b1bd/target/c0b26d18/d4f190b2/derby-10.12.1.1.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_202-b08
+user.dir=C:\Users\HP\OneDrive\Desktop\project_2\Project2
 os.name=Windows 10
 os.arch=amd64
 os.version=10.0

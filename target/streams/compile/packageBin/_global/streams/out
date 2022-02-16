@@ -1,0 +1,33 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging C:\Users\HP\OneDrive\Desktop\project_2\Project2\target\scala-2.11\project2_2.11-0.1.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	anass.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\HP\OneDrive\Desktop\project_2\Project2\target\scala-2.11\classes\anass.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	covid-data.csv[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\HP\OneDrive\Desktop\project_2\Project2\target\scala-2.11\classes\covid-data.csv[0m
+[0m[[0m[0mdebug[0m] [0m[0m	display.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\HP\OneDrive\Desktop\project_2\Project2\target\scala-2.11\classes\display.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	hardik$$anonfun$validate$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\HP\OneDrive\Desktop\project_2\Project2\target\scala-2.11\classes\hardik$$anonfun$validate$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	hardik.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\HP\OneDrive\Desktop\project_2\Project2\target\scala-2.11\classes\hardik.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	leif$$anonfun$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\HP\OneDrive\Desktop\project_2\Project2\target\scala-2.11\classes\leif$$anonfun$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	leif$$anonfun$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\HP\OneDrive\Desktop\project_2\Project2\target\scala-2.11\classes\leif$$anonfun$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	leif$$typecreator1$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\HP\OneDrive\Desktop\project_2\Project2\target\scala-2.11\classes\leif$$typecreator1$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	leif$$typecreator2$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\HP\OneDrive\Desktop\project_2\Project2\target\scala-2.11\classes\leif$$typecreator2$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	leif$$typecreator3$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\HP\OneDrive\Desktop\project_2\Project2\target\scala-2.11\classes\leif$$typecreator3$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	leif$$typecreator4$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\HP\OneDrive\Desktop\project_2\Project2\target\scala-2.11\classes\leif$$typecreator4$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	leif.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\HP\OneDrive\Desktop\project_2\Project2\target\scala-2.11\classes\leif.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MyException.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\HP\OneDrive\Desktop\project_2\Project2\target\scala-2.11\classes\MyException.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Project2$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\HP\OneDrive\Desktop\project_2\Project2\target\scala-2.11\classes\Project2$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Project2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\HP\OneDrive\Desktop\project_2\Project2\target\scala-2.11\classes\Project2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

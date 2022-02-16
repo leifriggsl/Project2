@@ -1,3 +1,4 @@
-[debug] not up to date. inChanged = true, force = false
-[debug] Updating ProjectRef(uri("file:/C:/Users/leifr/Desktop/Project2/project/"), "project2-build")...
-[debug] Done updating ProjectRef(uri("file:/C:/Users/leifr/Desktop/Project2/project/"), "project2-build")
+[warn] sbt-bloop-1.4.12-sources.jar no longer exists at C:\Users\leifr\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\ch\epfl\scala\sbt-bloop_2.12_1.0\1.4.12\sbt-bloop-1.4.12-sources.jar
+[debug] not up to date. inChanged = false, force = false
+[debug] Updating ProjectRef(uri("file:/C:/Users/HP/OneDrive/Desktop/project_2/Project2/project/"), "project2-build")...
+[debug] Done updating ProjectRef(uri("file:/C:/Users/HP/OneDrive/Desktop/project_2/Project2/project/"), "project2-build")

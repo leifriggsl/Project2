@@ -1,0 +1,85 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, Some(9cf218bb-7ffe-4c09-9f6b-50f46f7be445), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\HP\OneDrive\Desktop\project_2\Project2\target\scala-2.11\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0morg.apache.spark.sql.AnalysisException: cannot resolve '`PercentPopulationInfected`' given input columns: [df1.location, df1.population, total_cases, Percentpeoplevaccinate]; line 1 pos 185;[0m
+[0m[[0m[31merror[0m] [0m[0m'Sort ['PercentPopulationInfected DESC NULLS LAST], true[0m
+[0m[[0m[31merror[0m] [0m[0m+- Aggregate [Location#12, Population#23], [location#12, population#23, max(total_cases#14) AS total_cases#99, (max((cast(people_fully_vaccinateds#52 as double) / cast(populations#75 as double))) * cast(100 as double)) AS Percentpeoplevaccinate#100][0m
+[0m[[0m[31merror[0m] [0m[0m   +- SubqueryAlias df1[0m
+[0m[[0m[31merror[0m] [0m[0m      +- Project [iso_code#10, continent#11, location#12, date#13, total_cases#14, new_cases#15, total_deaths#16, new_deaths#17, new_tests#18, total_tests#19, total_vaccinations#20, people_vaccinated#21, people_fully_vaccinated#22, population#23, population_density#24, median_age#25, aged_65_older#26, aged_70_older#27, gdp_per_capita#28, hospital_beds_per_thousand#29, life_expectancy#30, people_fully_vaccinateds#52, cast(population#23 as int) AS populations#75][0m
+[0m[[0m[31merror[0m] [0m[0m         +- Project [iso_code#10, continent#11, location#12, date#13, total_cases#14, new_cases#15, total_deaths#16, new_deaths#17, new_tests#18, total_tests#19, total_vaccinations#20, people_vaccinated#21, people_fully_vaccinated#22, population#23, population_density#24, median_age#25, aged_65_older#26, aged_70_older#27, gdp_per_capita#28, hospital_beds_per_thousand#29, life_expectancy#30, cast(people_fully_vaccinated#22 as int) AS people_fully_vaccinateds#52][0m
+[0m[[0m[31merror[0m] [0m[0m            +- Relation[iso_code#10,continent#11,location#12,date#13,total_cases#14,new_cases#15,total_deaths#16,new_deaths#17,new_tests#18,total_tests#19,total_vaccinations#20,people_vaccinated#21,people_fully_vaccinated#22,population#23,population_density#24,median_age#25,aged_65_older#26,aged_70_older#27,gdp_per_capita#28,hospital_beds_per_thousand#29,life_expectancy#30] csv[0m
+[0m[[0m[31merror[0m] [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.catalyst.analysis.package$AnalysisErrorAt.failAnalysis(package.scala:42)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis$$anonfun$checkAnalysis$1$$anonfun$apply$2.applyOrElse(CheckAnalysis.scala:92)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis$$anonfun$checkAnalysis$1$$anonfun$apply$2.applyOrElse(CheckAnalysis.scala:89)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.catalyst.trees.TreeNode$$anonfun$transformUp$1.apply(TreeNode.scala:289)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.catalyst.trees.TreeNode$$anonfun$transformUp$1.apply(TreeNode.scala:289)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(TreeNode.scala:70)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.catalyst.trees.TreeNode.transformUp(TreeNode.scala:288)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.catalyst.trees.TreeNode$$anonfun$3.apply(TreeNode.scala:286)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.catalyst.trees.TreeNode$$anonfun$3.apply(TreeNode.scala:286)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.catalyst.trees.TreeNode$$anonfun$4.apply(TreeNode.scala:306)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.catalyst.trees.TreeNode.mapProductIterator(TreeNode.scala:187)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.catalyst.trees.TreeNode.mapChildren(TreeNode.scala:304)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.catalyst.trees.TreeNode.transformUp(TreeNode.scala:286)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.catalyst.plans.QueryPlan$$anonfun$transformExpressionsUp$1.apply(QueryPlan.scala:95)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.catalyst.plans.QueryPlan$$anonfun$transformExpressionsUp$1.apply(QueryPlan.scala:95)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.catalyst.plans.QueryPlan$$anonfun$1.apply(QueryPlan.scala:107)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.catalyst.plans.QueryPlan$$anonfun$1.apply(QueryPlan.scala:107)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(TreeNode.scala:70)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.catalyst.plans.QueryPlan.transformExpression$1(QueryPlan.scala:106)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.catalyst.plans.QueryPlan.org$apache$spark$sql$catalyst$plans$QueryPlan$$recursiveTransform$1(QueryPlan.scala:118)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.catalyst.plans.QueryPlan$$anonfun$org$apache$spark$sql$catalyst$plans$QueryPlan$$recursiveTransform$1$1.apply(QueryPlan.scala:122)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.TraversableLike$$anonfun$map$1.apply(TraversableLike.scala:234)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.TraversableLike$$anonfun$map$1.apply(TraversableLike.scala:234)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.mutable.ResizableArray$class.foreach(ResizableArray.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.mutable.ArrayBuffer.foreach(ArrayBuffer.scala:48)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.TraversableLike$class.map(TraversableLike.scala:234)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.AbstractTraversable.map(Traversable.scala:104)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.catalyst.plans.QueryPlan.org$apache$spark$sql$catalyst$plans$QueryPlan$$recursiveTransform$1(QueryPlan.scala:122)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.catalyst.plans.QueryPlan$$anonfun$2.apply(QueryPlan.scala:127)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.catalyst.trees.TreeNode.mapProductIterator(TreeNode.scala:187)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.catalyst.plans.QueryPlan.mapExpressions(QueryPlan.scala:127)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.catalyst.plans.QueryPlan.transformExpressionsUp(QueryPlan.scala:95)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis$$anonfun$checkAnalysis$1.apply(CheckAnalysis.scala:89)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis$$anonfun$checkAnalysis$1.apply(CheckAnalysis.scala:84)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.catalyst.trees.TreeNode.foreachUp(TreeNode.scala:127)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis$class.checkAnalysis(CheckAnalysis.scala:84)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.catalyst.analysis.Analyzer.checkAnalysis(Analyzer.scala:92)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.catalyst.analysis.Analyzer.executeAndCheck(Analyzer.scala:105)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.QueryExecution.analyzed$lzycompute(QueryExecution.scala:57)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.QueryExecution.analyzed(QueryExecution.scala:55)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.QueryExecution.assertAnalyzed(QueryExecution.scala:47)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.Dataset$.ofRows(Dataset.scala:74)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.SparkSession.sql(SparkSession.scala:642)[0m
+[0m[[0m[31merror[0m] [0m[0m	at hardik.PercentPopulationInfected(hardik.scala:72)[0m
+[0m[[0m[31merror[0m] [0m[0m	at display.option(display.scala:88)[0m
+[0m[[0m[31merror[0m] [0m[0m	at Project2$.main(Project2.scala:69)[0m
+[0m[[0m[31merror[0m] [0m[0m	at Project2.main(Project2.scala)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.lang.reflect.Method.invoke(Method.java:498)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Run.invokeMain(Run.scala:143)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Run.execute$1(Run.scala:93)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Run.$anonfun$runWithLoader$5(Run.scala:120)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Run$.executeSuccess(Run.scala:186)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Run.runWithLoader(Run.scala:120)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Defaults$.$anonfun$bgRunTask$6(Defaults.scala:1983)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Defaults$.$anonfun$termWrapper$2(Defaults.scala:1922)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.util.Try$.apply(Try.scala:213)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.BackgroundThreadPool$BackgroundRunnable.run(DefaultBackgroundJobService.scala:369)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.lang.Thread.run(Thread.java:748)[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mrun[0m) org.apache.spark.sql.AnalysisException: cannot resolve '`PercentPopulationInfected`' given input columns: [df1.location, df1.population, total_cases, Percentpeoplevaccinate]; line 1 pos 185;[0m
+[0m[[0m[31merror[0m] [0m[0m'Sort ['PercentPopulationInfected DESC NULLS LAST], true[0m
+[0m[[0m[31merror[0m] [0m[0m+- Aggregate [Location#12, Population#23], [location#12, population#23, max(total_cases#14) AS total_cases#99, (max((cast(people_fully_vaccinateds#52 as double) / cast(populations#75 as double))) * cast(100 as double)) AS Percentpeoplevaccinate#100][0m
+[0m[[0m[31merror[0m] [0m[0m   +- SubqueryAlias df1[0m
+[0m[[0m[31merror[0m] [0m[0m      +- Project [iso_code#10, continent#11, location#12, date#13, total_cases#14, new_cases#15, total_deaths#16, new_deaths#17, new_tests#18, total_tests#19, total_vaccinations#20, people_vaccinated#21, people_fully_vaccinated#22, population#23, population_density#24, median_age#25, aged_65_older#26, aged_70_older#27, gdp_per_capita#28, hospital_beds_per_thousand#29, life_expectancy#30, people_fully_vaccinateds#52, cast(population#23 as int) AS populations#75][0m
+[0m[[0m[31merror[0m] [0m[0m         +- Project [iso_code#10, continent#11, location#12, date#13, total_cases#14, new_cases#15, total_deaths#16, new_deaths#17, new_tests#18, total_tests#19, total_vaccinations#20, people_vaccinated#21, people_fully_vaccinated#22, population#23, population_density#24, median_age#25, aged_65_older#26, aged_70_older#27, gdp_per_capita#28, hospital_beds_per_thousand#29, life_expectancy#30, cast(people_fully_vaccinated#22 as int) AS people_fully_vaccinateds#52][0m
+[0m[[0m[31merror[0m] [0m[0m            +- Relation[iso_code#10,continent#11,location#12,date#13,total_cases#14,new_cases#15,total_deaths#16,new_deaths#17,new_tests#18,total_tests#19,total_vaccinations#20,people_vaccinated#21,people_fully_vaccinated#22,population#23,population_density#24,median_age#25,aged_65_older#26,aged_70_older#27,gdp_per_capita#28,hospital_beds_per_thousand#29,life_expectancy#30] csv[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 23 s, completed Feb 15, 2022 9:31:41 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
